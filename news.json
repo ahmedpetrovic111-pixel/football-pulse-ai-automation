@@ -1,25 +1,13 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-05T22:19:18.956996+00:00",
+  "updated_at": "2026-11-05T22:32:24.415604+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
     {
-      "id": "b9251aac5d192302",
-      "title": "Sunderland 0-2 Dinamo Zagreb, Celtic 3-2 Besiktas: Europa League – live",
-      "summary": "⚽ Europa League updates, kicking off from 8pm GMT ⚽ Live scores | Europa League table | And email Will Though actually none of the games I’m monitoring have started yet, with delays including the minute’s silence for Jesus de Miguel, the Tenerife striker who died after an on-pitch collision at the weekend. “Perusing the Sparta Prague team sheet,” writes Peter Oh, “I can’t help but wonder, will the club from the Czech capital be able to stop the Cherries’ run of good form? Mbe Soh. Mbe Soh.” 5.45",
-      "category": "Europa League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/live/2026/nov/05/crystal-palace-hoffenheim-sparta-prague-bournemouth-sunderland-celtic-europa-league-live",
-      "published_at": "2026-11-05T22:09:04+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "480c1d45f78c3ad5",
-      "title": "‘In moments of pain, football comes together’: Spain says goodbye to Jesús de Miguel",
-      "summary": "Only 3,587 people live in his family’s village but the streets of Navahermosa were fuller yet quieter to mourn the Tenerife striker at his funeral The narrow streets of Navahermosa in La Mancha were fuller than they have ever been on Thursday afternoon and quieter too. Silence accompanied the funeral cortege as its made way from the funeral home to the parish church of San Miguel Arcángel carrying Jesús de Miguel Alameda, “Demi”, the Tenerife striker who died after an on-field collision with the",
+      "title": "'In moments of pain, football comes together': Spain says goodbye to Jesús de Miguel",
+      "summary": "Only 3,587 people live in his family's village but the streets of Navahermosa were fuller yet quieter to mourn the Tenerife striker at his funeral The narrow streets of Navahermosa in La Mancha were fuller than they have ever been on Thursday afternoon and quieter too. Silence accompanied the funeral cortege as its made way from the funeral home to the parish church of San Miguel Arcángel carrying Jesús de Miguel Alameda, “Demi”, the Tenerife striker who died after an on-field collision with the",
       "category": "Berita Sepak Bola",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/05/jesus-de-miguel-death-tenerife-funeral-football-spain",
@@ -35,6 +23,18 @@
       "category": "Conference League",
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/getafe-vs-brighton-and-hove-albion/report/577924",
+      "published_at": "2026-11-05T22:00:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "e10da2587c49521e",
+      "title": "Celtic claim dramatic Europa League win against Besiktas",
+      "summary": "Martin O'Neill's inspired substitutions saw Celtic come from behind to breathe life into their Europa League campaign with a much-needed 3-2 home victory over Besiktas.",
+      "category": "Europa League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/celtic-vs-besiktas/report/577800",
       "published_at": "2026-11-05T22:00:00+00:00",
       "image_url": "",
       "language": "en",
@@ -66,9 +66,9 @@
     },
     {
       "id": "acb6399c13d904a2",
-      "title": "Fifa wants talks over restricting women’s Olympic football to under-23s",
-      "summary": "IOC open to dialogue and Fifa wants input from others Fifa concerned about fixture congestion and workload Fifa wants talks with the International Olympic Committee over restricting the Olympic women’s football tournament to under-23s owing to concerns over fixture congestion and the workload of senior players. The eligibility criteria for the 2028 Olympics in Los Angeles has been set, with qualification tournaments having begun in some regions, so no change can be made until Brisbane 2032 at th",
-      "category": "Berita Sepak Bola",
+      "title": "Fifa wants talks over restricting women's Olympic football to under-23s",
+      "summary": "IOC open to dialogue and Fifa wants input from others Fifa concerned about fixture congestion and workload Fifa wants talks with the International Olympic Committee over restricting the Olympic women's football tournament to under-23s owing to concerns over fixture congestion and the workload of senior players. The eligibility criteria for the 2028 Olympics in Los Angeles has been set, with qualification tournaments having begun in some regions, so no change can be made until Brisbane 2032 at th",
+      "category": "Women's Football",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/05/fifa-wants-womens-olympic-football-under-23s",
       "published_at": "2026-11-05T21:08:01+00:00",
@@ -91,7 +91,7 @@
     {
       "id": "2ad06931dc464593",
       "title": "Europa League: Bournemouth stay perfect while Milan humbled at home",
-      "summary": "Evanilson’s fine finish sets up 3-1 win at Sparta Prague Ferencvaros prevail 2-0 at Milan to keep 100% record Bournemouth extended their winning run to seven matches as Evanilson’s wonderful late goal helped earn a 3-1 win away to 10-man Sparta Prague in the Europa League. Marco Rose’s side have enjoyed a dream start to the club’s debut European season and they will be confident of securing direct passage to the last 16 after making it four victories from four, but they were made to work hard fo",
+      "summary": "Evanilson's fine finish sets up 3-1 win at Sparta Prague Ferencvaros prevail 2-0 at Milan to keep 100% record Bournemouth extended their winning run to seven matches as Evanilson's wonderful late goal helped earn a 3-1 win away to 10-man Sparta Prague in the Europa League. Marco Rose's side have enjoyed a dream start to the club's debut European season and they will be confident of securing direct passage to the last 16 after making it four victories from four, but they were made to work hard fo",
       "category": "Europa League",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
@@ -138,7 +138,7 @@
     },
     {
       "id": "270f139076d71006",
-      "title": "Kamada’s late leveller rescues point for 10-man Crystal Palace and denies Hoffenheim",
+      "title": "Kamada's late leveller rescues point for 10-man Crystal Palace and denies Hoffenheim",
       "summary": "A late, late strike from Daichi Kamada saved Crystal Palace from embarrassment and another round of navel gazing as they snatched a Europa League draw with Hoffenheim against the odds. After being outplayed by a side currently in the bottom half of the Bundesliga, and a goal down from the seventh minute, Palace looked to have lost all hope in this fixture when Adam Wharton was dismissed with 13 minutes to go. But after Hoffenheim failed to clear a goalmouth scramble in added time, Kamada fired h",
       "category": "Europa League",
       "source": "The Guardian",
@@ -222,8 +222,8 @@
     },
     {
       "id": "575b13f6fc622407",
-      "title": "Concacaf revamps Gold Cup format to make tournament ‘more competitive’",
-      "summary": "Group stage to involve two groups of eight teams Change resembles model of Uefa Champions League Concacaf on Thursday announced changes to the format of the Gold Cup, the confederation’s regional championship. The move is aimed at “delivering more meaningful matches and matchups between top-ranked teams”, Concacaf said in a statement. Once the primary focus of teams in the region, the 35-year-old tournament will return for its 19th edition in 2027 having lost a bit of luster. The federation’s tw",
+      "title": "Concacaf revamps Gold Cup format to make tournament 'more competitive'",
+      "summary": "Group stage to involve two groups of eight teams Change resembles model of Uefa Champions League Concacaf on Thursday announced changes to the format of the Gold Cup, the confederation's regional championship. The move is aimed at “delivering more meaningful matches and matchups between top-ranked teams”, Concacaf said in a statement. Once the primary focus of teams in the region, the 35-year-old tournament will return for its 19th edition in 2027 having lost a bit of luster. The federation's tw",
       "category": "Champions League",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/05/concacaf-gold-cup-format-changes",
@@ -259,23 +259,11 @@
     {
       "id": "4e16ff955adcb78e",
       "title": "Wooden Spoon, Golden Boot and playoff spots: what to watch for on MLS Decision Day",
-      "summary": "The postseason is nearly upon us but there’s plenty to still be decided as the end of the regular season approaches Just days after millions of Americans cast their votes in the midterm elections, we will soon arrive at the second-most meaningful decider in US society: Major League Soccer’s Decision Day . With eight 4pm ET kickoffs on the east coast and another seven games kicking off hours later out west on Saturday, there’s still plenty to play for at the end of the regular season. This is an ",
+      "summary": "The postseason is nearly upon us but there's plenty to still be decided as the end of the regular season approaches Just days after millions of Americans cast their votes in the midterm elections, we will soon arrive at the second-most meaningful decider in US society: Major League Soccer's Decision Day . With eight 4pm ET kickoffs on the east coast and another seven games kicking off hours later out west on Saturday, there's still plenty to play for at the end of the regular season. This is an ",
       "category": "Berita Sepak Bola",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/05/mls-decision-day-storylines",
       "published_at": "2026-11-05T16:30:28+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "4999acb518ffc73a",
-      "title": "Europa League LIVE! Celtic win thriller, Sunderland well beaten, Brighton win",
-      "summary": "",
-      "category": "Europa League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/sunderland-vs-dinamo-zagreb/live/577811",
-      "published_at": "2026-11-05T16:25:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -343,7 +331,7 @@
     {
       "id": "aab1a81ccbb6ef09",
       "title": "Champions League review: comebacks, thrashings and a Mauritanian first",
-      "summary": "Bayern Munich and Paris Saint-Germain flexed their muscles, Manchester United fought back and an unlikely star stole the show for AEK Athens Still without the recovering Vincent Kompany, Bayern Munich are among the favorites to win the Champions League, which would be their first European title since 2019-20. René Marić’s side produced a dominant display at the Metropolitano, playing Atlético Madrid off the field in a commanding 2-0 win. Lennart Karl and Konrad Laimer made the difference, with H",
+      "summary": "Bayern Munich and Paris Saint-Germain flexed their muscles, Manchester United fought back and an unlikely star stole the show for AEK Athens Still without the recovering Vincent Kompany, Bayern Munich are among the favorites to win the Champions League, which would be their first European title since 2019-20. René Marić's side produced a dominant display at the Metropolitano, playing Atlético Madrid off the field in a commanding 2-0 win. Lennart Karl and Konrad Laimer made the difference, with H",
       "category": "Champions League",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/05/champions-league-roundup-koita-real-madrid-bayern-psg",
@@ -360,6 +348,18 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13608441/gianni-infantino-fifa-president-faces-challenge-from-japan-fa-chief-kohzo-tashima-in-2027-election",
       "published_at": "2026-11-05T14:57:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "2e5faf37364ebc2b",
+      "title": "What new Kane deal means for England and the Premier League record",
+      "summary": "Harry Kane's new deal at Bayern Munich may end his Premier League career but offers fresh hope he can lead England to glory, writes Phil McNulty.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-05T14:44:34+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
