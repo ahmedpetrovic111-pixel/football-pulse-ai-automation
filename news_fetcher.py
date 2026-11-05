@@ -14,7 +14,8 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 2.0 - Tanpa AI / Tanpa API Key
+# Versi 3.0 - Improved News Classification
+# Gratis, tanpa AI, tanpa API Key
 # ==========================================
 
 FEEDS = [
@@ -35,57 +36,115 @@ FEEDS = [
 OUTPUT_FILE = Path("news.json")
 MAX_NEWS = 30
 
-# Konten yang tidak diprioritaskan sebagai berita utama
 EXCLUDED_KEYWORDS = [
     "quiz",
     "quizzes",
     "brainteaser",
     "football daily",
     "podcast",
-    "who am i?"
+    "who am i?",
+    "crossword",
+    "fantasy football"
 ]
 
-# Kategori kompetisi dan topik
-CATEGORIES = {
-    "Premier League": [
-        "premier league", "manchester united", "manchester city",
-        "liverpool", "arsenal", "chelsea", "tottenham",
-        "newcastle", "aston villa", "everton", "brighton",
-        "west ham", "nottingham forest", "crystal palace",
-        "brentford", "fulham", "bournemouth", "wolves"
-    ],
-    "LaLiga": [
-        "laliga", "la liga", "real madrid", "barcelona",
-        "atletico madrid", "sevilla", "valencia", "villarreal"
-    ],
-    "Serie A": [
-        "serie a", "inter milan", "ac milan", "juventus",
-        "napoli", "roma", "lazio", "atalanta"
-    ],
-    "Bundesliga": [
-        "bundesliga", "bayern munich", "borussia dortmund",
-        "bayer leverkusen", "rb leipzig", "eintracht frankfurt"
-    ],
-    "Ligue 1": [
-        "ligue 1", "paris saint-germain", "psg", "marseille",
-        "monaco", "lyon", "lille"
-    ],
+COMPETITION_CATEGORIES = {
     "Champions League": [
-        "champions league", "uefa champions league"
+        "champions league",
+        "uefa champions league"
     ],
     "Europa League": [
-        "europa league", "uefa europa league"
+        "europa league",
+        "uefa europa league"
     ],
-    "Tim Nasional": [
-        "england", "portugal", "brazil", "argentina",
-        "france", "germany", "spain", "italy",
-        "world cup", "nations league", "international football"
+    "Conference League": [
+        "conference league",
+        "uefa conference league"
+    ],
+    "Premier League": [
+        "premier league"
+    ],
+    "LaLiga": [
+        "laliga",
+        "la liga"
+    ],
+    "Serie A": [
+        "serie a"
+    ],
+    "Bundesliga": [
+        "bundesliga"
+    ],
+    "Ligue 1": [
+        "ligue 1"
+    ],
+    "Women's Football": [
+        "women's champions league",
+        "womens champions league",
+        "women's super league",
+        "women's football",
+        "women's world cup",
+        "women's euro",
+        "women's olympic football"
+    ]
+}
+
+CLUB_CATEGORIES = {
+    "Premier League": [
+        "manchester united",
+        "manchester city",
+        "liverpool",
+        "arsenal",
+        "chelsea",
+        "tottenham",
+        "newcastle united",
+        "aston villa",
+        "everton",
+        "brighton",
+        "west ham",
+        "nottingham forest",
+        "crystal palace",
+        "brentford",
+        "fulham",
+        "bournemouth",
+        "wolves",
+        "sunderland"
+    ],
+    "LaLiga": [
+        "real madrid",
+        "barcelona",
+        "atletico madrid",
+        "sevilla",
+        "valencia",
+        "villarreal",
+        "athletic bilbao"
+    ],
+    "Serie A": [
+        "inter milan",
+        "ac milan",
+        "juventus",
+        "napoli",
+        "roma",
+        "lazio",
+        "atalanta"
+    ],
+    "Bundesliga": [
+        "bayern munich",
+        "borussia dortmund",
+        "bayer leverkusen",
+        "rb leipzig",
+        "eintracht frankfurt"
+    ],
+    "Ligue 1": [
+        "paris saint-germain",
+        "psg",
+        "marseille",
+        "monaco",
+        "lyon",
+        "lille"
     ]
 }
 
 
 def clean_text(value):
-    """Membersihkan HTML dan karakter yang tidak diperlukan."""
     if not value:
         return ""
 
@@ -97,7 +156,6 @@ def clean_text(value):
 
 
 def parse_date(value):
-    """Mengubah tanggal RSS menjadi format ISO."""
     if not value:
         return ""
 
@@ -114,7 +172,6 @@ def parse_date(value):
 
 
 def date_timestamp(value):
-    """Mengubah tanggal menjadi angka untuk pengurutan."""
     try:
         return datetime.fromisoformat(
             value.replace("Z", "+00:00")
@@ -124,7 +181,6 @@ def date_timestamp(value):
 
 
 def canonical_url(url):
-    """Menghapus parameter pelacakan untuk mendeteksi duplikasi."""
     try:
         parts = urlsplit(url)
 
@@ -133,7 +189,9 @@ def canonical_url(url):
             "at_campaign",
             "utm_source",
             "utm_medium",
-            "utm_campaign"
+            "utm_campaign",
+            "utm_content",
+            "utm_term"
         }
 
         query = [
@@ -155,52 +213,59 @@ def canonical_url(url):
 
 
 def is_relevant(title, summary):
-    """Menyaring konten yang bukan berita utama sepak bola."""
     content = (title + " " + summary).lower()
 
     for keyword in EXCLUDED_KEYWORDS:
         if keyword in content:
             return False
 
+    # Hindari live blog yang biasanya berisi komentar
+    # pertandingan panjang, bukan ringkasan berita.
+    live_blog_patterns = [
+        "live blog",
+        "live updates",
+        "minute-by-minute",
+        "as it happened"
+    ]
+
+    for phrase in live_blog_patterns:
+        if phrase in title.lower():
+            return False
+
     return True
 
 
 def classify_article(title, summary):
-    """Menentukan kategori dengan mengutamakan kompetisi."""
-
     content = (title + " " + summary).lower()
 
-    # Kompetisi diprioritaskan sebelum nama klub.
-    competition_categories = {
-        "Champions League": [
-            "champions league",
-            "uefa champions league"
-        ],
-        "Europa League": [
-            "europa league",
-            "uefa europa league"
-        ],
-        "Conference League": [
-            "conference league"
-        ],
-        "Premier League": [
-            "premier league"
-        ],
-        "LaLiga": [
-            "laliga",
-            "la liga"
-        ],
-        "Serie A": ["serie a"],
-        "Bundesliga": ["bundesliga"],
-        "Ligue 1": ["ligue 1"]
-    }
-
-    for category, keywords in competition_categories.items():
+    # 1. Kompetisi diutamakan sebelum nama klub.
+    for category, keywords in COMPETITION_CATEGORIES.items():
         if any(keyword in content for keyword in keywords):
             return category
 
-    # Jika tidak ada nama kompetisi, gunakan nama klub atau negara.
-    for category, keywords in CATEGORIES.items():
+    # 2. Berita tim nasional.
+    national_keywords = [
+        "national team",
+        "international break",
+        "nations league",
+        "world cup",
+        "european championship",
+        "euro 2028",
+        "international football",
+        "england squad",
+        "brazil squad",
+        "argentina squad",
+        "france squad",
+        "germany squad",
+        "spain squad",
+        "portugal squad"
+    ]
+
+    if any(keyword in content for keyword in national_keywords):
+        return "Tim Nasional"
+
+    # 3. Kategori berdasarkan klub.
+    for category, keywords in CLUB_CATEGORIES.items():
         if any(keyword in content for keyword in keywords):
             return category
 
@@ -208,20 +273,18 @@ def classify_article(title, summary):
 
 
 def make_article_id(url):
-    """Membuat ID unik berdasarkan tautan berita."""
     return hashlib.sha256(
         canonical_url(url).encode("utf-8")
     ).hexdigest()[:16]
 
 
 def fetch_feed(feed):
-    """Mengambil metadata berita dari RSS."""
     print(f"Mengambil berita: {feed['name']}")
 
     request = urllib.request.Request(
         feed["url"],
         headers={
-            "User-Agent": "FootballPulseAI/2.0"
+            "User-Agent": "Mozilla/5.0 FootballPulseAI/3.0"
         }
     )
 
@@ -297,22 +360,23 @@ def main():
             successful_feeds += 1
             all_articles.extend(articles)
 
-    # Jangan menimpa berita lama jika semua RSS gagal.
     if successful_feeds == 0:
         print("\nSemua sumber gagal diakses.")
         print("File news.json lama tetap dipertahankan.")
         return
 
-    # Hilangkan berita ganda.
+    # Menghapus berita duplikat.
     unique_articles = {}
 
     for article in all_articles:
         key = canonical_url(article["source_url"])
-        unique_articles[key] = article
+
+        if key not in unique_articles:
+            unique_articles[key] = article
 
     news = list(unique_articles.values())
 
-    # Urutkan berita terbaru terlebih dahulu.
+    # Mengurutkan berita terbaru.
     news.sort(
         key=lambda article: date_timestamp(
             article["published_at"]
@@ -320,7 +384,6 @@ def main():
         reverse=True
     )
 
-    # Batasi jumlah berita.
     news = news[:MAX_NEWS]
 
     output = {
