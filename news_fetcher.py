@@ -21,6 +21,14 @@ FEEDS = [
     {
         "name": "BBC Sport",
         "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"
+    },
+    {
+        "name": "Sky Sports",
+        "url": "https://www.skysports.com/rss/11095"
+    },
+    {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/football/rss"
     }
 ]
 
