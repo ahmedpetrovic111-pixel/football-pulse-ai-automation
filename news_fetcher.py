@@ -166,13 +166,43 @@ def is_relevant(title, summary):
 
 
 def classify_article(title, summary):
-    """Menentukan kategori berita berdasarkan kata kunci."""
+    """Menentukan kategori dengan mengutamakan kompetisi."""
+
     content = (title + " " + summary).lower()
 
+    # Kompetisi diprioritaskan sebelum nama klub.
+    competition_categories = {
+        "Champions League": [
+            "champions league",
+            "uefa champions league"
+        ],
+        "Europa League": [
+            "europa league",
+            "uefa europa league"
+        ],
+        "Conference League": [
+            "conference league"
+        ],
+        "Premier League": [
+            "premier league"
+        ],
+        "LaLiga": [
+            "laliga",
+            "la liga"
+        ],
+        "Serie A": ["serie a"],
+        "Bundesliga": ["bundesliga"],
+        "Ligue 1": ["ligue 1"]
+    }
+
+    for category, keywords in competition_categories.items():
+        if any(keyword in content for keyword in keywords):
+            return category
+
+    # Jika tidak ada nama kompetisi, gunakan nama klub atau negara.
     for category, keywords in CATEGORIES.items():
-        for keyword in keywords:
-            if keyword in content:
-                return category
+        if any(keyword in content for keyword in keywords):
+            return category
 
     return "Berita Sepak Bola"
 
