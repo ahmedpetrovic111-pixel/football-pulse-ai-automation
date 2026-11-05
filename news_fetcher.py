@@ -149,6 +149,7 @@ def clean_text(value):
         return ""
 
     value = html.unescape(value)
+    value = value.replace("’", "'").replace("‘", "'")
     value = re.sub(r"<[^>]+>", " ", value)
     value = re.sub(r"\s+", " ", value)
 
