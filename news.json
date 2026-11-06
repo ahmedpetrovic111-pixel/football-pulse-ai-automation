@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-06T16:48:31.088687+00:00",
+  "updated_at": "2026-11-06T17:26:14.951911+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "7a47aa889a91ae5a",
+      "title": "Jobe Bellingham joining Jude in England squad is 'beautiful', says Tuchel: football news – live",
+      "summary": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Tom What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel's press conference is set for 11am so we'll see how he explains what looks like a huge snub. The other big news in Tuchel's squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. ",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
+      "published_at": "2026-11-06T17:09:31+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "811cb8a22e4a6da8",
       "title": "James out for minimum of five games - Bompastor",
@@ -17,6 +29,18 @@
       "status": "source_only"
     },
     {
+      "id": "8352515fb2910d28",
+      "title": "Premier League team news: predicted lineups for the weekend action",
+      "summary": "Manchester United host Aston Villa seeking a first league win in eight games to ease pressure on Michael Carrick Saturday 12.30pm TNT Sports 1 Venue Elland Road Continue reading...",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/06/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+      "published_at": "2026-11-06T16:43:45+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "d10bda6d6b84bacb",
       "title": "Is Palmer's England career over under Tuchel?",
       "summary": "Cole Palmer faces a fight to save his England career after he was excluded from Thomas Tuchel's latest squad, says chief football writer Phil McNulty.",
@@ -24,18 +48,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c9e8ll62rp68o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-06T16:30:03+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "7a47aa889a91ae5a",
-      "title": "Jobe Bellingham 'deserves' England call; Arteta 'can't help' leaving technical area: football news – live",
-      "summary": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel's press conference is set for 11am so we'll see how he explains what looks like a huge snub. The other big news in Tuchel's squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo.",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "published_at": "2026-11-06T16:22:47+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -186,7 +198,7 @@
     },
     {
       "id": "a05f0c14bd68c2d9",
-      "title": "Man Utd latest: Carrick says Baleba facing weeks out with hamstring injury",
+      "title": "Man Utd latest: Baleba facing weeks out with hamstring injury",
       "summary": "",
       "category": "Berita Sepak Bola",
       "source": "Sky Sports",
@@ -270,9 +282,9 @@
     },
     {
       "id": "cd4a51461c8f9477",
-      "title": "Arsenal latest: Arteta gives Saka and Konsa injury updates",
+      "title": "Arsenal latest: Saliba not called up by France for international break",
       "summary": "",
-      "category": "Premier League",
+      "category": "Tim Nasional",
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/live-blog/11095/13025486/arsenal-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
       "published_at": "2026-11-06T11:30:00+00:00",
@@ -348,18 +360,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/06/nottingham-forest-no-goals-home-oliver-glasner",
       "published_at": "2026-11-06T10:49:59+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "f1456f94a9fb1d48",
-      "title": "Amar Dedic set to escape Newcastle sanction over carrying bow and arrow",
-      "summary": "Right-back sparked armed police response over incident Expected to start Newcastle's trip to Fulham on Saturday Newcastle's Amar Dedic is unlikely to face a club sanction after being spotted holding a bow and arrow in the Northumberland countryside and sparking a major police pursuit involving an armed response unit. Dedic is expected to start Newcastle's match at Fulham on Saturday following an incident that at one point saw six patrol cars pursue the Bosnia right-back back to his home on the u",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/06/amar-dedic-set-to-escape-newcastle-sanction-over-carrying-bow-and-arrow",
-      "published_at": "2026-11-06T10:38:34+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
