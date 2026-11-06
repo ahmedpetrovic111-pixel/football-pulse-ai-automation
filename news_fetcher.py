@@ -414,7 +414,7 @@ def main():
         print("File news.json lama tetap dipertahankan.")
         return
 
-    # Menghapus berita duplikat.
+    # Menghapus duplikat berdasarkan URL.
     unique_articles = {}
 
     for article in all_articles:
@@ -425,13 +425,23 @@ def main():
 
     news = list(unique_articles.values())
 
-    # Mengurutkan berita terbaru.
+    # Mengurutkan berita terbaru terlebih dahulu.
     news.sort(
         key=lambda article: date_timestamp(
             article["published_at"]
         ),
         reverse=True
     )
+
+    # Menghapus berita dengan judul yang sangat mirip.
+    before_count = len(news)
+
+    news = remove_similar_duplicates(news)
+
+    removed_count = before_count - len(news)
+
+    print(f"Duplikat URL dan judul berhasil disaring.")
+    print(f"Berita dengan judul mirip dihapus: {removed_count}")
 
     news = news[:MAX_NEWS]
 
