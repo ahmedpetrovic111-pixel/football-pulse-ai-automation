@@ -5,6 +5,7 @@ import html
 import hashlib
 import urllib.request
 import xml.etree.ElementTree as ET
+import difflib
 
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -354,6 +355,46 @@ def fetch_feed(feed):
         print(f"  Gagal mengambil RSS: {error}")
         return None
 
+
+def normalize_title(title):
+    title = title.lower()
+    title = re.sub(r"[^a-z0-9]+", " ", title)
+    return " ".join(title.split())
+
+
+def remove_similar_duplicates(articles, threshold=0.92):
+    unique_articles = []
+
+    for article in articles:
+        title = normalize_title(article.get("title", ""))
+
+        if not title:
+            continue
+
+        is_duplicate = False
+
+        for existing in unique_articles:
+            if article.get("category") != existing.get("category"):
+                continue
+
+            existing_title = normalize_title(
+                existing.get("title", "")
+            )
+
+            similarity = difflib.SequenceMatcher(
+                None,
+                title,
+                existing_title
+            ).ratio()
+
+            if similarity >= threshold:
+                is_duplicate = True
+                break
+
+        if not is_duplicate:
+            unique_articles.append(article)
+
+    return unique_articles
 
 def main():
 
