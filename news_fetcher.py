@@ -220,21 +220,28 @@ def is_relevant(title, summary):
         if keyword in content:
             return False
 
-    # Hindari live blog yang biasanya berisi komentar
-    # pertandingan panjang, bukan ringkasan berita.
+    # Hindari live blog dan laporan pertandingan langsung.
     live_blog_patterns = [
         "live blog",
         "live updates",
         "minute-by-minute",
-        "as it happened"
+        "as it happened",
+        "live:",
+        "live -",
+        "live scores",
+        "live commentary",
+        "match commentary",
+        "follow live",
+        "follow minute by minute"
     ]
 
+    combined_text = f"{title} {summary}".lower()
+
     for phrase in live_blog_patterns:
-        if phrase in title.lower():
+        if phrase in combined_text:
             return False
 
     return True
-
 
 def classify_article(title, summary):
     content = (title + " " + summary).lower()
