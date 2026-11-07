@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-07T17:39:13.608463+00:00",
+  "updated_at": "2026-11-07T17:48:17.323556+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "096e0f0798eec046",
+      "title": "Salisbury put six past Sholing to advance to second round",
+      "summary": "National League South side Salisbury put six past Southern Premier League South club Sholing to advance to the second round of the FA Cup for the first time in their history.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/videos/c6jrwe4q1le1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T17:39:21+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "8e70f44727a77160",
       "title": "Highlights: Shrewsbury edge past Eastleigh to reach round two",
@@ -79,7 +91,7 @@
     {
       "id": "cf13f55da7b6a357",
       "title": "Martin Ødegaard extends Arsenal lead at top with winner to break Hull resistance",
-      "summary": "As most Arsenal supporters would testify, patience is a virtue. They needed plenty during the 22-year wait to be crowned Premier League champions and Mikel Arteta's side certainly had to retain their composure as they tried to break down a dogged Hull side. They had not beaten Arsenal in 14 attempts since winning on their first visit to this ground in 2008. But with 20 minutes still to play, there was still every chance that Sergej Jakirovic's team could have pulled off one of the shocks of the ",
+      "summary": "As most Arsenal supporters would testify, patience is a virtue. They needed plenty during the 22-year wait to be crowned Premier League champions and Mikel Arteta's side certainly had to retain their composure as they tried to break down a dogged Hull team. They had not beaten Arsenal in 14 attempts since winning on their first visit to this ground in 2008. But with 20 minutes still to play, there was every chance that Sergej Jakirovic's team could have pulled off one of the shocks of the season",
       "category": "Premier League",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/07/arsenal-hull-premier-league-match-report",
@@ -150,8 +162,8 @@
     },
     {
       "id": "16c4524ac64746fb",
-      "title": "De Zerbi focuses on Spurs' failings - but should Bogle have seen red?",
-      "summary": "It was somewhat surprising to see Roberto de Zerbi take a more peaceful approach when he faced the media at Elland Road after Tottenham's 1-0 defeat by Leeds United on Saturday afternoon.",
+      "title": "Tottenham set to complain to Pro Ref - but should Bogle have seen red?",
+      "summary": "Tottenham are set to submit a formal complaint about the decision not to send off Jayden Bogle for his challenge on Mathys Tel during the defeat by Leeds.",
       "category": "Premier League",
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c39wz9llg255o?at_medium=RSS&at_campaign=rss",
@@ -168,18 +180,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cxj0l54rr61do?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-07T15:55:54+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "0ebae1439bc40d9a",
-      "title": "Nottingham Forest vs Man City LIVE! & highlights",
-      "summary": "",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/nottingham-forest-vs-manchester-city/live/559542",
-      "published_at": "2026-11-07T15:49:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
