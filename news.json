@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-07T19:59:48.176375+00:00",
+  "updated_at": "2026-11-07T21:31:58.958645+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "2acc35528aa2d34d",
+      "title": "NWSL playoffs: Cooper's extra-time penalty sends Kansas City through as Utah stun San Diego",
+      "summary": "Michelle Cooper strikes in extra time to lift Current Kansas City extend unbeaten home record with 1-0 win Seventh-seeded Utah Royals upset San Diego Wave Michelle Cooper converted an extra-time penalty to give the Kansas City Current a 1-0 victory over Angel City on Sunday in the quarter-finals of the National Women's Soccer League playoffs. The fourth-seeded Current will face the winner of Sunday's quarter-final between top-seeded Gotham FC and No 8 Seattle Reign FC in next weekend's semi-fina",
+      "category": "Women's Football",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/07/nwsl-playoffs-kansas-city-current-angel-city-utah-royals-san-diego-wave",
+      "published_at": "2026-11-07T20:40:37+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "8cbee2801d8e889e",
       "title": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
@@ -192,18 +204,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/06/charlton-risk-being-chewed-up-wsl-karen-hills",
       "published_at": "2026-11-06T20:49:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "2ad06931dc464593",
-      "title": "Europa League: Sunderland lose at home to Zagreb while Celtic enjoy first win",
-      "summary": "Evanilson helps Bournemouth to 3-1 win at Sparta Prague Ferencvaros prevail 2-0 at Milan to keep 100% record Sunderland 's unbeaten run in the Europa League came to an end as they were beaten 2-0 by Dinamo Zagreb at the Stadium of Light. Dinamo went ahead through Luka Stojkovic's fierce strike and the midfielder turned provider for Dion Drena Beljo to double their advantage before the break. Continue reading...",
-      "category": "Europa League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
-      "published_at": "2026-11-05T23:27:14+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
