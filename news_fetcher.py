@@ -15,7 +15,7 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 3.0 - Improved News Classification
+# Versi 4.0 - Improved News Classification
 # Gratis, tanpa AI, tanpa API Key
 # ==========================================
 
@@ -37,6 +37,11 @@ FEEDS = [
 OUTPUT_FILE = Path("news.json")
 MAX_NEWS = 30
 
+
+# ==========================================
+# KATA KUNCI BERITA YANG DIKECUALIKAN
+# ==========================================
+
 EXCLUDED_KEYWORDS = [
     "quiz",
     "quizzes",
@@ -48,57 +53,59 @@ EXCLUDED_KEYWORDS = [
     "fantasy football"
 ]
 
+
+# ==========================================
+# KATEGORI KOMPETISI
+# Urutan ini menjadi prioritas kategori.
+# Women's Football tetap ditampilkan terakhir.
+# ==========================================
+
 COMPETITION_CATEGORIES = {
-    # 1. Kompetisi Eropa
     "Champions League": [
         "uefa champions league",
         "champions league"
     ],
+
     "Premier League": [
         "premier league"
     ],
+
     "LaLiga": [
         "laliga",
         "la liga"
     ],
+
     "Serie A": [
         "serie a"
     ],
+
     "Bundesliga": [
         "bundesliga"
     ],
+
     "Ligue 1": [
         "ligue 1"
     ],
+
     "Europa League": [
         "uefa europa league",
         "europa league"
     ],
+
     "Conference League": [
         "uefa conference league",
         "conference league"
     ],
 
-    # 2. Sepak bola Indonesia
     "Liga 1 Indonesia": [
+        "bri super league",
         "super league indonesia",
         "indonesia super league",
-        "bri liga 1",
         "liga 1 indonesia",
-        "liga indonesia"
+        "bri liga 1",
+        "liga 1"
     ],
 
-    "Timnas Indonesia": [
-        "timnas indonesia",
-        "tim nasional indonesia",
-        "indonesia national team",
-        "indonesia squad",
-        "garuda squad",
-        "skuad garuda",
-        "timnas garuda"
-    ],
-
-    # 3. Sepak bola wanita
     "Women's Football": [
         "women's champions league",
         "womens champions league",
@@ -109,6 +116,51 @@ COMPETITION_CATEGORIES = {
         "women's olympic football"
     ]
 }
+
+
+# ==========================================
+# KATA KUNCI TIMNAS INDONESIA
+# ==========================================
+
+INDONESIA_TEAM_KEYWORDS = [
+    "timnas indonesia",
+    "tim nasional indonesia",
+    "indonesia national team",
+    "indonesia national football team",
+    "indonesia men's national team",
+    "indonesia squad",
+    "indonesia football team",
+    "garuda squad",
+    "skuad garuda",
+    "timnas garuda"
+]
+
+
+# ==========================================
+# KATA KUNCI TIM NASIONAL NEGARA LAIN
+# ==========================================
+
+NATIONAL_KEYWORDS = [
+    "national team",
+    "international break",
+    "nations league",
+    "world cup",
+    "european championship",
+    "euro 2028",
+    "international football",
+    "england squad",
+    "brazil squad",
+    "argentina squad",
+    "france squad",
+    "germany squad",
+    "spain squad",
+    "portugal squad"
+]
+
+
+# ==========================================
+# KATEGORI BERDASARKAN KLUB
+# ==========================================
 
 CLUB_CATEGORIES = {
     "Premier League": [
@@ -131,6 +183,7 @@ CLUB_CATEGORIES = {
         "wolves",
         "sunderland"
     ],
+
     "LaLiga": [
         "real madrid",
         "barcelona",
@@ -140,6 +193,7 @@ CLUB_CATEGORIES = {
         "villarreal",
         "athletic bilbao"
     ],
+
     "Serie A": [
         "inter milan",
         "ac milan",
@@ -149,6 +203,7 @@ CLUB_CATEGORIES = {
         "lazio",
         "atalanta"
     ],
+
     "Bundesliga": [
         "bayern munich",
         "borussia dortmund",
@@ -156,6 +211,7 @@ CLUB_CATEGORIES = {
         "rb leipzig",
         "eintracht frankfurt"
     ],
+
     "Ligue 1": [
         "paris saint-germain",
         "psg",
@@ -166,6 +222,10 @@ CLUB_CATEGORIES = {
     ]
 }
 
+
+# ==========================================
+# MEMBERSIHKAN TEKS BERITA
+# ==========================================
 
 def clean_text(value):
     if not value:
@@ -178,6 +238,10 @@ def clean_text(value):
 
     return value.strip()
 
+
+# ==========================================
+# MEMBACA TANGGAL BERITA
+# ==========================================
 
 def parse_date(value):
     if not value:
@@ -200,9 +264,14 @@ def date_timestamp(value):
         return datetime.fromisoformat(
             value.replace("Z", "+00:00")
         ).timestamp()
+
     except (ValueError, AttributeError):
         return 0
 
+
+# ==========================================
+# MEMBERSIHKAN URL DARI TRACKING
+# ==========================================
 
 def canonical_url(url):
     try:
@@ -236,14 +305,18 @@ def canonical_url(url):
         return url
 
 
+# ==========================================
+# FILTER BERITA TIDAK RELEVAN
+# ==========================================
+
 def is_relevant(title, summary):
+
     content = (title + " " + summary).lower()
 
     for keyword in EXCLUDED_KEYWORDS:
         if keyword in content:
             return False
 
-    # Hindari live blog dan laporan pertandingan langsung.
     live_blog_patterns = [
         "live blog",
         "live updates",
@@ -266,73 +339,114 @@ def is_relevant(title, summary):
 
     return True
 
+
+# ==========================================
+# SISTEM KLASIFIKASI BERITA
+# ==========================================
+
 def classify_article(title, summary):
+
     content = (title + " " + summary).lower()
 
-    # 1. Kompetisi diutamakan sebelum nama klub.
-    for category, keywords in COMPETITION_CATEGORIES.items():
-        if any(keyword in content for keyword in keywords):
-            return category
+    # 1. Women's Football diperiksa terlebih dahulu.
+    # Agar Women's Champions League tidak salah
+    # masuk ke kategori Champions League biasa.
 
-    # 2. Berita tim nasional.
-    national_keywords = [
-        "national team",
-        "international break",
-        "nations league",
-        "world cup",
-        "european championship",
-        "euro 2028",
-        "international football",
-        "england squad",
-        "brazil squad",
-        "argentina squad",
-        "france squad",
-        "germany squad",
-        "spain squad",
-        "portugal squad"
+    women's_keywords = COMPETITION_CATEGORIES[
+        "Women's Football"
     ]
 
-    if any(keyword in content for keyword in national_keywords):
-        return "Tim Nasional"
+    if any(keyword in content for keyword in women's_keywords):
+        return "Women's Football"
 
-    # 3. Kategori berdasarkan klub.
-    for category, keywords in CLUB_CATEGORIES.items():
+    # 2. Timnas Indonesia.
+    # Diperiksa sebelum kategori umum seperti World Cup.
+
+    if any(
+        keyword in content
+        for keyword in INDONESIA_TEAM_KEYWORDS
+    ):
+        return "Timnas Indonesia"
+
+    # 3. Kompetisi sepak bola.
+    # Termasuk kompetisi Eropa dan Liga 1 Indonesia.
+
+    for category, keywords in COMPETITION_CATEGORIES.items():
+
+        if category == "Women's Football":
+            continue
+
         if any(keyword in content for keyword in keywords):
             return category
+
+    # 4. Tim nasional negara lain.
+
+    if any(
+        keyword in content
+        for keyword in NATIONAL_KEYWORDS
+    ):
+        return "Tim Nasional"
+
+    # 5. Kategori berdasarkan nama klub.
+
+    for category, keywords in CLUB_CATEGORIES.items():
+
+        if any(keyword in content for keyword in keywords):
+            return category
+
+    # 6. Kategori umum jika tidak ditemukan kecocokan.
 
     return "Berita Sepak Bola"
 
 
+# ==========================================
+# MEMBUAT ID UNIK BERITA
+# ==========================================
+
 def make_article_id(url):
+
     return hashlib.sha256(
         canonical_url(url).encode("utf-8")
     ).hexdigest()[:16]
 
 
+# ==========================================
+# MENGAMBIL BERITA DARI RSS
+# ==========================================
+
 def fetch_feed(feed):
+
     print(f"Mengambil berita: {feed['name']}")
 
     request = urllib.request.Request(
         feed["url"],
         headers={
-            "User-Agent": "Mozilla/5.0 FootballPulseAI/3.0"
+            "User-Agent": "Mozilla/5.0 FootballPulseAI/4.0"
         }
     )
 
     try:
+
         with urllib.request.urlopen(
             request,
             timeout=25
         ) as response:
+
             xml_data = response.read()
 
         root = ET.fromstring(xml_data)
+
         articles = []
 
         for item in root.findall(".//item"):
 
-            title = clean_text(item.findtext("title"))
-            link = (item.findtext("link") or "").strip()
+            title = clean_text(
+                item.findtext("title")
+            )
+
+            link = (
+                item.findtext("link") or ""
+            ).strip()
 
             summary = clean_text(
                 item.findtext("description")
@@ -345,7 +459,7 @@ def fetch_feed(feed):
             if not title or not link:
                 continue
 
-            # Menghindari berita live blog dan live match berdasarkan URL.
+            # Menghindari berita live blog dan live match.
             url_lower = link.lower()
 
             if (
@@ -384,21 +498,45 @@ def fetch_feed(feed):
         return articles
 
     except Exception as error:
+
         print(f"  Gagal mengambil RSS: {error}")
+
         return None
 
 
+# ==========================================
+# NORMALISASI JUDUL BERITA
+# ==========================================
+
 def normalize_title(title):
+
     title = title.lower()
-    title = re.sub(r"[^a-z0-9]+", " ", title)
+
+    title = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        title
+    )
+
     return " ".join(title.split())
 
 
-def remove_similar_duplicates(articles, threshold=0.92):
+# ==========================================
+# MENGHAPUS JUDUL BERITA YANG MIRIP
+# ==========================================
+
+def remove_similar_duplicates(
+    articles,
+    threshold=0.92
+):
+
     unique_articles = []
 
     for article in articles:
-        title = normalize_title(article.get("title", ""))
+
+        title = normalize_title(
+            article.get("title", "")
+        )
 
         if not title:
             continue
@@ -406,7 +544,11 @@ def remove_similar_duplicates(articles, threshold=0.92):
         is_duplicate = False
 
         for existing in unique_articles:
-            if article.get("category") != existing.get("category"):
+
+            if (
+                article.get("category")
+                != existing.get("category")
+            ):
                 continue
 
             existing_title = normalize_title(
@@ -420,44 +562,68 @@ def remove_similar_duplicates(articles, threshold=0.92):
             ).ratio()
 
             if similarity >= threshold:
+
                 is_duplicate = True
+
                 break
 
         if not is_duplicate:
+
             unique_articles.append(article)
 
     return unique_articles
 
+
+# ==========================================
+# PROSES UTAMA FOOTBALL PULSE AI
+# ==========================================
+
 def main():
 
     all_articles = []
+
     successful_feeds = 0
+
+    # Mengambil berita dari semua sumber RSS.
 
     for feed in FEEDS:
 
         articles = fetch_feed(feed)
 
         if articles is not None:
+
             successful_feeds += 1
+
             all_articles.extend(articles)
 
     if successful_feeds == 0:
+
         print("\nSemua sumber gagal diakses.")
-        print("File news.json lama tetap dipertahankan.")
+
+        print(
+            "File news.json lama tetap dipertahankan."
+        )
+
         return
 
     # Menghapus duplikat berdasarkan URL.
+
     unique_articles = {}
 
     for article in all_articles:
-        key = canonical_url(article["source_url"])
+
+        key = canonical_url(
+            article["source_url"]
+        )
 
         if key not in unique_articles:
+
             unique_articles[key] = article
 
     news = list(unique_articles.values())
 
     # Mengurutkan berita terbaru terlebih dahulu.
+
     news.sort(
         key=lambda article: date_timestamp(
             article["published_at"]
@@ -465,17 +631,27 @@ def main():
         reverse=True
     )
 
-    # Menghapus berita dengan judul yang sangat mirip.
+    # Menghapus berita dengan judul sangat mirip.
+
     before_count = len(news)
 
     news = remove_similar_duplicates(news)
 
     removed_count = before_count - len(news)
 
-    print(f"Duplikat URL dan judul berhasil disaring.")
-    print(f"Berita dengan judul mirip dihapus: {removed_count}")
+    print(
+        "Duplikat URL dan judul berhasil disaring."
+    )
+
+    print(
+        f"Berita dengan judul mirip dihapus: {removed_count}"
+    )
+
+    # Membatasi jumlah berita.
 
     news = news[:MAX_NEWS]
+
+    # Menyiapkan data JSON.
 
     output = {
         "site": "Football Pulse AI",
@@ -487,6 +663,8 @@ def main():
         "articles": news
     }
 
+    # Menyimpan berita ke news.json.
+
     OUTPUT_FILE.write_text(
         json.dumps(
             output,
@@ -497,13 +675,20 @@ def main():
     )
 
     print("\n================================")
+
     print("FOOTBALL PULSE AI NEWS UPDATE")
+
     print("================================")
+
     print(f"Total berita: {len(news)}")
+
     print(f"Sumber berhasil: {successful_feeds}")
+
     print(f"File tersimpan: {OUTPUT_FILE}")
+
     print("================================")
 
 
 if __name__ == "__main__":
+
     main()
