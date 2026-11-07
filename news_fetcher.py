@@ -477,19 +477,19 @@ def fetch_feed(feed):
             published_at = parse_date(
                 item.findtext("pubDate")
             )
-
             if not title or not link:
                 continue
 
             # Menolak berita live blog dan live match.
             url_lower = link.lower()
-                        # Menolak tautan video.
+
+            # Menolak tautan video.
             if (
                 "/videos/" in url_lower
                 or "/watch/video/" in url_lower
                 or "/football/video/" in url_lower
-             ):
-    continue
+            ):
+                continue
 
             if (
                 "/live-blog/" in url_lower
