@@ -323,10 +323,14 @@ def fetch_feed(feed):
             if not title or not link:
                 continue
 
-            # Menghindari berita live blog berdasarkan URL.
+            # Menghindari berita live blog dan live match berdasarkan URL.
             url_lower = link.lower()
 
-            if "/live-blog/" in url_lower or "/football/live/" in url_lower:
+            if (
+                "/live-blog/" in url_lower
+                or "/football/live/" in url_lower
+                or "/live/" in url_lower
+            ):
                 continue
 
             if not is_relevant(title, summary):
