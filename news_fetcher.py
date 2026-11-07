@@ -352,11 +352,11 @@ def classify_article(title, summary):
     # Agar Women's Champions League tidak salah
     # masuk ke kategori Champions League biasa.
 
-    women's_keywords = COMPETITION_CATEGORIES[
+    womens_keywords = COMPETITION_CATEGORIES[
         "Women's Football"
     ]
 
-    if any(keyword in content for keyword in women's_keywords):
+    if any(keyword in content for keyword in womens_keywords):
         return "Women's Football"
 
     # 2. Timnas Indonesia.
