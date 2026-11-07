@@ -106,17 +106,35 @@ COMPETITION_CATEGORIES = {
         "liga 1"
     ],
 
-    "Women's Football": [
+        "Women's Football": [
         "women's champions league",
         "womens champions league",
+        "women champions league",
+        "uwcl",
         "women's super league",
+        "womens super league",
         "women's football",
+        "womens football",
         "women's world cup",
+        "womens world cup",
         "women's euro",
-        "women's olympic football"
+        "womens euro",
+        "women's olympic football",
+        "women's team",
+        "women's teams",
+        "women's game",
+        "women's soccer",
+        "wsl",
+        "liga f",
+        "barcelona femeni",
+        "barcelona femení",
+        "arsenal wfc",
+        "chelsea women",
+        "manchester city women",
+        "manchester united women",
+        "lionesses"
     ]
 }
-
 
 # ==========================================
 # KATA KUNCI TIMNAS INDONESIA
@@ -469,8 +487,9 @@ def fetch_feed(feed):
             if (
                 "/videos/" in url_lower
                 or "/watch/video/" in url_lower
-            ):
-                continue
+                or "/football/video/" in url_lower
+             ):
+    continue
 
             if (
                 "/live-blog/" in url_lower
