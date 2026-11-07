@@ -1,9 +1,81 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-06T22:47:19.138043+00:00",
+  "updated_at": "2026-11-07T04:59:06.005533+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "c8cd94d49645bbb2",
+      "title": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
+      "summary": "Kiernan Dewsbury-Hall responds to his England omission by scoring a stunning goal to inspire Everton's 3-1 comeback victory over Coventry City.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm4g114p9e7go?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T23:53:06+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "5fec613843ce5c6f",
+      "title": "Leicester hold nerve to knock out sixth-tier Oxford City",
+      "summary": "League One side, and 2021 champions, Leicester City avoid an upset as they beat sixth-tier Oxford City 4-2 at the MGroup Stadium, to reach the second round of the FA Cup.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/videos/c8qlnn4dvp3yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T23:37:23+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "a9679fa5f9230ed8",
+      "title": "Bristol Rovers shock Cambridge United to reach round two",
+      "summary": "League Two side Bristol Rovers end a run of six matches without a win, as they shock League One side Cambridge United, beating them 2-0 at the Memorial Stadium, to reach the second round of the FA Cup.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/videos/cxdd88g97lm7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T23:26:39+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "08624f432851a98a",
+      "title": "Lampard feels hair pull should have led to Coventry penalty",
+      "summary": "Coventry had a trio of decisions go against them in defeat at Everton, with Frank Lampard suggesting a hair pull should have been a penalty.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-06T23:22:21+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "f89cab5bcf24e9e5",
+      "title": "Lampard: VAR didn't do its job",
+      "summary": "Coventry boss Frank Lampard says VAR 'didn't do its job' in his side's defeat to Everton as three reviews controversially went against his side.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13609067/everton-3-1-coventry-frank-lampard-says-var-didnt-do-its-job-after-three-incidents-went-against-sky-blues-in-premier-league-defeat",
+      "published_at": "2026-11-06T23:20:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "526d61ed1de93edd",
+      "title": "Premier League news: Arteta insists Rice isn't playing too many games",
+      "summary": "The Arsenal manager says 'we're really looking after' midfielder, while Andoni Iraola backs keeper Alisson Continue reading...",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/06/premier-league-news-manchester-united-baleba-manchester-city-donnarumma-arsenal-arteta-rice",
+      "published_at": "2026-11-06T23:09:22+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "99f38d0170fb32b6",
       "title": "'Big decisions' affected the game - Lampard",
@@ -67,7 +139,7 @@
     {
       "id": "1e4c602bfb70a0a4",
       "title": "Thierno Barry double fires Everton to comeback win against Coventry",
-      "summary": "The most optimistic Evertonian – if that is not an oxymoron – could not have envisaged David Moyes's team sitting fifth in the Premier League and Thierno Barry just behind Erling Haaland in the goalscoring chart at the end of the club's calamitous transfer window. Yet there they are, team and striker defying all expectations, following a rousing if fortuitous comeback against luckless Coventry. Frank Lampard endured a torturous night against his old club as Coventry had two strong penalty shouts",
+      "summary": "The wildly optimistic Evertonian – if such a being exists – could not have envisaged David Moyes' side fifth in the Premier League with Thierno Barry just behind Erling Haaland in the goalscoring chart when their transfer window closed in calamitous fashion. Yet there they sit, team and striker defying all expectations, following a stirring comeback against luckless Coventry. Frank Lampard endured a torturous night against his old club as Coventry impressed but were refused two strong penalty cl",
       "category": "Premier League",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/06/everton-coventry-premier-league-match-report",
@@ -233,18 +305,6 @@
       "status": "source_only"
     },
     {
-      "id": "526d61ed1de93edd",
-      "title": "Premier League news: United's Baleba out for weeks, Maresca backs Donnarumma",
-      "summary": "Carrick says it is possible to restore former glory at Old Trafford with time and Unai Emery confirms Aston Villa contract talks Continue reading...",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/06/premier-league-news-manchester-united-baleba-manchester-city-donnarumma-arsenal-arteta-rice",
-      "published_at": "2026-11-06T16:06:30+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "296c2ad2ff9e90d7",
       "title": "Euro Leagues",
       "summary": "HJK assistant coach Erkka Lehtola ahead of a fascinating final weekend in Finland.",
@@ -281,6 +341,18 @@
       "status": "source_only"
     },
     {
+      "id": "690f2038a0ff4b25",
+      "title": "Spurs latest: De Zerbi - 'It's great our CEO wants us to win the league'",
+      "summary": "",
+      "category": "Berita Sepak Bola",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/live-blog/11095/13025489/tottenham-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+      "published_at": "2026-11-06T15:02:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "9ef872af6fd2810f",
       "title": "Iraola: We must sacrifice control for creativity to fix scoring woes",
       "summary": "Liverpool must sacrifice control in games in order to fix their creativity problems, Andoni Iraola has demanded ahead of their weekend trip to Crystal Palace, live on Sky Sports .",
@@ -288,78 +360,6 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13608882/liverpool-andoni-iraola-demands-creativity-over-control-to-solve-premier-league-scoring-problems",
       "published_at": "2026-11-06T15:00:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c8af5c3a2fef0bf4",
-      "title": "Portugal coach 'knew nothing' about Ronaldo retiring",
-      "summary": "Portugal coach Jorge Jesus says he \"found out when we all did\" about Cristiano Ronaldo's retirement from international football.",
-      "category": "Tim Nasional",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cwzd66r22j68o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-06T14:25:41+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "43582232c02a8eeb",
-      "title": "Jobe joins brother Jude with England to showcase his own talent",
-      "summary": "\"He's coming on his own merit,\" said Thomas Tuchel, after extolling the strengths of Jobe Bellingham.",
-      "category": "Berita Sepak Bola",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13608890/england-jobe-bellingham-has-the-chance-to-showcase-his-own-talent-alongside-brother-jude-in-thomas-tuchels-squad",
-      "published_at": "2026-11-06T14:24:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "eb10c854364ce68c",
-      "title": "'A beautiful story' as Bellingham brothers called up",
-      "summary": "It may be a surprise to some but Jobe Bellingham's call up to the England senior side has been a long time coming.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c5x2vvjy2rpeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-06T14:16:34+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "a05f0c14bd68c2d9",
-      "title": "Man Utd latest: Baleba facing weeks out with hamstring injury",
-      "summary": "",
-      "category": "Berita Sepak Bola",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/live-blog/11095/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-      "published_at": "2026-11-06T14:00:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "9b810137221f1928",
-      "title": "Harborough sign 6ft 9in striker Hudlin before FA Cup tie",
-      "summary": "Non-league Harborough Town sign striker Kyle Hudlin, one of the world's tallest professional players, in time for their FA Cup trip to Leyton Orient.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cxvgdd7q2dm3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-06T13:54:50+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "219fc6b4d0f6692c",
-      "title": "Talking points as Premiership prepares for international break",
-      "summary": "Celtic and Hearts return to Scottish Premiership action with contrasting European fortunes, so what are the key talking points in the last fixtures before the November international break?",
-      "category": "Tim Nasional",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cq78ppm5ge80o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-06T13:44:22+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
