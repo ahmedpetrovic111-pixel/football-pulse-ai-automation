@@ -1,9 +1,33 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-07T19:12:35.391762+00:00",
+  "updated_at": "2026-11-07T19:59:48.176375+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "8cbee2801d8e889e",
+      "title": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
+      "summary": "Arsenal move six points clear at the top of the Premier League after beating Hull City - but did Martin Odegaard's goal save the blushes of the VAR?",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T19:34:32+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "0be27d1586f08c2f",
+      "title": "Delightful Delap and outfought Anderson - Forest v Man City player ratings",
+      "summary": "How Nottingham Forest and Manchester City's players rated following their Premier League match at the City Ground.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c8wy9512p2yvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T19:26:31+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "07ac0289351e4521",
       "title": "Title race hots up before Chelsea-Man City showdown",
@@ -77,6 +101,18 @@
       "status": "source_only"
     },
     {
+      "id": "1a45b55a8ef3e983",
+      "title": "Manchester City break clear of Chelsea in WSL after Bronze's freak own goal",
+      "summary": "Khadija Shaw hits hat-trick in City's 5-0 rout of West Ham Chelsea held 1-1 by Everton after Lucy Bronze own goal An own goal by defender Lucy Bronze ⁠against Everton cost Chelsea top spot in the Women's ⁠Super League as ⁠they ​were held to a 1-1 draw at home, allowing Manchester City ⁠to leapfrog them with a 5-0 drubbing of West Ham. Bronze headed ⁠the ball back across the goal to tee ​up Sandy Baltimore ‌to score ‌from close range in the 28th minute, but ‌five minutes later her attempted clear",
+      "category": "Women's Football",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
+      "published_at": "2026-11-07T15:11:59+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "96e386b47f3a1a8f",
       "title": "Bronze mistake, Chelsea frustration, Shaw hat-trick - WSL round-up",
       "summary": "Khadija 'Bunny' Shaw struck a perfect hat-trick as Manchester City dispatched West Ham 5-0 to retake top spot in the Women's Super League.",
@@ -102,7 +138,7 @@
     },
     {
       "id": "109eb786a945c44a",
-      "title": "Okafor's Leeds winner adds insult to Tel's injury for Tottenham as Bogle escapes red",
+      "title": "Okafor seals Leeds win but Tottenham complain to Pro Ref over Bogle tackle on Tel",
       "summary": "It is almost one year to the day when the Leeds manager, Daniel Farke, produced the tactical overhaul many observers believe saved his job. That day, Farke abandoned his trusted 4-3-3 when Leeds were 2-0 down at Manchester City and although they lost the game, the 3-5-2 he reverted to was the bedrock for the success that followed. To suggest Farke was under similar pressure going into this game would be a stretch, but without a win in five Premier League games it was not unreasonable to suggest ",
       "category": "Premier League",
       "source": "The Guardian",
@@ -197,18 +233,6 @@
       "status": "source_only"
     },
     {
-      "id": "ffa0a7b1c0709828",
-      "title": "Fenerbahce thwart Liverpool and Arsenal pushed in Prague | Football Weekly Extra – video",
-      "summary": "Max Rushden is joined by Barry Glendenning , Lars Sivertsen and Jonathan Liew as Liverpool lose for the first time in the Champions League this season and Manchester City and Arsenal escape with narrow wins Continue reading...",
-      "category": "Champions League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/video/2026/nov/05/fenerbahce-thwart-liverpool-and-arsenal-pushed-in-prague-football-weekly-video",
-      "published_at": "2026-11-05T14:35:27+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "33a840c591f3bba0",
       "title": "How to follow the Premier League on the BBC this weekend",
       "summary": "Our Ask Me Anything team explains how to follow matches from week 10 of the Premier League season on the BBC this weekend.",
@@ -281,6 +305,18 @@
       "status": "source_only"
     },
     {
+      "id": "3e979996b6b1f26a",
+      "title": "'An absolute afterthought': the story of the Nigeria women's team's fall from grace",
+      "summary": "The Super Falcons won't be at the World Cup and with the prize money going up, they risk being left even further behind It was a historic result in Casablanca – but not in a good way. Nigeria's 2-1 defeat against South Africa in a playoff in August meant that the Super Falcons are missing out on the World Cup for the first time. It is a crushing blow for the most decorated national side in Africa across both men and women, one that has won no fewer than 10 Wafcon titles . The journalist and lect",
+      "category": "Women's Football",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/03/womens-world-cup-2027-missing-out-nigeria-moving-the-goalposts",
+      "published_at": "2026-11-03T11:33:56+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "b7783332fb9f841d",
       "title": "Which Premier League players are set for yellow card suspensions?",
       "summary": "Hull City's Matt Crooks and Aston Villa's Matty Cash are the first players to receive a one-match ban for accumulating five yellow cards in the 2025-26 Premier League season.",
@@ -317,49 +353,13 @@
       "status": "source_only"
     },
     {
-      "id": "f5ea5541b7051096",
-      "title": "Which game will Chelsea's Palmer miss after red card?",
-      "summary": "BBC Sport's Ask Me Anything team explains why Cole Palmer's red card suspension will not rule him out of Chelsea's Premier League match against Manchester United.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm4g1q54pj20o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-26T14:12:43+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "16c1a275c85026ed",
-      "title": "All done deals from September-November 2026",
-      "summary": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "id": "b1591526e07b0916",
+      "title": "The horse that ushered in Manchester United's tragic arc | Jonathan Wilson",
+      "summary": "There's plenty of blame to go around at Old Trafford. Like all downfalls it started with a seemingly small, unconnected moment Sign up for our free newsletter here And so here we are again, at that point as the nights draw in and Manchester United prepare to sack a manager . Autumn: season of mists, mellow fruitfulness and a crisis at Old Trafford. Sunday's 3-0 home defeat to Bournemouth , coming on the back of last week's 4-1 reverse against Como, made clear what many had feared from the moment",
       "category": "Women's Football",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T12:53:04+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c8df8d3db02b6825",
-      "title": "Were any current Man City players signed during charges period?",
-      "summary": "BBC Sport's Ask Me Anything team looks at whether any Manchester City players were signed during the time the club have been found guilty of breaching the Premier League's financial rules.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/articles/cmje5wl5ek32o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T10:13:34+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "984e74c91b20e3d4",
-      "title": "Next Generation 2026: 60 of the best young talents in world football",
-      "summary": "From 'the new Toni Kroos' to the US' next big hope, Cavan Sullivan, we select some of the most talented players born in 2009. Check the progress of our classes of 2025 | 2024 | 2023 | 2022 | 2021 … back to 2014 . Here's our Premier League class of 2026 Continue reading...",
-      "category": "Premier League",
       "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/ng-interactive/2026/oct/06/next-generation-2026-60-of-the-best-young-talents-in-world-football",
-      "published_at": "2026-10-06T10:00:51+00:00",
+      "source_url": "https://www.theguardian.com/football/2026/oct/26/the-horse-that-brought-down-manchester-united",
+      "published_at": "2026-10-26T14:43:51+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
