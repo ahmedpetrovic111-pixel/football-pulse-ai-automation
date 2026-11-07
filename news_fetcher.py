@@ -140,22 +140,7 @@ INDONESIA_TEAM_KEYWORDS = [
 # KATA KUNCI TIM NASIONAL NEGARA LAIN
 # ==========================================
 
-NATIONAL_KEYWORDS = [
-    "national team",
-    "international break",
-    "nations league",
-    "world cup",
-    "european championship",
-    "euro 2028",
-    "international football",
-    "england squad",
-    "brazil squad",
-    "argentina squad",
-    "france squad",
-    "germany squad",
-    "spain squad",
-    "portugal squad"
-]
+NATIONAL_KEYWORDS = []
 
 
 # ==========================================
@@ -309,14 +294,17 @@ def canonical_url(url):
 # FILTER BERITA TIDAK RELEVAN
 # ==========================================
 
+
 def is_relevant(title, summary):
 
     content = (title + " " + summary).lower()
 
+    # 1. Menolak kata-kata yang sudah masuk daftar pengecualian.
     for keyword in EXCLUDED_KEYWORDS:
         if keyword in content:
             return False
 
+    # 2. Menolak berita live blog dan live commentary.
     live_blog_patterns = [
         "live blog",
         "live updates",
@@ -331,27 +319,56 @@ def is_relevant(title, summary):
         "follow minute by minute"
     ]
 
-    combined_text = f"{title} {summary}".lower()
-
     for phrase in live_blog_patterns:
-        if phrase in combined_text:
+        if phrase in content:
+            return False
+
+    # 3. Menolak berita video dan highlight.
+    video_patterns = [
+        "highlights:",
+        "highlights from",
+        "watch highlights",
+        "free to watch",
+        "watch video",
+        "video highlights",
+        "goal:",
+        "goal -",
+        "extended highlights",
+        "match highlights"
+    ]
+
+    for phrase in video_patterns:
+        if phrase in content:
+            return False
+
+    # 4. Menolak kompetisi di luar prioritas.
+    excluded_competitions = [
+        "fa cup",
+        "championship",
+        "league one",
+        "league two",
+        "national league",
+        "national league north",
+        "national league south",
+        "southern premier league",
+        "fa trophy",
+        "carabao cup",
+        "efl cup",
+        "efl trophy"
+    ]
+
+    for competition in excluded_competitions:
+        if competition in content:
             return False
 
     return True
 
 
-# ==========================================
-# SISTEM KLASIFIKASI BERITA
-# ==========================================
-
 def classify_article(title, summary):
 
     content = (title + " " + summary).lower()
 
-    # 1. Women's Football diperiksa terlebih dahulu.
-    # Agar Women's Champions League tidak salah
-    # masuk ke kategori Champions League biasa.
-
+    # 1. Women's Football.
     womens_keywords = COMPETITION_CATEGORIES[
         "Women's Football"
     ]
@@ -360,48 +377,34 @@ def classify_article(title, summary):
         return "Women's Football"
 
     # 2. Timnas Indonesia.
-    # Diperiksa sebelum kategori umum seperti World Cup.
-
     if any(
         keyword in content
         for keyword in INDONESIA_TEAM_KEYWORDS
     ):
         return "Timnas Indonesia"
 
-    # 3. Kompetisi sepak bola.
-    # Termasuk kompetisi Eropa dan Liga 1 Indonesia.
-
+    # 3. Kompetisi prioritas.
     for category, keywords in COMPETITION_CATEGORIES.items():
 
-        if category == "Women's Football":
+        if category in [
+            "Women's Football",
+            "Timnas Indonesia"
+        ]:
             continue
 
         if any(keyword in content for keyword in keywords):
             return category
 
     # 4. Tim nasional negara lain.
-
     if any(
         keyword in content
         for keyword in NATIONAL_KEYWORDS
     ):
         return "Tim Nasional"
 
-    # 5. Kategori berdasarkan nama klub.
+    # 5. Tidak cocok dengan kategori prioritas.
+    return "Tidak Ditampilkan"
 
-    for category, keywords in CLUB_CATEGORIES.items():
-
-        if any(keyword in content for keyword in keywords):
-            return category
-
-    # 6. Kategori umum jika tidak ditemukan kecocokan.
-
-    return "Berita Sepak Bola"
-
-
-# ==========================================
-# MEMBUAT ID UNIK BERITA
-# ==========================================
 
 def make_article_id(url):
 
@@ -413,6 +416,7 @@ def make_article_id(url):
 # ==========================================
 # MENGAMBIL BERITA DARI RSS
 # ==========================================
+
 
 def fetch_feed(feed):
 
@@ -459,8 +463,14 @@ def fetch_feed(feed):
             if not title or not link:
                 continue
 
-            # Menghindari berita live blog dan live match.
+            # Menolak berita live blog dan live match.
             url_lower = link.lower()
+                        # Menolak tautan video.
+            if (
+                "/videos/" in url_lower
+                or "/watch/video/" in url_lower
+            ):
+                continue
 
             if (
                 "/live-blog/" in url_lower
@@ -469,17 +479,25 @@ def fetch_feed(feed):
             ):
                 continue
 
+            # Menolak video, highlight, dan kompetisi nonprioritas.
             if not is_relevant(title, summary):
+                continue
+
+            # Memeriksa kategori berita.
+            category = classify_article(
+                title,
+                summary
+            )
+
+            # Membuang berita di luar kategori prioritas.
+            if category == "Tidak Ditampilkan":
                 continue
 
             article = {
                 "id": make_article_id(link),
                 "title": title,
                 "summary": summary[:500],
-                "category": classify_article(
-                    title,
-                    summary
-                ),
+                "category": category,
                 "source": feed["name"],
                 "source_url": link,
                 "published_at": published_at,
@@ -503,10 +521,6 @@ def fetch_feed(feed):
 
         return None
 
-
-# ==========================================
-# NORMALISASI JUDUL BERITA
-# ==========================================
 
 def normalize_title(title):
 
