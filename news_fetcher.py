@@ -49,17 +49,10 @@ EXCLUDED_KEYWORDS = [
 ]
 
 COMPETITION_CATEGORIES = {
+    # 1. Kompetisi Eropa
     "Champions League": [
-        "champions league",
-        "uefa champions league"
-    ],
-    "Europa League": [
-        "europa league",
-        "uefa europa league"
-    ],
-    "Conference League": [
-        "conference league",
-        "uefa conference league"
+        "uefa champions league",
+        "champions league"
     ],
     "Premier League": [
         "premier league"
@@ -77,6 +70,35 @@ COMPETITION_CATEGORIES = {
     "Ligue 1": [
         "ligue 1"
     ],
+    "Europa League": [
+        "uefa europa league",
+        "europa league"
+    ],
+    "Conference League": [
+        "uefa conference league",
+        "conference league"
+    ],
+
+    # 2. Sepak bola Indonesia
+    "Liga 1 Indonesia": [
+        "super league indonesia",
+        "indonesia super league",
+        "bri liga 1",
+        "liga 1 indonesia",
+        "liga indonesia"
+    ],
+
+    "Timnas Indonesia": [
+        "timnas indonesia",
+        "tim nasional indonesia",
+        "indonesia national team",
+        "indonesia squad",
+        "garuda squad",
+        "skuad garuda",
+        "timnas garuda"
+    ],
+
+    # 3. Sepak bola wanita
     "Women's Football": [
         "women's champions league",
         "womens champions league",
