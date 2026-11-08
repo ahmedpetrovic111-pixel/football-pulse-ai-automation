@@ -1,9 +1,57 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-07T21:31:58.958645+00:00",
+  "updated_at": "2026-11-08T04:53:29.511458+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "a553e824867ecee9",
+      "title": "European football: Mbappé eases Real Madrid past Valencia to move joint top",
+      "summary": "Valverde opens scoring in 3-0 victory for Real Madrid Bayern beat Mainz but Neuer's record-breaking day turns sour Kylian Mbappé scored for the seventh match running as Real Madrid pulled provisionally level on points with La Liga leaders Barcelona after a 3-0 win at 10-man Valencia on Saturday. Reigning champions Barça visit Atlético Madrid , third, on Sunday, aiming to move back clear of the chasing pack. José Mourinho's Madrid largely dominated at Mestalla stadium as they secured an eighth wi",
+      "category": "LaLiga",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
+      "published_at": "2026-11-07T22:30:08+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "00b015a842df7be4",
+      "title": "Liverpool considering Verbruggen move - Sunday's gossip",
+      "summary": "Liverpool consider move for Brighton keeper Bart Verbruggen, Bayern Munich remain in talks with Rio Ngumoha's camp, Tottenham midfielder Conor Gallagher monitored by rival Premier League clubs, plus more.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T22:05:40+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "06836b4d8065fe86",
+      "title": "Glasner glee and Delap double - win could be lift-off for Forest",
+      "summary": "Oliver Glasner's celebrations and two goals for Liam Delap bode well for a Nottingham Forest team looking to kick on after their first home Premier League win of the season.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T21:42:59+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "43fca14e9db04397",
+      "title": "Enzo Maresca rues Manchester City's lack of desire after defeat at Nottingham Forest",
+      "summary": "'You need desire and intensity … we didn't match them' City have now lost three successive league matches Enzo Maresca blamed his side's lack of desire and the way they were outgunned in duels for a third successive Premier League defeat. After winning their first seven games of the season, Manchester City's 3-1 loss at Nottingham Forest extended their poor run. Jair Cunha dispossessed Josko Gvardiol to score the opener, then Liam Delap struck twice with muscular surges on the break as Forest wo",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
+      "published_at": "2026-11-07T21:17:41+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "2acc35528aa2d34d",
       "title": "NWSL playoffs: Cooper's extra-time penalty sends Kansas City through as Utah stun San Diego",
@@ -48,18 +96,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cm0qkjdx3l9zo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-07T18:27:46+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "a553e824867ecee9",
-      "title": "European football: Bayern beat Mainz but Neuer's record-breaking day turns sour",
-      "summary": "Veteran becomes club's oldest player but suffers injury Keeper also in spotlight after another gaffe Bayern Munich secured a 2-1 victory over Mainz in the Bundesliga on Saturday but the form ⁠of goalkeeper Manuel Neuer will again be in the spotlight after another error almost produced an equaliser for the home side ⁠in the first ⁠half. Neuer became Bayern's ​oldest player at 40 years, 225 days, overtaking Bernd Dreher, but was forced off with a recurrence of a foot injury ⁠that had kept him out ",
-      "category": "Bundesliga",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
-      "published_at": "2026-11-07T17:13:48+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -120,18 +156,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
       "published_at": "2026-11-07T15:11:59+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "96e386b47f3a1a8f",
-      "title": "Bronze mistake, Chelsea frustration, Shaw hat-trick - WSL round-up",
-      "summary": "Khadija 'Bunny' Shaw struck a perfect hat-trick as Manchester City dispatched West Ham 5-0 to retake top spot in the Women's Super League.",
-      "category": "Women's Football",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13608977/man-city-5-0-west-ham-chelsea-1-1-everton-reigning-wsl-champions-make-title-statement-as-bunny-shaw-scores-hat-trick",
-      "published_at": "2026-11-07T15:00:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -204,6 +228,18 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/06/charlton-risk-being-chewed-up-wsl-karen-hills",
       "published_at": "2026-11-06T20:49:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "2ad06931dc464593",
+      "title": "Europa League: Sunderland lose at home to Zagreb while Celtic enjoy first win",
+      "summary": "Evanilson helps Bournemouth to 3-1 win at Sparta Prague Ferencvaros prevail 2-0 at Milan to keep 100% record Sunderland 's unbeaten run in the Europa League came to an end as they were beaten 2-0 by Dinamo Zagreb at the Stadium of Light. Dinamo went ahead through Luka Stojkovic's fierce strike and the midfielder turned provider for Dion Drena Beljo to double their advantage before the break. Continue reading...",
+      "category": "Europa League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
+      "published_at": "2026-11-05T23:27:14+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -293,6 +329,18 @@
       "status": "source_only"
     },
     {
+      "id": "543d39524415f2b5",
+      "title": "'She can do what Beckham did': Océane Hurtré making waves at Birmingham",
+      "summary": "WSL's second-highest goalscorer is likened to England legend for her crossing and has earned France call-up At the conclusion of Birmingham's warm-up, the players quietly and carefully placed their footballs into a draw-string bag. All except one, Océane Hurtré, who nonchalantly chipped hers straight into the bag from about 15 yards. It was an innocuous moment that might have escaped most onlookers at Hednesford Town's Keys Park but it demonstrated the swagger with which she is playing. To obser",
+      "category": "Women's Football",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/04/oceane-hurtre-birmingham-womens-super-league-france",
+      "published_at": "2026-11-04T13:00:11+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "21531dd5feb5efc9",
       "title": "Has a footballer ever run a marathon faster than James Milner? | The Knowledge",
       "summary": "Plus: managers sacked after signing new deals, war victims commemorated on kits and the first club website (part II) Mail us with all of your questions and answers It came as no surprise to the Knowledge that James Milner had spent the early months of his retirement training for – and then running in – the New York City Marathon. Yes, the bleep test-loving former Brighton, Liverpool and Manchester City player recorded an excellent time of 3hr 9min 4sec, an average of 7min 13sec per mile. Not bad",
@@ -312,54 +360,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/03/womens-world-cup-2027-missing-out-nigeria-moving-the-goalposts",
       "published_at": "2026-11-03T11:33:56+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "b7783332fb9f841d",
-      "title": "Which Premier League players are set for yellow card suspensions?",
-      "summary": "Hull City's Matt Crooks and Aston Villa's Matty Cash are the first players to receive a one-match ban for accumulating five yellow cards in the 2025-26 Premier League season.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/articles/cr3wj7wg35pxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T09:58:42+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "3b475aab6280a1c3",
-      "title": "How can playing for Manchester City fit into Marc Guéhi's moral universe? | Barney Ronay",
-      "summary": "Club's predicament raises interesting questions about principles, both for individuals and the Premier League I felt unbelievably ponderous. My head was made of Aztec stone. I realised I didn't want to be with all these people. Somebody came at me, a huge individual in silver and blue. I fell at his feet and grabbed one shoe. I started untying the lace. He kicked away from me. I got up and walked off. I was exceedingly hungry. Not my words. Also not the words of the Manchester City centre-back M",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/oct/30/manchester-city-financial-charges-guilty-marc-guehi-premier-league",
-      "published_at": "2026-10-30T20:00:22+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "3fd37722b51aefaa",
-      "title": "A phone-free Yellow Wall: are Dortmund urging fans to be present or policing them?",
-      "summary": "It makes sense that sports teams want to keep influencers out of their games. The battle some clubs are waging with their fans, however, is a different dilemma By all appearances, things on the Yellow Wall seemed as they always had been. The stadium announcer hollered out the first names of Borussia Dortmund's starting lineup and the supporters responded with their last names, tens of thousands of voices bellowing as one. Dozens of black and yellow flags waved over Europe's largest standing terr",
-      "category": "Bundesliga",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/oct/29/borussia-dortmund-fans-phones",
-      "published_at": "2026-10-29T17:00:29+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "b1591526e07b0916",
-      "title": "The horse that ushered in Manchester United's tragic arc | Jonathan Wilson",
-      "summary": "There's plenty of blame to go around at Old Trafford. Like all downfalls it started with a seemingly small, unconnected moment Sign up for our free newsletter here And so here we are again, at that point as the nights draw in and Manchester United prepare to sack a manager . Autumn: season of mists, mellow fruitfulness and a crisis at Old Trafford. Sunday's 3-0 home defeat to Bournemouth , coming on the back of last week's 4-1 reverse against Como, made clear what many had feared from the moment",
-      "category": "Women's Football",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/oct/26/the-horse-that-brought-down-manchester-united",
-      "published_at": "2026-10-26T14:43:51+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
