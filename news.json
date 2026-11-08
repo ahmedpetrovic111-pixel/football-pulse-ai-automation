@@ -1,17 +1,29 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-08T04:53:29.511458+00:00",
+  "updated_at": "2026-11-08T12:53:30.220913+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
     {
-      "id": "a553e824867ecee9",
-      "title": "European football: Mbappé eases Real Madrid past Valencia to move joint top",
-      "summary": "Valverde opens scoring in 3-0 victory for Real Madrid Bayern beat Mainz but Neuer's record-breaking day turns sour Kylian Mbappé scored for the seventh match running as Real Madrid pulled provisionally level on points with La Liga leaders Barcelona after a 3-0 win at 10-man Valencia on Saturday. Reigning champions Barça visit Atlético Madrid , third, on Sunday, aiming to move back clear of the chasing pack. José Mourinho's Madrid largely dominated at Mestalla stadium as they secured an eighth wi",
-      "category": "LaLiga",
+      "id": "4ef10fb116b614a8",
+      "title": "Julián Alvarez's Atlético redemption arc in full focus for visit of Barcelona",
+      "summary": "Top spot is up for grabs in Sunday's heavyweight clash as the Spider faces the team that tried to trap him last summer Julián Alvarez said sorry but forgiveness must be earned on the field and Sunday would be the perfect place. At 9pm at the Metropolitano, Atlético Madrid play Barcelona. It is the biggest match in Spain right now, a place at the top of the table awaiting the winner; it is also the game the striker they call the Spider planned to play on the other side. That, Alvarez said in Dall",
+      "category": "Champions League",
       "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
-      "published_at": "2026-11-07T22:30:08+00:00",
+      "source_url": "https://www.theguardian.com/football/2026/nov/08/julian-alvarezs-atletico-redemption-arc-in-full-focus-for-visit-of-barcelona",
+      "published_at": "2026-11-08T08:00:35+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "388ffa3cbe25488f",
+      "title": "Why unique Brighton defence is so tricky to unpick",
+      "summary": "Brighton's unique defensive shape has provided the platform for the Seagulls' superb start to the Premier League season.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm0j033lnp5po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T06:41:37+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -77,18 +89,6 @@
       "status": "source_only"
     },
     {
-      "id": "0be27d1586f08c2f",
-      "title": "Delightful Delap and outfought Anderson - Forest v Man City player ratings",
-      "summary": "How Nottingham Forest and Manchester City's players rated following their Premier League match at the City Ground.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c8wy9512p2yvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-07T19:26:31+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "07ac0289351e4521",
       "title": "Title race hots up before Chelsea-Man City showdown",
       "summary": "Champions Manchester City will travel to Chelsea next week on top of the pile after a decisive Saturday in the Women's Super League.",
@@ -137,18 +137,6 @@
       "status": "source_only"
     },
     {
-      "id": "1b546e247051dbe7",
-      "title": "Arsenal go six points clear with Hull win amid VAR drama",
-      "summary": "Martin Odegaard's goal clinched a 1-0 win over Hull to send Arsenal six points clear at the top of the Premier League table.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/arsenal-vs-hull-city/report/559534",
-      "published_at": "2026-11-07T17:00:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "1a45b55a8ef3e983",
       "title": "Manchester City break clear of Chelsea in WSL after Bronze's freak own goal",
       "summary": "Khadija Shaw hits hat-trick in City's 5-0 rout of West Ham Chelsea held 1-1 by Everton after Lucy Bronze own goal An own goal by defender Lucy Bronze ⁠against Everton cost Chelsea top spot in the Women's ⁠Super League as ⁠they ​were held to a 1-1 draw at home, allowing Manchester City ⁠to leapfrog them with a 5-0 drubbing of West Ham. Bronze headed ⁠the ball back across the goal to tee ​up Sandy Baltimore ‌to score ‌from close range in the 28th minute, but ‌five minutes later her attempted clear",
@@ -168,18 +156,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-07T14:35:23+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "109eb786a945c44a",
-      "title": "Okafor seals Leeds win but Tottenham complain to Pro Ref over Bogle tackle on Tel",
-      "summary": "It is almost one year to the day when the Leeds manager, Daniel Farke, produced the tactical overhaul many observers believe saved his job. That day, Farke abandoned his trusted 4-3-3 when Leeds were 2-0 down at Manchester City and although they lost the game, the 3-5-2 he reverted to was the bedrock for the success that followed. To suggest Farke was under similar pressure going into this game would be a stretch, but without a win in five Premier League games it was not unreasonable to suggest ",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
-      "published_at": "2026-11-07T14:34:21+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -233,18 +209,6 @@
       "status": "source_only"
     },
     {
-      "id": "2ad06931dc464593",
-      "title": "Europa League: Sunderland lose at home to Zagreb while Celtic enjoy first win",
-      "summary": "Evanilson helps Bournemouth to 3-1 win at Sparta Prague Ferencvaros prevail 2-0 at Milan to keep 100% record Sunderland 's unbeaten run in the Europa League came to an end as they were beaten 2-0 by Dinamo Zagreb at the Stadium of Light. Dinamo went ahead through Luka Stojkovic's fierce strike and the midfielder turned provider for Dion Drena Beljo to double their advantage before the break. Continue reading...",
-      "category": "Europa League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
-      "published_at": "2026-11-05T23:27:14+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "3c6dc918e1c7b146",
       "title": "Sutton's predictions v Football Manager, the game",
       "summary": "BBC Sport football expert Chris Sutton takes on the computer game Football Manager 27, plus the BBC readers and AI, with his predictions for this weekend's Premier League fixtures.",
@@ -252,6 +216,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/ck5ynzry64p2o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-05T18:02:15+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "a7aff121a493351d",
+      "title": "PL Predictions: Emery's Villa to inflict more misery on Carrick and Man Utd",
+      "summary": "Our top tipster Lewis Jones, aka Jones Knows, provides his analysis and betting insight across the Premier League weekend.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13607998/premier-league-predictions-jones-knows-best-bets-nottingham-forest-vs-man-city-man-utd-vs-aston-villa-and-more",
+      "published_at": "2026-11-05T17:40:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -305,18 +281,6 @@
       "status": "source_only"
     },
     {
-      "id": "9a6c6440f35f9f1d",
-      "title": "FA and WSL launch major study into ACL injuries in women's football",
-      "summary": "The Football Association and WSL Football launch a major research project to better understand why ACL injuries occur in women's football.",
-      "category": "Women's Football",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6e9le7l9m75o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T10:24:06+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "b0ee84cd8e12c7d1",
       "title": "Meet the people set for key role in deciding Man City fate",
       "summary": "The five individuals at the Premier League set to play a key role in the fate of Manchester City.",
@@ -353,6 +317,18 @@
       "status": "source_only"
     },
     {
+      "id": "e806651301afef68",
+      "title": "Liverpool's unwanted record highlights creativity issue",
+      "summary": "Liverpool set an unwanted record against Arsenal as they failed to register a shot on target for the first time in 442 Premier League home games, dating back to when records began in 2003.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13607467/liverpools-unwanted-record-against-arsenal-shows-creativity-problem-under-andoni-iraola-between-the-lines",
+      "published_at": "2026-11-03T12:55:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "3e979996b6b1f26a",
       "title": "'An absolute afterthought': the story of the Nigeria women's team's fall from grace",
       "summary": "The Super Falcons won't be at the World Cup and with the prize money going up, they risk being left even further behind It was a historic result in Casablanca – but not in a good way. Nigeria's 2-1 defeat against South Africa in a playoff in August meant that the Super Falcons are missing out on the World Cup for the first time. It is a crushing blow for the most decorated national side in Africa across both men and women, one that has won no fewer than 10 Wafcon titles . The journalist and lect",
@@ -360,6 +336,30 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/03/womens-world-cup-2027-missing-out-nigeria-moving-the-goalposts",
       "published_at": "2026-11-03T11:33:56+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "b7783332fb9f841d",
+      "title": "Which Premier League players are set for yellow card suspensions?",
+      "summary": "Hull City's Matt Crooks and Aston Villa's Matty Cash are the first players to receive a one-match ban for accumulating five yellow cards in the 2025-26 Premier League season.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/articles/cr3wj7wg35pxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T09:58:42+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "3b475aab6280a1c3",
+      "title": "How can playing for Manchester City fit into Marc Guéhi's moral universe? | Barney Ronay",
+      "summary": "Club's predicament raises interesting questions about principles, both for individuals and the Premier League I felt unbelievably ponderous. My head was made of Aztec stone. I realised I didn't want to be with all these people. Somebody came at me, a huge individual in silver and blue. I fell at his feet and grabbed one shoe. I started untying the lace. He kicked away from me. I got up and walked off. I was exceedingly hungry. Not my words. Also not the words of the Manchester City centre-back M",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/oct/30/manchester-city-financial-charges-guilty-marc-guehi-premier-league",
+      "published_at": "2026-10-30T20:00:22+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
