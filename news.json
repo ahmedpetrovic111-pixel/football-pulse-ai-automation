@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-09T16:15:57.488379+00:00",
+  "updated_at": "2026-11-09T16:23:07.919751+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "ad5c3c14f802a2ee",
+      "title": "Real Madrid legend Raul named Real Oviedo manager",
+      "summary": "Former Real Madrid striker Raul takes on his first role in senior club management after being appointed as boss of Spanish second division side Real Oviedo.",
+      "category": "LaLiga",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cwnv0v1yj585o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T16:16:30+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "72d4ecfd56244f90",
       "title": "What now for Man Utd and Carrick?",
@@ -44,7 +56,7 @@
       "id": "fbb6796bf2bfc201",
       "title": "Felix Nmecha's faith is forcing Borussia Dortmund into an uncomfortable debate",
       "summary": "Midfielder's spectacular strikes rescued a frustrating day, only for celebrations to reignite dialogue that has followed him through his career It was just what they needed at just the right time. For a tricky first half and beyond, Elversberg had been a stone in Borussia Dortmund's shoe, the promoted side not just keeping the home team at bay but keeping them honest, nourishing ambitions of their own. “The fatigue was clearly visible,” said the sporting director, Ole Book, to Sky after a week w",
-      "category": "Champions League",
+      "category": "Bundesliga",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga",
       "published_at": "2026-11-09T14:10:43+00:00",
@@ -348,18 +360,6 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13609937/unai-emery-aston-villa-boss-reveals-why-he-went-down-old-trafford-tunnel-before-full-time-in-eight-goal-thriller-at-man-utd",
       "published_at": "2026-11-08T19:25:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "8646e7ce0963c32f",
-      "title": "Are 'outstanding' Brighton now Arsenal's main title challengers?",
-      "summary": "After moving up to second in the Premier League, could Brighton really be Arsenal's main title challengers?",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cjx23rwxdn64o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T19:24:36+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
