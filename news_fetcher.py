@@ -607,12 +607,66 @@ def normalize_title(title):
 # MENGHAPUS JUDUL BERITA YANG MIRIP
 # ==========================================
 
+
+# ==========================================
+# MENGHAPUS JUDUL BERITA YANG MIRIP
+# V2 - Improved Duplicate Detection
+# ==========================================
+
 def remove_similar_duplicates(
     articles,
     threshold=0.92
 ):
 
     unique_articles = []
+
+    stop_words = {
+        "the",
+        "a",
+        "an",
+        "and",
+        "or",
+        "but",
+        "for",
+        "to",
+        "of",
+        "in",
+        "on",
+        "at",
+        "is",
+        "are",
+        "was",
+        "were",
+        "be",
+        "has",
+        "have",
+        "had",
+        "with",
+        "after",
+        "before",
+        "from",
+        "over",
+        "under",
+        "will",
+        "my",
+        "his",
+        "her",
+        "their",
+        "its",
+        "this",
+        "that",
+        "how",
+        "why",
+        "what",
+        "who",
+        "when",
+        "where",
+        "as",
+        "by",
+        "into",
+        "about",
+        "new"
+    }
 
     for article in articles:
 
@@ -623,10 +677,17 @@ def remove_similar_duplicates(
         if not title:
             continue
 
+        title_words = {
+            word
+            for word in title.split()
+            if word not in stop_words
+        }
+
         is_duplicate = False
 
         for existing in unique_articles:
 
+            # Hanya membandingkan kategori yang sama.
             if (
                 article.get("category")
                 != existing.get("category")
@@ -637,13 +698,43 @@ def remove_similar_duplicates(
                 existing.get("title", "")
             )
 
-            similarity = difflib.SequenceMatcher(
+            existing_words = {
+                word
+                for word in existing_title.split()
+                if word not in stop_words
+            }
+
+            # Pemeriksaan kemiripan susunan judul.
+            sequence_similarity = difflib.SequenceMatcher(
                 None,
                 title,
                 existing_title
             ).ratio()
 
-            if similarity >= threshold:
+            # Pemeriksaan kesamaan kata penting.
+            common_words = title_words & existing_words
+
+            if title_words and existing_words:
+
+                word_similarity = (
+                    len(common_words)
+                    / min(
+                        len(title_words),
+                        len(existing_words)
+                    )
+                )
+
+            else:
+                word_similarity = 0
+
+            # Dua metode pemeriksaan duplikat.
+            if (
+                sequence_similarity >= threshold
+                or (
+                    len(common_words) >= 4
+                    and word_similarity >= 0.80
+                )
+            ):
 
                 is_duplicate = True
                 break
@@ -652,6 +743,7 @@ def remove_similar_duplicates(
             unique_articles.append(article)
 
     return unique_articles
+
 
 
 # ==========================================
