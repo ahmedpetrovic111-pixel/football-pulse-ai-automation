@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-09T17:05:11.994412+00:00",
+  "updated_at": "2026-11-09T17:13:08.485139+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
@@ -144,18 +144,6 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season",
       "published_at": "2026-11-09T12:38:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "f5ca6ca094e1b4fd",
-      "title": "Alisson wants to sign new Liverpool contract",
-      "summary": "Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T12:00:11+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -360,6 +348,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c5m2ddz437nzo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-08T18:20:56+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "c7925ffc4b3b7574",
+      "title": "Diego Gómez hits another stunner as Brighton beat 10-man Brentford to go second",
+      "summary": "Who can stop Brighton's ­ascension in English and European football? They are setting standards, ­practices ­leaving almost everybody else ­trailing in their wake. A ­second‑place position in the ­Premier League would once have read like a glitch in a ­Football ­Manager ­session. Not in November 2026, where they appear the only team capable of throwing down any sort of challenge to Arsenal. Under low winter sun, Brentford, an opposition to which Brighton are often, if lazily, compared, were ­swa",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/08/brighton-brentford-premier-league-match-report",
+      "published_at": "2026-11-08T16:17:32+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
