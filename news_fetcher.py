@@ -628,11 +628,11 @@ def normalize_title(title):
 # V4 - Event-Based Detection
 # ==========================================
 
+
 def remove_similar_duplicates(articles, threshold=0.92):
 
     unique_articles = []
 
-    # Kata umum yang tidak dianggap sebagai nama entitas.
     entity_stop_words = {
         "the", "this", "that", "after", "before",
         "former", "new", "latest", "sunday",
@@ -641,10 +641,9 @@ def remove_similar_duplicates(articles, threshold=0.92):
         "premier", "league", "champions",
         "football", "sport", "season",
         "manager", "coach", "club", "team",
-        "united", "city"
+        "united", "city", "liverpool"
     }
 
-    # Kelompok kata yang menunjukkan jenis peristiwa.
     event_groups = {
         "manager_change": [
             "sack", "sacked", "sacking",
@@ -654,7 +653,8 @@ def remove_similar_duplicates(articles, threshold=0.92):
         ],
         "contract": [
             "contract", "renew", "renewal",
-            "extend", "extension", "new deal"
+            "extend", "extension", "new deal",
+            "stay", "sign new"
         ],
         "transfer": [
             "transfer", "bid", "signing",
@@ -662,7 +662,8 @@ def remove_similar_duplicates(articles, threshold=0.92):
         ],
         "injury": [
             "injury", "injured", "injuries",
-            "fitness", "surgery", "return"
+            "fitness", "surgery", "return",
+            "doubt", "tests"
         ],
         "discipline": [
             "suspend", "suspended", "ban",
@@ -746,7 +747,6 @@ def remove_similar_duplicates(articles, threshold=0.92):
 
         for existing in unique_articles:
 
-            # Kategori berita harus sama.
             if (
                 article.get("category")
                 != existing.get("category")
@@ -757,7 +757,6 @@ def remove_similar_duplicates(articles, threshold=0.92):
                 existing.get("title", "")
             )
 
-            # Membandingkan kemiripan judul.
             title_similarity = difflib.SequenceMatcher(
                 None,
                 title,
@@ -769,7 +768,6 @@ def remove_similar_duplicates(articles, threshold=0.92):
                 is_duplicate = True
                 break
 
-            # Membandingkan waktu publikasi.
             current_time = date_timestamp(
                 article.get("published_at", "")
             )
@@ -789,24 +787,20 @@ def remove_similar_duplicates(articles, threshold=0.92):
             if not recent_articles:
                 continue
 
-            # Membandingkan nama klub, pemain, dan pelatih.
             existing_entities = get_entities(existing)
+            existing_events = get_events(existing)
 
             common_entities = (
                 current_entities & existing_entities
             )
 
-            # Membandingkan jenis peristiwa.
-            existing_events = get_events(existing)
-
             common_events = (
                 current_events & existing_events
             )
 
-            # Berita dianggap duplikat jika memiliki
-            # minimal 3 entitas dan 1 jenis peristiwa sama.
+            # V5: Minimal 2 entitas dan 1 peristiwa sama.
             if (
-                len(common_entities) >= 3
+                len(common_entities) >= 2
                 and len(common_events) >= 1
             ):
 
@@ -818,6 +812,7 @@ def remove_similar_duplicates(articles, threshold=0.92):
             unique_articles.append(article)
 
     return unique_articles
+
 
 
 
