@@ -389,26 +389,30 @@ def is_relevant(title, summary):
 # ==========================================
 
 
+
 def classify_article(title, summary):
 
     title_content = title.lower()
     summary_content = summary.lower()
     content = title_content + " " + summary_content
 
-    # 1. Women's Football.
+    # 1. Timnas Indonesia.
+    if any(
+        keyword in title_content
+        for keyword in INDONESIA_TEAM_KEYWORDS
+    ):
+        return "Timnas Indonesia"
+
+    # 2. Women's Football berdasarkan judul.
     womens_keywords = COMPETITION_CATEGORIES[
         "Women's Football"
     ]
 
-    if any(keyword in content for keyword in womens_keywords):
-        return "Women's Football"
-
-    # 2. Timnas Indonesia.
     if any(
-        keyword in content
-        for keyword in INDONESIA_TEAM_KEYWORDS
+        keyword in title_content
+        for keyword in womens_keywords
     ):
-        return "Timnas Indonesia"
+        return "Women's Football"
 
     # 3. Kompetisi yang disebutkan langsung di judul.
     for category, keywords in COMPETITION_CATEGORIES.items():
@@ -428,7 +432,22 @@ def classify_article(title, summary):
         if any(club in title_content for club in clubs):
             return category
 
-    # 5. Kompetisi yang disebutkan di ringkasan.
+    # 5. Women's Football berdasarkan ringkasan.
+    # Hanya jika tidak ditemukan kategori pria di judul.
+    if any(
+        keyword in summary_content
+        for keyword in womens_keywords
+    ):
+        return "Women's Football"
+
+    # 6. Timnas Indonesia berdasarkan ringkasan.
+    if any(
+        keyword in summary_content
+        for keyword in INDONESIA_TEAM_KEYWORDS
+    ):
+        return "Timnas Indonesia"
+
+    # 7. Kompetisi yang disebutkan di ringkasan.
     for category, keywords in COMPETITION_CATEGORIES.items():
 
         if category in [
@@ -440,13 +459,13 @@ def classify_article(title, summary):
         if any(keyword in summary_content for keyword in keywords):
             return category
 
-    # 6. Klub yang disebutkan di ringkasan.
+    # 8. Klub yang disebutkan di ringkasan.
     for category, clubs in CLUB_CATEGORIES.items():
 
         if any(club in summary_content for club in clubs):
             return category
 
-    # 7. Liga 1 Indonesia.
+    # 9. Liga 1 Indonesia.
     indonesia_keywords = COMPETITION_CATEGORIES[
         "Liga 1 Indonesia"
     ]
@@ -454,7 +473,7 @@ def classify_article(title, summary):
     if any(keyword in content for keyword in indonesia_keywords):
         return "Liga 1 Indonesia"
 
-    # 8. Tim nasional negara lain.
+    # 10. Tim nasional negara lain.
     if any(
         keyword in content
         for keyword in NATIONAL_KEYWORDS
