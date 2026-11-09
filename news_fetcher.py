@@ -613,6 +613,12 @@ def normalize_title(title):
 # V2 - Improved Duplicate Detection
 # ==========================================
 
+
+# ==========================================
+# MENGHAPUS JUDUL BERITA YANG MIRIP
+# V3 - Smart News Detection
+# ==========================================
+
 def remove_similar_duplicates(
     articles,
     threshold=0.92
@@ -621,52 +627,35 @@ def remove_similar_duplicates(
     unique_articles = []
 
     stop_words = {
-        "the",
-        "a",
-        "an",
-        "and",
-        "or",
-        "but",
-        "for",
-        "to",
-        "of",
-        "in",
-        "on",
-        "at",
-        "is",
-        "are",
-        "was",
-        "were",
-        "be",
-        "has",
-        "have",
-        "had",
-        "with",
-        "after",
-        "before",
-        "from",
-        "over",
-        "under",
-        "will",
-        "my",
-        "his",
-        "her",
-        "their",
-        "its",
-        "this",
-        "that",
-        "how",
-        "why",
-        "what",
-        "who",
-        "when",
-        "where",
-        "as",
-        "by",
-        "into",
-        "about",
-        "new"
+        "the", "a", "an", "and", "or", "but",
+        "for", "to", "of", "in", "on", "at",
+        "is", "are", "was", "were", "be",
+        "has", "have", "had", "with", "after",
+        "before", "from", "over", "under",
+        "will", "my", "his", "her", "their",
+        "its", "this", "that", "how", "why",
+        "what", "who", "when", "where", "as",
+        "by", "into", "about", "new", "says",
+        "said", "could", "would", "should",
+        "more", "than", "also", "just"
     }
+
+    def get_words(article):
+
+        text = (
+            article.get("title", "")
+            + " "
+            + article.get("summary", "")
+        )
+
+        text = normalize_title(text)
+
+        return {
+            word
+            for word in text.split()
+            if word not in stop_words
+            and len(word) > 2
+        }
 
     for article in articles:
 
@@ -677,17 +666,13 @@ def remove_similar_duplicates(
         if not title:
             continue
 
-        title_words = {
-            word
-            for word in title.split()
-            if word not in stop_words
-        }
+        current_words = get_words(article)
 
         is_duplicate = False
 
         for existing in unique_articles:
 
-            # Hanya membandingkan kategori yang sama.
+            # Kategori harus sama.
             if (
                 article.get("category")
                 != existing.get("category")
@@ -698,43 +683,62 @@ def remove_similar_duplicates(
                 existing.get("title", "")
             )
 
-            existing_words = {
-                word
-                for word in existing_title.split()
-                if word not in stop_words
-            }
+            existing_words = get_words(existing)
 
-            # Pemeriksaan kemiripan susunan judul.
-            sequence_similarity = difflib.SequenceMatcher(
+            # Membandingkan judul.
+            title_similarity = difflib.SequenceMatcher(
                 None,
                 title,
                 existing_title
             ).ratio()
 
-            # Pemeriksaan kesamaan kata penting.
-            common_words = title_words & existing_words
+            # Membandingkan isi judul dan ringkasan.
+            common_words = current_words & existing_words
 
-            if title_words and existing_words:
+            if current_words and existing_words:
 
-                word_similarity = (
+                content_similarity = (
                     len(common_words)
                     / min(
-                        len(title_words),
+                        len(current_words),
                         len(existing_words)
                     )
                 )
 
             else:
-                word_similarity = 0
+                content_similarity = 0
 
-            # Dua metode pemeriksaan duplikat.
-            if (
-                sequence_similarity >= threshold
-                or (
-                    len(common_words) >= 4
-                    and word_similarity >= 0.80
-                )
-            ):
+            # Memeriksa jarak waktu berita.
+            current_time = date_timestamp(
+                article.get("published_at", "")
+            )
+
+            existing_time = date_timestamp(
+                existing.get("published_at", "")
+            )
+
+            time_difference = abs(
+                current_time - existing_time
+            )
+
+            recent_articles = (
+                current_time > 0
+                and existing_time > 0
+                and time_difference <= 72 * 60 * 60
+            )
+
+            # Aturan penghapusan duplikat.
+            title_match = (
+                title_similarity >= threshold
+            )
+
+            content_match = (
+                recent_articles
+                and len(common_words) >= 5
+                and content_similarity >= 0.65
+            )
+
+            if title_match or content_match:
 
                 is_duplicate = True
                 break
@@ -743,6 +747,7 @@ def remove_similar_duplicates(
             unique_articles.append(article)
 
     return unique_articles
+
 
 
 
