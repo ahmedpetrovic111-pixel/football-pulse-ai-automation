@@ -507,6 +507,8 @@ def fetch_feed(feed):
                 title,
                 summary
             )
+            if "felix nmecha" in title.lower():
+                print("DEBUG FELIX:", category)
 
             # Membuang berita di luar kategori prioritas.
             if category == "Tidak Ditampilkan":
