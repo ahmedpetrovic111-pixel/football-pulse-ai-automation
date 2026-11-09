@@ -1,9 +1,33 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-09T16:36:15.743321+00:00",
+  "updated_at": "2026-11-09T16:45:45.887212+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "3fd107c860e50fcf",
+      "title": "Manchester City's weaknesses under Enzo Maresca are being exposed",
+      "summary": "After three straight defeats, City's manager says he will use the international break to reassess. Their problems may go beyond tactics Sign up for our free newsletter here Enzo Maresca seemed, if not quite baffled by his side's Saturday defeat to Nottingham Forest, then at least a little put out. After seven straight wins from the start of the season, that's now three straight defeats, a pattern so unusual that it's been recorded only once before in top-flight English history, by Sheffield Wedn",
+      "category": "Women's Football",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/manchester-city-enzo-maresca-premier-league",
+      "published_at": "2026-11-09T16:30:13+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "f1874537185b4aa8",
+      "title": "Szoboszlai a doubt for Nations League conclusion",
+      "summary": "Liverpool midfielder Dominik Szoboszlai will undergo tests on a knee injury to ascertain his readiness to join up with the Hungarian national side for Nations League fixtures against Georgia and Northern Ireland.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T16:25:33+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "f018779555889a18",
       "title": "Manchester United weighing up Michael Carrick sacking as Wilcox leads review",
@@ -125,6 +149,18 @@
       "status": "source_only"
     },
     {
+      "id": "f5ca6ca094e1b4fd",
+      "title": "Alisson wants to sign new Liverpool contract",
+      "summary": "Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T12:00:11+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "17a18e5a011f80dc",
       "title": "Neville: Is Man City charges spotlight seeping into performances?",
       "summary": "Gary Neville has questioned whether the recent attention over Manchester City being charged by the Premier League has begun to seep into the team's performances.",
@@ -233,18 +269,6 @@
       "status": "source_only"
     },
     {
-      "id": "1e986951799cbd54",
-      "title": "Bizarre & thrilling theatre as Carrick in limbo with Man Utd in drop zone",
-      "summary": "It was a Premier League classic at Old Trafford but what has Manchester United's 4-4 draw with Aston Villa done to Michael Carrick's future?",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cked3qjw1q4xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T21:50:05+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "930d71c2196e0338",
       "title": "Dalot's muddled performances are just another symptom of Old Trafford chaos | Will Unwin",
       "summary": "The stand-in left-back has become a pantomime villain but United fans are understandably struggling to focus their ire Sporting success is, supposedly, a nigh-on irrelevance to Manchester United's global brand. The money will stream in regardless thanks to the behemoth company it has become, leaving behind its football club roots and becoming the world's greatest soap opera creating the sort of drama of which Phil Mitchell can only dream. There is a strong cast of characters from the hated billi",
@@ -264,30 +288,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c8qlnqggwge0o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-08T21:08:44+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "d5463eed6300d97d",
-      "title": "Frank leading candidate for Palace job with Sage likely to be sacked",
-      "summary": "Thomas Frank has emerged as a leading candidate to take over as Crystal Palace manager if the Eagles decide to sack Pierre Sage.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13609990/thomas-frank-former-spurs-and-brentford-boss-leading-contender-to-take-over-at-crystal-palace-if-pierre-sage-is-sacked",
-      "published_at": "2026-11-08T20:56:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "1126f23715a86b11",
-      "title": "Palace consider replacing Sage, with Frank among contenders",
-      "summary": "Crystal Palace manager Pierre Sage is in serious danger of losing his job, with Thomas Frank among the contenders to replace him.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c623dpeey3e4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T20:49:40+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -353,13 +353,13 @@
       "status": "source_only"
     },
     {
-      "id": "133bc55dac5af46c",
-      "title": "Leeds condemn racist abuse of Bogle after Tel incident",
-      "summary": "Leeds United condemn the \"disgusting\" online racist abuse directed towards defender Jayden Bogle following Saturday's 1-0 win against Tottenham.",
+      "id": "92403cd6641532d0",
+      "title": "'Tinkerman' Alonso's Chelsea side still searching for identity",
+      "summary": "Xabi Alonso's frustration is evident as Chelsea's struggles for an identity continue with the disappointing 1-0 defeat by Sunderland.",
       "category": "Premier League",
       "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/ck5yn1zzyr2jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T19:12:01+00:00",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c5m2ddz437nzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T18:20:56+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
