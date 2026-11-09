@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-09T15:52:58.986100+00:00",
+  "updated_at": "2026-11-09T16:15:57.488379+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "72d4ecfd56244f90",
+      "title": "What now for Man Utd and Carrick?",
+      "summary": "The future of Michael Carrick at Manchester United remains a mystery following the dramatic 4-4 draw with Aston Villa on Sunday.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13610134/manchester-united-the-key-questions-with-michael-carricks-future-still-up-in-the-air-at-old-trafford",
+      "published_at": "2026-11-09T15:00:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "dbd7c7e83b985610",
       "title": "Incident-by-incident: Was it a bad weekend for VAR?",
@@ -41,6 +53,30 @@
       "status": "source_only"
     },
     {
+      "id": "5bcaeeeb03463625",
+      "title": "Lens were humiliated by Como. The pain continued against Marseille",
+      "summary": "Pierre Sage led Lens to second and glory in the Coupe de France last season. A lot has changed in the last six months The Lens striker, Florian Sotoca, was completely motionless as he looked into the middle space from the bench. The game, finely poised at 2-1 with a few minutes remaining, was not beyond his side, but that is not the story his troubled face told. Marseille had just restored their lead thanks to a goal from substitute Keyliane Abdallah. Bruno Génésio's men would go on to take all ",
+      "category": "Ligue 1",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1",
+      "published_at": "2026-11-09T13:37:45+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "d33d5671cfb2557e",
+      "title": "Why are Manchester United fans wearing green and gold?",
+      "summary": "Our Ask Me Anything team explain why some Manchester United fans are wearing green and gold to matches.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cwe8l8y2egk2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T12:54:09+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "6ea3c4743ed84110",
       "title": "Chelsea staff warned over Fantasy Premier League use",
       "summary": "Chelsea warn staff to be careful about revealing team news through Fantasy Premier League after Joao Pedro's injury appeared to have been inadvertently disclosed through team selections.",
@@ -48,6 +84,30 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c98rzr51rlvpo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-09T12:41:23+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "9bc36e4b70531f72",
+      "title": "'My will is to stay' - Alisson wants new Liverpool contract",
+      "summary": "Liverpool goalkeeper Alisson says he wants to stay at Anfield beyond the end of the season when his contract expires.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season",
+      "published_at": "2026-11-09T12:38:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "f5ca6ca094e1b4fd",
+      "title": "Alisson wants to sign new Liverpool contract",
+      "summary": "Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T12:00:11+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -72,6 +132,18 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
       "published_at": "2026-11-09T11:24:37+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "aae48084b7fb74ac",
+      "title": "Musiala may never return to his best - Hoeness",
+      "summary": "Bayern Munich honorary president Uli Hoeness questions whether forward Jamal Musiala will ever \"regain the performance level he once had\".",
+      "category": "Bundesliga",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw78p8dp0keeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T11:01:09+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -125,6 +197,18 @@
       "status": "source_only"
     },
     {
+      "id": "b7baa4ff2f50d5dc",
+      "title": "Barcelona move clear at the top after Fermín López's double stuns Atlético Madrid",
+      "summary": "They had been in a battle, they had been behind and they had been on edge, but Barcelona found a way through, holding on to their place at the top of the table and holding the doubts at bay for another day. A fortnight in which they were defeated by Paris Saint-Germain and Real Madrid , in which they might have wondered if something was not right, ended with a 2-1 win at Atlético Madrid. This was a proper test and a proper game, 10 World Cup winners on the field and first place awaiting the winn",
+      "category": "LaLiga",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/08/atletico-madrid-barcelona-la-liga-match-report",
+      "published_at": "2026-11-08T22:27:50+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "4e1acbeed1965699",
       "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
       "summary": "Frenchman under pressure after four successive defeats Former Spurs manager Frank emerging as main candidate Crystal Palace are poised to sack Pierre Sage after Sunday's defeat by Liverpool left them bottom of the Premier League for the first time since December 2017, with Thomas Frank emerging as the main candidate to succeed him. The Frenchman, appointed in mid-June to replace Oliver Glasner, has been under mounting pressure since a 5-0 defeat by Brighton last month. There have been few signs ",
@@ -173,6 +257,42 @@
       "status": "source_only"
     },
     {
+      "id": "d35d05b8dc173e17",
+      "title": "Villa's Kamara on Chelsea watchlist - Monday's gossip",
+      "summary": "Aston Villa midfielder Boubacar Kamara is on Chelsea's watchlist, Manchester United could make an offer for Nottingham Forest's Murillo, plus more.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c8qlnqggwge0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T21:08:44+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "d5463eed6300d97d",
+      "title": "Frank leading candidate for Palace job with Sage likely to be sacked",
+      "summary": "Thomas Frank has emerged as a leading candidate to take over as Crystal Palace manager if the Eagles decide to sack Pierre Sage.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13609990/thomas-frank-former-spurs-and-brentford-boss-leading-contender-to-take-over-at-crystal-palace-if-pierre-sage-is-sacked",
+      "published_at": "2026-11-08T20:56:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "1126f23715a86b11",
+      "title": "Palace consider replacing Sage, with Frank among contenders",
+      "summary": "Crystal Palace manager Pierre Sage is in serious danger of losing his job, with Thomas Frank among the contenders to replace him.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c623dpeey3e4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T20:49:40+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "81dd6b40dbfe4a04",
       "title": "Who has made Troy's Premier League team of the week?",
       "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
@@ -209,6 +329,30 @@
       "status": "source_only"
     },
     {
+      "id": "919561fe65e62861",
+      "title": "Man Utd in relegation zone but Carrick 'expects' to stay on",
+      "summary": "Under-pressure Manchester United boss Michael Carrick \"expects\" to stay on despite his side sitting in the relegation zone after Sunday's dramatic 4-4 home draw against Aston Villa.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13609927/michael-carrick-manchester-united-boss-expects-to-stay-on-despite-club-sitting-in-relegation-zone-after-aston-villa-draw",
+      "published_at": "2026-11-08T19:40:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "c1d3dd40efb21cbb",
+      "title": "Villa boss Emery explains why he went down tunnel before full-time",
+      "summary": "A prickly Unai Emery claimed he headed down the Old Trafford tunnel after Manchester United's late equaliser against his Aston Villa side because he thought the match was about to end.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13609937/unai-emery-aston-villa-boss-reveals-why-he-went-down-old-trafford-tunnel-before-full-time-in-eight-goal-thriller-at-man-utd",
+      "published_at": "2026-11-08T19:25:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "8646e7ce0963c32f",
       "title": "Are 'outstanding' Brighton now Arsenal's main title challengers?",
       "summary": "After moving up to second in the Premier League, could Brighton really be Arsenal's main title challengers?",
@@ -216,150 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cjx23rwxdn64o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-08T19:24:36+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c7925ffc4b3b7574",
-      "title": "Diego Gómez hits another stunner as Brighton beat 10-man Brentford to go second",
-      "summary": "Who can stop Brighton's ­ascension in English and European football? They are setting standards, ­practices ­leaving almost everybody else ­trailing in their wake. A ­second‑place position in the ­Premier League would once have read like a glitch in a ­Football ­Manager ­session. Not in November 2026, where they appear the only team capable of throwing down any sort of challenge to Arsenal. Under low winter sun, Brentford, an opposition to which Brighton are often, if lazily, compared, were ­swa",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/08/brighton-brentford-premier-league-match-report",
-      "published_at": "2026-11-08T16:17:32+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "9f83b200fe999ff0",
-      "title": "Le Fée's penalty stuns Chelsea and breathes life into defiant Sunderland",
-      "summary": "A lot can change in five‑and‑a‑half months, but as an early winter chill descended on Wearside last week – both meteorologically and ­metaphorically – Sunderland were determined that some things should remain the same. Just as they had beaten Chelsea on the final day of last season to ensure European qualification for the first time in 53 years, they did so again on Sunday to lift themselves off the bottom of the Premier League. The Sunderland performance was certainly familiar to their head coa",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/08/sunderland-chelsea-premier-league-match-report",
-      "published_at": "2026-11-08T16:16:34+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "92ccc0c65575cb7f",
-      "title": "Evanilson ignites eighth straight Bournemouth win at blundering Ipswich",
-      "summary": "Marco Rose paid tribute to his Bournemouth side after a hard‑fought 2-1 victory at Ipswich equalled the club's record of eight consecutive wins. Evanilson got the ball rolling after five minutes, scoring for a fifth successive Premier League match. With seven goals this season, he has already beaten his tally from the whole of last season. Continue reading...",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/08/ipswich-bournemouth-premier-league-match-report",
-      "published_at": "2026-11-08T16:14:31+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "e264d7ab6dccf624",
-      "title": "Russo on target again as double fires under-pressure Arsenal to vital WSL win at Liverpool",
-      "summary": "If a good striker can always get their team out of a hole, Alessia Russo is doing her best to drag Arsenal out of a deep chasm of uncertainty. Her two goals gave the ­under‑pressure Arsenal head coach, Renée Slegers, some brief respite with a much-needed, albeit still rather unconvincing victory. Russo's double took her impressive recent tally to seven goals in her past four appearances. Her goals were priceless for an Arsenal team who arrived on Merseyside with just one win in their previous se",
-      "category": "Women's Football",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/08/liverpool-arsenal-wsl-match-report",
-      "published_at": "2026-11-08T14:13:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "2acc35528aa2d34d",
-      "title": "NWSL playoffs: Cooper's extra-time penalty sends Kansas City through as Utah stun San Diego",
-      "summary": "Michelle Cooper strikes in extra time to lift Current Kansas City extend unbeaten home record with 1-0 win Seventh-seeded Utah Royals upset San Diego Wave Michelle Cooper converted an extra-time penalty to give the Kansas City Current a 1-0 victory over Angel City on Sunday in the quarter-finals of the National Women's Soccer League playoffs. The fourth-seeded Current will face the winner of Sunday's quarter-final between top-seeded Gotham FC and No 8 Seattle Reign FC in next weekend's semi-fina",
-      "category": "Women's Football",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/07/nwsl-playoffs-kansas-city-current-angel-city-utah-royals-san-diego-wave",
-      "published_at": "2026-11-07T20:40:37+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "2e5faf37364ebc2b",
-      "title": "What new Kane deal means for England and the Premier League record",
-      "summary": "Harry Kane's new deal at Bayern Munich may end his Premier League career but offers fresh hope he can lead England to glory, writes Phil McNulty.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T14:44:34+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "d9129ac74c4efa2e",
-      "title": "Meet Clara Serrajordi: Barcelona's midfield hope filling the void left by Alexia Putellas | Moving the Goalposts",
-      "summary": "The 18-year-old on being thrown in at the deep end with the first team, playing with her idols and replacing a legend The next move on the chess board could not have been clearer for Barcelona and their coach, Pere Romeu: a new queen has broken into the Blaugrana midfield. Clara Serrajordi has made substantial moves already: she made her first-team debut at the age of 17, started ahead of Aitana Bonmatí in the 2026 Champions League final and is filling the void left by the departed Alexia Putell",
-      "category": "Champions League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/05/clara-serrajordi-barcelona-midfielder-alexia-putellas-moving-the-goalposts",
-      "published_at": "2026-11-05T11:52:22+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "1315fdfbfefb6c01",
-      "title": "Who is close to a yellow card suspension in Champions League?",
-      "summary": "BBC Sport's Ask Me Anything team explains what the rules are regarding yellow card suspensions in this season's Champions League",
-      "category": "Champions League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c54g1vpypgw3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T10:54:52+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "543d39524415f2b5",
-      "title": "'She can do what Beckham did': Océane Hurtré making waves at Birmingham",
-      "summary": "WSL's second-highest goalscorer is likened to England legend for her crossing and has earned France call-up At the conclusion of Birmingham's warm-up, the players quietly and carefully placed their footballs into a draw-string bag. All except one, Océane Hurtré, who nonchalantly chipped hers straight into the bag from about 15 yards. It was an innocuous moment that might have escaped most onlookers at Hednesford Town's Keys Park but it demonstrated the swagger with which she is playing. To obser",
-      "category": "Women's Football",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/04/oceane-hurtre-birmingham-womens-super-league-france",
-      "published_at": "2026-11-04T13:00:11+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "21531dd5feb5efc9",
-      "title": "Has a footballer ever run a marathon faster than James Milner? | The Knowledge",
-      "summary": "Plus: managers sacked after signing new deals, war victims commemorated on kits and the first club website (part II) Mail us with all of your questions and answers It came as no surprise to the Knowledge that James Milner had spent the early months of his retirement training for – and then running in – the New York City Marathon. Yes, the bleep test-loving former Brighton, Liverpool and Manchester City player recorded an excellent time of 3hr 9min 4sec, an average of 7min 13sec per mile. Not bad",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/04/footballer-run-marathon-faster-than-james-milner-the-knowledge",
-      "published_at": "2026-11-04T08:00:29+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "293b7c712c6bdd56",
-      "title": "West Ham took too long to sack Nuno and now must trust Parker to do what he does best | Jacob Steinberg",
-      "summary": "Forget speculation over how a Parker-led side would fare in the Premier League and let the man who has taken three clubs up do his work again It has taken West Ham six months to come to their senses and sack Nuno Espírito Santo, but at least the decision has arrived early enough to revive their hopes of automatic promotion. Dithering was no longer an option after the dismal performance against West Brom last Saturday. Continue reading...",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/04/west-ham-took-too-long-to-sack-nuno-and-now-must-trust-parker-to-do-what-he-does-best",
-      "published_at": "2026-11-04T08:00:28+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "3e979996b6b1f26a",
-      "title": "'An absolute afterthought': the story of the Nigeria women's team's fall from grace",
-      "summary": "The Super Falcons won't be at the World Cup and with the prize money going up, they risk being left even further behind It was a historic result in Casablanca – but not in a good way. Nigeria's 2-1 defeat against South Africa in a playoff in August meant that the Super Falcons are missing out on the World Cup for the first time. It is a crushing blow for the most decorated national side in Africa across both men and women, one that has won no fewer than 10 Wafcon titles . The journalist and lect",
-      "category": "Women's Football",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/03/womens-world-cup-2027-missing-out-nigeria-moving-the-goalposts",
-      "published_at": "2026-11-03T11:33:56+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
