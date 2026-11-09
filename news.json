@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-09T16:23:07.919751+00:00",
+  "updated_at": "2026-11-09T16:29:07.494888+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
@@ -108,18 +108,6 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season",
       "published_at": "2026-11-09T12:38:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "f5ca6ca094e1b4fd",
-      "title": "Alisson wants to sign new Liverpool contract",
-      "summary": "Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T12:00:11+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -360,6 +348,18 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13609937/unai-emery-aston-villa-boss-reveals-why-he-went-down-old-trafford-tunnel-before-full-time-in-eight-goal-thriller-at-man-utd",
       "published_at": "2026-11-08T19:25:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "8646e7ce0963c32f",
+      "title": "Are 'outstanding' Brighton now Arsenal's main title challengers?",
+      "summary": "After moving up to second in the Premier League, could Brighton really be Arsenal's main title challengers?",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cjx23rwxdn64o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T19:24:36+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
