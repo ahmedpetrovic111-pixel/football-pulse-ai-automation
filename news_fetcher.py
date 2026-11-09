@@ -634,15 +634,15 @@ def remove_similar_duplicates(articles, threshold=0.92):
     unique_articles = []
 
     entity_stop_words = {
-        "the", "this", "that", "after", "before",
-        "former", "new", "latest", "sunday",
-        "monday", "tuesday", "wednesday",
-        "thursday", "friday", "saturday",
-        "premier", "league", "champions",
-        "football", "sport", "season",
-        "manager", "coach", "club", "team",
-        "united", "city", "liverpool"
-    }
+    "the", "this", "that", "after", "before",
+    "former", "new", "latest", "sunday",
+    "monday", "tuesday", "wednesday",
+    "thursday", "friday", "saturday",
+    "premier", "league", "champions",
+    "football", "sport", "season",
+    "manager", "coach", "club", "team",
+    "united", "city"
+}
 
     event_groups = {
         "manager_change": [
