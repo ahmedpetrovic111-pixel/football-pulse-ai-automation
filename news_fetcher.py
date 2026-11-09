@@ -508,7 +508,19 @@ def fetch_feed(feed):
                 summary
             )
             if "felix nmecha" in title.lower():
-                print("DEBUG FELIX:", category)
+            content_debug = (title + " " + summary).lower()
+
+            print("DEBUG FELIX TITLE:", title)
+            print("DEBUG FELIX SUMMARY:", summary)
+
+            for cat, kws in COMPETITION_CATEGORIES.items():
+            matched = [
+            keyword for keyword in kws
+            if keyword in content_debug
+        ]
+
+        if matched:
+            print("DEBUG MATCH:", cat, matched)
 
             # Membuang berita di luar kategori prioritas.
             if category == "Tidak Ditampilkan":
