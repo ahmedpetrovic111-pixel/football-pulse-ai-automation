@@ -15,7 +15,7 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 4.0 - Improved News Classification
+# Versi 5.0 - Improved News Classification
 # Gratis, tanpa AI, tanpa API Key
 # ==========================================
 
@@ -56,8 +56,6 @@ EXCLUDED_KEYWORDS = [
 
 # ==========================================
 # KATEGORI KOMPETISI
-# Urutan ini menjadi prioritas kategori.
-# Women's Football tetap ditampilkan terakhir.
 # ==========================================
 
 COMPETITION_CATEGORIES = {
@@ -106,7 +104,7 @@ COMPETITION_CATEGORIES = {
         "liga 1"
     ],
 
-        "Women's Football": [
+    "Women's Football": [
         "women's champions league",
         "womens champions league",
         "women champions league",
@@ -135,6 +133,7 @@ COMPETITION_CATEGORIES = {
         "lionesses"
     ]
 }
+
 
 # ==========================================
 # KATA KUNCI TIMNAS INDONESIA
@@ -231,6 +230,7 @@ CLUB_CATEGORIES = {
 # ==========================================
 
 def clean_text(value):
+
     if not value:
         return ""
 
@@ -247,6 +247,7 @@ def clean_text(value):
 # ==========================================
 
 def parse_date(value):
+
     if not value:
         return ""
 
@@ -263,6 +264,7 @@ def parse_date(value):
 
 
 def date_timestamp(value):
+
     try:
         return datetime.fromisoformat(
             value.replace("Z", "+00:00")
@@ -277,6 +279,7 @@ def date_timestamp(value):
 # ==========================================
 
 def canonical_url(url):
+
     try:
         parts = urlsplit(url)
 
@@ -312,17 +315,16 @@ def canonical_url(url):
 # FILTER BERITA TIDAK RELEVAN
 # ==========================================
 
-
 def is_relevant(title, summary):
 
     content = (title + " " + summary).lower()
 
-    # 1. Menolak kata-kata yang sudah masuk daftar pengecualian.
+    # Menolak berita yang tidak diinginkan.
     for keyword in EXCLUDED_KEYWORDS:
         if keyword in content:
             return False
 
-    # 2. Menolak berita live blog dan live commentary.
+    # Menolak live blog dan live commentary.
     live_blog_patterns = [
         "live blog",
         "live updates",
@@ -341,7 +343,7 @@ def is_relevant(title, summary):
         if phrase in content:
             return False
 
-    # 3. Menolak berita video dan highlight.
+    # Menolak video dan highlight.
     video_patterns = [
         "highlights:",
         "highlights from",
@@ -359,7 +361,7 @@ def is_relevant(title, summary):
         if phrase in content:
             return False
 
-    # 4. Menolak kompetisi di luar prioritas.
+    # Menolak kompetisi di luar prioritas.
     excluded_competitions = [
         "fa cup",
         "championship",
@@ -382,6 +384,10 @@ def is_relevant(title, summary):
     return True
 
 
+# ==========================================
+# KLASIFIKASI BERITA
+# ==========================================
+
 def classify_article(title, summary):
 
     content = (title + " " + summary).lower()
@@ -401,28 +407,50 @@ def classify_article(title, summary):
     ):
         return "Timnas Indonesia"
 
-    # 3. Kompetisi prioritas.
+    # 3. Kompetisi yang disebutkan secara eksplisit.
+    # Nama kompetisi lebih diutamakan daripada nama klub
+    # jika berita membahas kompetisi tersebut.
+
     for category, keywords in COMPETITION_CATEGORIES.items():
 
         if category in [
             "Women's Football",
-            "Timnas Indonesia"
+            "Liga 1 Indonesia"
         ]:
             continue
 
         if any(keyword in content for keyword in keywords):
             return category
 
-    # 4. Tim nasional negara lain.
+    # 4. Klasifikasi berdasarkan klub.
+    # Digunakan jika nama kompetisi tidak ditemukan.
+
+    for category, clubs in CLUB_CATEGORIES.items():
+
+        if any(club in content for club in clubs):
+            return category
+
+    # 5. Liga 1 Indonesia.
+    indonesia_keywords = COMPETITION_CATEGORIES[
+        "Liga 1 Indonesia"
+    ]
+
+    if any(keyword in content for keyword in indonesia_keywords):
+        return "Liga 1 Indonesia"
+
+    # 6. Tim nasional negara lain.
     if any(
         keyword in content
         for keyword in NATIONAL_KEYWORDS
     ):
         return "Tim Nasional"
 
-    # 5. Tidak cocok dengan kategori prioritas.
     return "Tidak Ditampilkan"
 
+
+# ==========================================
+# MEMBUAT ID BERITA
+# ==========================================
 
 def make_article_id(url):
 
@@ -435,7 +463,6 @@ def make_article_id(url):
 # MENGAMBIL BERITA DARI RSS
 # ==========================================
 
-
 def fetch_feed(feed):
 
     print(f"Mengambil berita: {feed['name']}")
@@ -443,7 +470,7 @@ def fetch_feed(feed):
     request = urllib.request.Request(
         feed["url"],
         headers={
-            "User-Agent": "Mozilla/5.0 FootballPulseAI/4.0"
+            "User-Agent": "Mozilla/5.0 FootballPulseAI/5.0"
         }
     )
 
@@ -477,10 +504,10 @@ def fetch_feed(feed):
             published_at = parse_date(
                 item.findtext("pubDate")
             )
+
             if not title or not link:
                 continue
 
-            # Menolak berita live blog dan live match.
             url_lower = link.lower()
 
             # Menolak tautan video.
@@ -491,6 +518,7 @@ def fetch_feed(feed):
             ):
                 continue
 
+            # Menolak live blog dan live match.
             if (
                 "/live-blog/" in url_lower
                 or "/football/live/" in url_lower
@@ -498,29 +526,15 @@ def fetch_feed(feed):
             ):
                 continue
 
-            # Menolak video, highlight, dan kompetisi nonprioritas.
+            # Menyaring berita yang tidak relevan.
             if not is_relevant(title, summary):
                 continue
 
-            # Memeriksa kategori berita.
+            # Menentukan kategori berita.
             category = classify_article(
                 title,
                 summary
             )
-            if "felix nmecha" in title.lower():
-            content_debug = (title + " " + summary).lower()
-
-            print("DEBUG FELIX TITLE:", title)
-            print("DEBUG FELIX SUMMARY:", summary)
-
-            for cat, kws in COMPETITION_CATEGORIES.items():
-            matched = [
-            keyword for keyword in kws
-            if keyword in content_debug
-        ]
-
-        if matched:
-            print("DEBUG MATCH:", cat, matched)
 
             # Membuang berita di luar kategori prioritas.
             if category == "Tidak Ditampilkan":
@@ -554,6 +568,10 @@ def fetch_feed(feed):
 
         return None
 
+
+# ==========================================
+# NORMALISASI JUDUL
+# ==========================================
 
 def normalize_title(title):
 
@@ -611,11 +629,9 @@ def remove_similar_duplicates(
             if similarity >= threshold:
 
                 is_duplicate = True
-
                 break
 
         if not is_duplicate:
-
             unique_articles.append(article)
 
     return unique_articles
@@ -632,7 +648,6 @@ def main():
     successful_feeds = 0
 
     # Mengambil berita dari semua sumber RSS.
-
     for feed in FEEDS:
 
         articles = fetch_feed(feed)
@@ -643,6 +658,7 @@ def main():
 
             all_articles.extend(articles)
 
+    # Jika semua sumber gagal, pertahankan news.json lama.
     if successful_feeds == 0:
 
         print("\nSemua sumber gagal diakses.")
@@ -654,7 +670,6 @@ def main():
         return
 
     # Menghapus duplikat berdasarkan URL.
-
     unique_articles = {}
 
     for article in all_articles:
@@ -664,13 +679,11 @@ def main():
         )
 
         if key not in unique_articles:
-
             unique_articles[key] = article
 
     news = list(unique_articles.values())
 
     # Mengurutkan berita terbaru terlebih dahulu.
-
     news.sort(
         key=lambda article: date_timestamp(
             article["published_at"]
@@ -679,7 +692,6 @@ def main():
     )
 
     # Menghapus berita dengan judul sangat mirip.
-
     before_count = len(news)
 
     news = remove_similar_duplicates(news)
@@ -695,11 +707,9 @@ def main():
     )
 
     # Membatasi jumlah berita.
-
     news = news[:MAX_NEWS]
 
     # Menyiapkan data JSON.
-
     output = {
         "site": "Football Pulse AI",
         "updated_at": datetime.now(
@@ -711,7 +721,6 @@ def main():
     }
 
     # Menyimpan berita ke news.json.
-
     OUTPUT_FILE.write_text(
         json.dumps(
             output,
@@ -737,5 +746,4 @@ def main():
 
 
 if __name__ == "__main__":
-
     main()
