@@ -1,9 +1,45 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-08T21:46:23.233269+00:00",
+  "updated_at": "2026-11-09T05:01:46.451157+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "4e1acbeed1965699",
+      "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
+      "summary": "Frenchman under pressure after four successive defeats Former Spurs manager Frank emerging as main candidate Crystal Palace are poised to sack Pierre Sage after Sunday's defeat by Liverpool left them bottom of the Premier League for the first time since December 2017, with Thomas Frank emerging as the main candidate to succeed him. The Frenchman, appointed in mid-June to replace Oliver Glasner, has been under mounting pressure since a 5-0 defeat by Brighton last month. There have been few signs ",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park",
+      "published_at": "2026-11-08T22:12:58+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "1e986951799cbd54",
+      "title": "Bizarre & thrilling theatre as Carrick in limbo with Man Utd in drop zone",
+      "summary": "It was a Premier League classic at Old Trafford but what has Manchester United's 4-4 draw with Aston Villa done to Michael Carrick's future?",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cked3qjw1q4xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T21:50:05+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "28a3b61a8bccf90b",
+      "title": "'I expect to move forward': Carrick denies risk of Manchester United sack",
+      "summary": "'Is there?' manager retorts when told of talk over position Bizarre 4-4 draw with Villa leaves United in bottom three A tetchy Michael Carrick dismissed a suggestion he could resign as head coach for the good of the team after Sunday's chaotic 4-4 draw with Aston Villa left Manchester United in the relegation zone heading into the international window. Carrick's side sit in 18th place with eight points from 10 games and have won only once, in August at home to Ipswich, in the league this season.",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/08/michael-carrick-denies-risk-manchester-united-sack-aston-villa-premier-league-draw",
+      "published_at": "2026-11-08T21:40:36+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "930d71c2196e0338",
       "title": "Dalot's muddled performances are just another symptom of Old Trafford chaos | Will Unwin",
@@ -101,18 +137,6 @@
       "status": "source_only"
     },
     {
-      "id": "8cb70cb7c8e00ef9",
-      "title": "Wirtz provides quality as Liverpool leave Crystal Palace propping up table",
-      "summary": "It was the moment when ­Liverpool knew they would win here in south London and so move on from the ­Premier League defeat against ­Arsenal at Anfield last Sunday and the one in midweek at Fenerbahce in the Champions League. Florian Wirtz had timed his run as Liverpool broke up the right and Bradley Barcola's low pull back was made to measure. Wirtz had to take on the shot first time and it was a test of his technique under pressure. He never looked like failing it, not least because smoothness i",
-      "category": "Champions League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report",
-      "published_at": "2026-11-08T16:16:18+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "92ccc0c65575cb7f",
       "title": "Evanilson ignites eighth straight Bournemouth win at blundering Ipswich",
       "summary": "Marco Rose paid tribute to his Bournemouth side after a hard‑fought 2-1 victory at Ipswich equalled the club's record of eight consecutive wins. Evanilson got the ball rolling after five minutes, scoring for a fifth successive Premier League match. With seven goals this season, he has already beaten his tally from the whole of last season. Continue reading...",
@@ -192,18 +216,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/08/liverpool-arsenal-wsl-match-report",
       "published_at": "2026-11-08T14:13:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "06836b4d8065fe86",
-      "title": "Glasner glee and Delap double - win could be lift-off for Forest",
-      "summary": "Oliver Glasner's celebrations and two goals for Liam Delap bode well for a Nottingham Forest team looking to kick on after their first home Premier League win of the season.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-07T21:42:59+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -348,18 +360,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/04/footballer-run-marathon-faster-than-james-milner-the-knowledge",
       "published_at": "2026-11-04T08:00:29+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "3e979996b6b1f26a",
-      "title": "'An absolute afterthought': the story of the Nigeria women's team's fall from grace",
-      "summary": "The Super Falcons won't be at the World Cup and with the prize money going up, they risk being left even further behind It was a historic result in Casablanca – but not in a good way. Nigeria's 2-1 defeat against South Africa in a playoff in August meant that the Super Falcons are missing out on the World Cup for the first time. It is a crushing blow for the most decorated national side in Africa across both men and women, one that has won no fewer than 10 Wafcon titles . The journalist and lect",
-      "category": "Women's Football",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/03/womens-world-cup-2027-missing-out-nigeria-moving-the-goalposts",
-      "published_at": "2026-11-03T11:33:56+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
