@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-09T16:29:07.494888+00:00",
+  "updated_at": "2026-11-09T16:36:15.743321+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "f018779555889a18",
+      "title": "Manchester United weighing up Michael Carrick sacking as Wilcox leads review",
+      "summary": "Carrick given time after Como and Bournemouth defeats Recommendation will be made to Sir Jim Ratcliffe Manchester United are deciding whether Michael Carrick should be sacked, with Jason Wilcox, the director of football, leading the review after the head coach was given the Chelsea, Roma and Aston Villa games to turn results around . Wilcox is consulting with Omar Berrada, the chief executive, before a recommendation regarding Carrick is made to Sir Jim Ratcliffe, who controls sporting policy. U",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking",
+      "published_at": "2026-11-09T16:21:31+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "ad5c3c14f802a2ee",
       "title": "Real Madrid legend Raul named Real Oviedo manager",
@@ -233,18 +245,6 @@
       "status": "source_only"
     },
     {
-      "id": "28a3b61a8bccf90b",
-      "title": "'I expect to move forward': Carrick denies risk of Manchester United sack",
-      "summary": "'Is there?' manager retorts when told of talk over position Bizarre 4-4 draw with Villa leaves United in bottom three A tetchy Michael Carrick dismissed a suggestion he could resign as head coach for the good of the team after Sunday's chaotic 4-4 draw with Aston Villa left Manchester United in the relegation zone heading into the international window. Carrick's side sit in 18th place with eight points from 10 games and have won only once, in August at home to Ipswich, in the league this season.",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/08/michael-carrick-denies-risk-manchester-united-sack-aston-villa-premier-league-draw",
-      "published_at": "2026-11-08T21:40:36+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "930d71c2196e0338",
       "title": "Dalot's muddled performances are just another symptom of Old Trafford chaos | Will Unwin",
       "summary": "The stand-in left-back has become a pantomime villain but United fans are understandably struggling to focus their ire Sporting success is, supposedly, a nigh-on irrelevance to Manchester United's global brand. The money will stream in regardless thanks to the behemoth company it has become, leaving behind its football club roots and becoming the world's greatest soap opera creating the sort of drama of which Phil Mitchell can only dream. There is a strong cast of characters from the hated billi",
@@ -329,18 +329,6 @@
       "status": "source_only"
     },
     {
-      "id": "919561fe65e62861",
-      "title": "Man Utd in relegation zone but Carrick 'expects' to stay on",
-      "summary": "Under-pressure Manchester United boss Michael Carrick \"expects\" to stay on despite his side sitting in the relegation zone after Sunday's dramatic 4-4 home draw against Aston Villa.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13609927/michael-carrick-manchester-united-boss-expects-to-stay-on-despite-club-sitting-in-relegation-zone-after-aston-villa-draw",
-      "published_at": "2026-11-08T19:40:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "c1d3dd40efb21cbb",
       "title": "Villa boss Emery explains why he went down tunnel before full-time",
       "summary": "A prickly Unai Emery claimed he headed down the Old Trafford tunnel after Manchester United's late equaliser against his Aston Villa side because he thought the match was about to end.",
@@ -360,6 +348,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cjx23rwxdn64o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-08T19:24:36+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "133bc55dac5af46c",
+      "title": "Leeds condemn racist abuse of Bogle after Tel incident",
+      "summary": "Leeds United condemn the \"disgusting\" online racist abuse directed towards defender Jayden Bogle following Saturday's 1-0 win against Tottenham.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/ck5yn1zzyr2jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T19:12:01+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
