@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-10T17:08:49.487337+00:00",
+  "updated_at": "2026-11-10T17:19:09.253949+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
@@ -77,18 +77,6 @@
       "status": "source_only"
     },
     {
-      "id": "f1874537185b4aa8",
-      "title": "Szoboszlai fitness call to come at 'last minute'",
-      "summary": "Hungary say they will do \"everything possible\" for Liverpool midfielder Dominik Szoboszlai to feature in Nations League fixtures against Georgia and Northern Ireland across the next week.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-10T12:06:28+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "906ff94ca6f33e48",
       "title": "From W-M to the No 10, shirt numbers tell a story of football's tactical evolution",
       "summary": "In the days before squad numbers, the number on a shirt was an indicator of position, as well as the attributes a player was supposed to demonstrate Ultimate 1-50: check out our complete list of players Numbers have a fascination. The No 10 is revered almost everywhere, but perhaps most especially in Argentina, where it denotes the playmaker, the enganche , the quasi-mythical figure who links the front and back of the team. Liverpool and Manchester United have reasons to celebrate their No 7. Aj",
@@ -115,7 +103,7 @@
     {
       "id": "b74c299d4888507b",
       "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
-      "summary": "Manchester United head coach Michael Carrick's future will be discussed at a meeting in Monaco on Wednesday.",
+      "summary": "Manchester United head coach Michael Carrick's future will be discussed at a meeting on Wednesday, but executives Omar Berrada and Jason Wilcox retain the support of minority owner Sir Jim Ratcliffe.",
       "category": "Premier League",
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
@@ -245,18 +233,6 @@
       "status": "source_only"
     },
     {
-      "id": "63c2dff1c518f4ba",
-      "title": "BBC Women's Football Weekly",
-      "summary": "Ellen and Ben are on location with the London City Lionesses and Spain defender!",
-      "category": "Women's Football",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sounds/play/p0pm60tc?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T21:46:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "6e6b538565c040b6",
       "title": "NI's O'Neill ruled out of Nations League matches",
       "summary": "Arsenal forward Ceadach O'Neill is ruled out of Northern Ireland's final two Nations League fixtures against Ukraine in Belfast and Hungary in Budapest.",
@@ -317,18 +293,6 @@
       "status": "source_only"
     },
     {
-      "id": "48a5bac1644c4fa7",
-      "title": "People don't know full story behind England exile - White",
-      "summary": "Arsenal defender Ben White says people don't know the \"full story\" behind his decision to previously make himself unavailable for England selection - but says he would make the same decision again.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T19:00:10+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "ad5c3c14f802a2ee",
       "title": "Real Madrid legend Raul named Real Oviedo manager",
       "summary": "Former Real Madrid striker Raul takes on his first role in senior club management after being appointed as boss of Spanish second division side Real Oviedo.",
@@ -360,6 +324,42 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a",
       "published_at": "2026-11-09T14:18:45+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "fbb6796bf2bfc201",
+      "title": "Felix Nmecha's faith is forcing Borussia Dortmund into an uncomfortable debate",
+      "summary": "Midfielder's spectacular strikes rescued a frustrating day, only for celebrations to reignite dialogue that has followed him through his career It was just what they needed at just the right time. For a tricky first half and beyond, Elversberg had been a stone in Borussia Dortmund's shoe, the promoted side not just keeping the home team at bay but keeping them honest, nourishing ambitions of their own. “The fatigue was clearly visible,” the sporting director, Ole Book, said to Sky after a week w",
+      "category": "Bundesliga",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga",
+      "published_at": "2026-11-09T14:10:43+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "6ea3c4743ed84110",
+      "title": "Chelsea staff warned over Fantasy Premier League use",
+      "summary": "Chelsea warn staff to be careful about revealing team news through Fantasy Premier League after Joao Pedro's injury appeared to have been inadvertently disclosed through team selections.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c98rzr51rlvpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T12:41:23+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "9bc36e4b70531f72",
+      "title": "'My will is to stay' - Alisson wants new Liverpool contract",
+      "summary": "Liverpool goalkeeper Alisson says he wants to stay at Anfield beyond the end of the season when his contract expires.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season",
+      "published_at": "2026-11-09T12:38:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
