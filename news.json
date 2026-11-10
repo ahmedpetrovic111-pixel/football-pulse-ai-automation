@@ -1,9 +1,81 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-10T17:58:07.322079+00:00",
+  "updated_at": "2026-11-10T22:55:38.015588+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "fd919f00cad3a07d",
+      "title": "Fujino's double sparks WCL comeback win for Manchester City against Inter",
+      "summary": "Manchester City's European campaign finally came roaring into life as they put four goals past Inter to record their first Women's Champions League victory of the season and greatly improve their prospects of reaching the knockout stages. The English side had to come from behind after a slow start but two goals from Aoba Fujino put them ahead before half-time, and second-half efforts from Kerstin Casparij and Grace Clinton gave them a 4-1 victory in Monza that doubled their points tally, after t",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
+      "published_at": "2026-11-10T22:05:43+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "d3c160f3ba7b0988",
+      "title": "Pocognoli to lean on Scotland's 'captain group of five'",
+      "summary": "Sebastien Pocognoli is delighted to welcome \"exciting\" Scott McTominay into his squad, saying the Napoli midfielder is one of the \"fantastic leaders\" that helped persuade him to become Scotland head coach.",
+      "category": "Serie A",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T20:49:11+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "a0c8ebf52f58f2d2",
+      "title": "McTominay reveals heart treatment two days before Scotland's World Cup opener",
+      "summary": "Midfielder was in hospital before Haiti match 'I had to get the shock on my heart,' says McTominay Scott McTominay has revealed he was in hospital under sedation to have a “shock on my heart” just 48 hours before Scotland began their World Cup campaign against Haiti in June. At the time McTominay's absence from training was put down to a stomach complaint. It emerged in August that the Napoli midfielder needed surgery to remedy an irregular heartbeat. The operation took place in September, causi",
+      "category": "Serie A",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/10/mctominay-reveals-heart-treatment-two-days-before-scotlands-world-cup-opener",
+      "published_at": "2026-11-10T19:54:51+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "daad724bacd10901",
+      "title": "Partick Thistle lose SWPL points for amateur player payments",
+      "summary": "Partick Thistle are deducted three points and fined £6,000 by the Scottish Women's Premier League for making payments to players who were registered as amateurs last season.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cme3x33vz0p0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T19:23:42+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "acd126e6ccad5748",
+      "title": "Rio Ngumoha ready to make England splash as he spells out Ballon d'Or ambition",
+      "summary": "Fearless winger has forced his way into Thomas Tuchel's plans and believes he can become best player in the world Rio Ngumoha is fearless, exciting and ready to make his mark as an England player. The Liverpool winger narrowly missed the cut for the World Cup squad last summer but he impressed during the pre-tournament camp in Florida and has forced his way into Thomas Tuchel's plans after an excellent start to the season. There is an opportunity for the 18-year-old to advance his case with Buka",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/10/rio-ngumoha-ready-to-make-england-splash-as-he-spells-out-ballon-dor-ambition",
+      "published_at": "2026-11-10T19:00:17+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "38ae3be2302ae8bb",
+      "title": "The Monaco summit that will decide the future of Carrick and Man Utd",
+      "summary": "Manchester United's power brokers meet in Monaco on Wednesday to decide whether Michael Carrick will remain as head coach",
+      "category": "Ligue 1",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T18:12:02+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "a5dd26ae823a9775",
       "title": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
@@ -31,7 +103,7 @@
     {
       "id": "825b7d4b7902395c",
       "title": "Crystal Palace could avoid significant compensation if Pierre Sage rejoins Lens",
-      "summary": "Sage's exit from Premier League club still not confirmed Manager's potential return to France could benefit Palace Crystal Palace could avoid having to pay Pierre Sage significant compensation if he is reappointed by his former club Lens, with the Frenchman's departure from Selhurst Park still yet to be confirmed. The decision to sack Sage was made on Sunday evening after Palace slumped to a 3-1 defeat against Liverpool . It was their fourth successive loss in the Premier League and left them bo",
+      "summary": "Sage's exit from Premier League club still not confirmed Manager's potential return to France could benefit Palace Crystal Palace could avoid paying Pierre Sage significant compensation if he is reappointed by his former club, Lens, with the manager's departure from Selhurst Park yet to be confirmed. The decision to sack Sage was made on Sunday evening after Palace slumped to a 3-1 defeat against Liverpool . It was their fourth successive loss in the Premier League and left them bottom of the ta",
       "category": "Premier League",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/10/pierre-sage-crystal-palace-premier-league-lens",
@@ -185,6 +257,18 @@
       "status": "source_only"
     },
     {
+      "id": "b57d8b50f93d0d1b",
+      "title": "City claim first win of European campaign in Inter thrashing",
+      "summary": "Manchester City kept their hopes of securing a Champions League top-four finish alive with a convincing comeback victory over Inter Milan.",
+      "category": "Champions League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/inter-milan-women-vs-manchester-city-women/report/578260",
+      "published_at": "2026-11-09T21:55:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "b0c315c0e6ee2d27",
       "title": "Manchester's soulless content machine football clubs sum up post-imperial Britain | Barney Ronay",
       "summary": "United and City dominate the news cycle with stories so strange and vast they threaten to consume the rest of the league In Manchester this weekend it was possible to bookend your Thursday‑to‑Sunday entertainment with two cultural events. First up, a debut screening of the re‑released and uncensored Ken Russell film The Devils at Trafford Odeon. And three days later, three miles down the road, Manchester United versus Aston Villa at Old Trafford. As expected, one of these events provided a visce",
@@ -221,25 +305,13 @@
       "status": "source_only"
     },
     {
-      "id": "f660d042cc5f49ce",
-      "title": "Ben White says he has no complaints at boos from England fans over self-imposed exile",
-      "summary": "Arsenal defender was jeered during draw with Uruguay 'Everyone can do whatever they want,' says White Ben White has said he has no complaints at being booed by England fans when he ended his international exile during the 1-1 draw with ­Uruguay this year. The Arsenal defender, who has returned to Thomas Tuchel's squad after missing last month's camp because of injury, became unpopular with some supporters after leaving the 2022 World Cup in Qatar early for personal reasons. White made himself un",
+      "id": "48a5bac1644c4fa7",
+      "title": "People don't know full story behind England exile - White",
+      "summary": "Arsenal defender Ben White says people don't know the \"full story\" behind his decision to previously make himself unavailable for England selection - but says he would make the same decision again.",
       "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/09/ben-white-england-international-exile-arsenal-thomas-tuchel-squad-nations-league-spain-croatia",
-      "published_at": "2026-11-09T20:00:17+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "ad5c3c14f802a2ee",
-      "title": "Real Madrid legend Raul named Real Oviedo manager",
-      "summary": "Former Real Madrid striker Raul takes on his first role in senior club management after being appointed as boss of Spanish second division side Real Oviedo.",
-      "category": "LaLiga",
       "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cwnv0v1yj585o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T16:16:30+00:00",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T19:00:10+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -252,30 +324,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6n9r93dnr9do?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-09T14:34:19+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "3f899daf72d97011",
-      "title": "That's a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life | Nicky Bandini",
-      "summary": "Roma and Lazio have both made unbeaten starts to the Serie A season, giving those in the Italian capital dreams of a Scudetto After nine games in 28 days, Gian Piero Gasperini finally got a moment to pause and reflect on Sunday night. The Roma manager was back in Liguria, where he worked for the best part of a decade across two stints at Genoa, to collect an award from Stelle Nello Sport – an association formed to promote sport in the region – celebrating his career achievements and commitment t",
-      "category": "Serie A",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a",
-      "published_at": "2026-11-09T14:18:45+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "fbb6796bf2bfc201",
-      "title": "Felix Nmecha's faith is forcing Borussia Dortmund into an uncomfortable debate",
-      "summary": "Midfielder's spectacular strikes rescued a frustrating day, only for celebrations to reignite dialogue that has followed him through his career It was just what they needed at just the right time. For a tricky first half and beyond, Elversberg had been a stone in Borussia Dortmund's shoe, the promoted side not just keeping the home team at bay but keeping them honest, nourishing ambitions of their own. “The fatigue was clearly visible,” the sporting director, Ole Book, said to Sky after a week w",
-      "category": "Bundesliga",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga",
-      "published_at": "2026-11-09T14:10:43+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -312,54 +360,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
       "published_at": "2026-11-09T11:24:37+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "b93f1bb68ca12159",
-      "title": "Football comes together across Spain to honour Jesús de Miguel: 'We've seen how fragile life is'",
-      "summary": "Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their history stopped his teammates for a moment and told them what it meant to wear the shirt. “This is very important,” Ante Budimir began as the dressing room, their sanctuary, fell silent around him. “W",
-      "category": "LaLiga",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-      "published_at": "2026-11-09T11:00:13+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "b7783332fb9f841d",
-      "title": "Which Premier League players are set for yellow card suspensions?",
-      "summary": "Thirteen players are on the brink of a one-match ban in the 2026-27 Premier League season.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/articles/cr3wj7wg35pxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T10:33:57+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "1e1931858d4fbd62",
-      "title": "Fishlock retires after record-breaking career",
-      "summary": "Wales' record cap-holder and goalscorer, Jess Fishlock, hangs up her boots after Seattle Reign were beaten in the NWSL play-offs.",
-      "category": "Women's Football",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T06:32:11+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "81dd6b40dbfe4a04",
-      "title": "Who has made Troy's Premier League team of the week?",
-      "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T20:18:01+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
