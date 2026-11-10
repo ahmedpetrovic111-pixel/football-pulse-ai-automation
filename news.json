@@ -1,9 +1,69 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-10T14:28:29.452528+00:00",
+  "updated_at": "2026-11-10T17:08:49.487337+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "7235418ffbabc958",
+      "title": "What is the Women's Champions League prize money?",
+      "summary": "Our Ask Me Anything team break down the prize money on offer in the Women's Champions League.",
+      "category": "Women's Football",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw8dzdzq2zn6o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T16:29:16+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "6b4f815acd1992d7",
+      "title": "Pochettino, Howe, Emery... or Carrick? Man Utd's managerial options",
+      "summary": "As doubts grow over Manchester United boss Michael Carrick's future, what are the club's managerial options?",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T16:17:10+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "a5dd26ae823a9775",
+      "title": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
+      "summary": "Coach's contract has release clause of about $10m United expected to sack Michael Carrick after awful start US men's national team head coach Mauricio Pochettino is interested in a move to Manchester United, multiple sources told the Guardian, with those same sources characterizing the interest as mutual. United are expected to sack their head coach, Michael Carrick, after a disastrous start to their season which leaves them at risk of relegation from the Premier League, their worst opening to a",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
+      "published_at": "2026-11-10T16:10:38+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "825b7d4b7902395c",
+      "title": "Crystal Palace could avoid significant compensation if Pierre Sage rejoins Lens",
+      "summary": "Sage's exit from Premier League club still not confirmed Manager's potential return to France could benefit Palace Crystal Palace could avoid having to pay Pierre Sage significant compensation if he is reappointed by his former club Lens, with the Frenchman's departure from Selhurst Park still yet to be confirmed. The decision to sack Sage was made on Sunday evening after Palace slumped to a 3-1 defeat against Liverpool . It was their fourth successive loss in the Premier League and left them bo",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/10/pierre-sage-crystal-palace-premier-league-lens",
+      "published_at": "2026-11-10T15:08:24+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "e67894d5a7d00726",
+      "title": "Man Utd Q&A: Carrick, Poch, INEOS and more answered",
+      "summary": "Kaveh Solhekol has answered your latest questions on Manchester United, with Michael Carrick's future up in the air, the club in the relegation zone and more issues behind the scenes.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13610675/man-utd-qa-michael-carrick-mauricio-pochettino-ineos-and-more-kaveh-solhekol-answers-your-questions",
+      "published_at": "2026-11-10T15:00:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "cf612769aabfdaf8",
       "title": "Kompany back at Bayern training after collapse",
@@ -12,18 +72,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c674p4el33wno?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-10T14:17:04+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "47c8ddee2ac1c927",
-      "title": "Merson: Man Utd transfer policy is to blame - not Carrick",
-      "summary": "Sky Sports' Paul Merson believes Manchester United's transfer strategy is to blame for their worst start to a top-flight season instead of head coach Michael Carrick.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13610645/man-utds-transfer-policy-to-blame-for-clubs-worst-premier-league-start-and-not-michael-carrick-says-paul-merson",
-      "published_at": "2026-11-10T13:30:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -65,9 +113,21 @@
       "status": "source_only"
     },
     {
+      "id": "b74c299d4888507b",
+      "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
+      "summary": "Manchester United head coach Michael Carrick's future will be discussed at a meeting in Monaco on Wednesday.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T11:23:43+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "aca4c7986ddc145d",
       "title": "David Squires on … You Can MUFC Everything",
-      "summary": "Our cartoonist takes us behind the scenes as Manchester United's leading minds try to control the narrative Buy a cartoon | Some of David's favourite works And his latest book, Chaos in the Box: get it now Continue reading...",
+      "summary": "Our cartoonist takes us behind the scenes as Manchester United's leading minds try to control the narrative Buy this cartoon | Some of David's favourite works And his latest book, Chaos in the Box: get it now Continue reading...",
       "category": "Premier League",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/picture/2026/nov/10/david-squires-on-you-can-mufc-everything-manchester-united",
@@ -78,7 +138,7 @@
     },
     {
       "id": "4f00f11c3b481360",
-      "title": "Rui Pinto's lawyers in talks with UK authorities over cooperation deal for whistleblower",
+      "title": "Rui Pinto's lawyers in talks with UK authorities over deal for Manchester City whistleblower",
       "summary": "Serious Fraud Office has contacted Pinto He is willing to assist in exchange for protection Rui Pinto's lawyers are in talks with British authorities over a potential cooperation agreement under which the Manchester City whistleblower could help to expose serious financial and sporting crime in the UK. According to information obtained by the Guardian, the Serious Fraud Office has contacted Pinto after it emerged he was willing to assist British authorities with their investigations in exchange ",
       "category": "Premier League",
       "source": "The Guardian",
@@ -103,7 +163,7 @@
     {
       "id": "043d65af95183f15",
       "title": "Felix Nmecha denies goal celebrations promote 'intolerance, discrimination and hate'",
-      "summary": "Celebrations linked to ultra-conservative Christian group 'Our message is of love' Nmecha says in reply to criticism Borussia Dortmund and Germany midfielder Felix Nmecha has responded to criticism of goal celebrations linked to an evangelical network by saying they've been misunderstood and are not meant to promote “intolerance, discrimination, or hate in any form.” Nmecha, a devout Christian, was criticised by the Dortmund official supporters' group at the weekend for celebrating goals with a ",
+      "summary": "Celebrations linked to ultra-conservative Christian group 'Our message is of love' Nmecha says in reply to criticism Borussia Dortmund and Germany midfielder Felix Nmecha has responded to criticism of goal celebrations linked to an evangelical network by saying they've been misunderstood and are not meant to promote “intolerance, discrimination, or hate in any form”. Nmecha, a devout Christian, was criticised by the Dortmund official supporters' group at the weekend for celebrating goals with a ",
       "category": "Bundesliga",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/10/felix-nmecha-denies-goal-celebrations-promote-intolerance-discrimination-and-hate",
@@ -300,66 +360,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a",
       "published_at": "2026-11-09T14:18:45+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "fbb6796bf2bfc201",
-      "title": "Felix Nmecha's faith is forcing Borussia Dortmund into an uncomfortable debate",
-      "summary": "Midfielder's spectacular strikes rescued a frustrating day, only for celebrations to reignite dialogue that has followed him through his career It was just what they needed at just the right time. For a tricky first half and beyond, Elversberg had been a stone in Borussia Dortmund's shoe, the promoted side not just keeping the home team at bay but keeping them honest, nourishing ambitions of their own. “The fatigue was clearly visible,” the sporting director, Ole Book, said to Sky after a week w",
-      "category": "Bundesliga",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga",
-      "published_at": "2026-11-09T14:10:43+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "5bcaeeeb03463625",
-      "title": "Lens were humiliated by Como. The pain continued against Marseille",
-      "summary": "Pierre Sage led Lens to second and glory in the Coupe de France last season. A lot has changed in the last six months The Lens striker, Florian Sotoca, was completely motionless as he looked into the middle space from the bench. The game, finely poised at 2-1 with a few minutes remaining, was not beyond his side, but that is not the story his troubled face told. Marseille had just restored their lead thanks to a goal from substitute Keyliane Abdallah. Bruno Génésio's men would go on to take all ",
-      "category": "Ligue 1",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1",
-      "published_at": "2026-11-09T13:37:45+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "6ea3c4743ed84110",
-      "title": "Chelsea staff warned over Fantasy Premier League use",
-      "summary": "Chelsea warn staff to be careful about revealing team news through Fantasy Premier League after Joao Pedro's injury appeared to have been inadvertently disclosed through team selections.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c98rzr51rlvpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T12:41:23+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "9bc36e4b70531f72",
-      "title": "'My will is to stay' - Alisson wants new Liverpool contract",
-      "summary": "Liverpool goalkeeper Alisson says he wants to stay at Anfield beyond the end of the season when his contract expires.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season",
-      "published_at": "2026-11-09T12:38:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "5e687688ec4190d7",
-      "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
-      "summary": "The City forward hit a WSL hat-trick for the ninth time while Eva Olid's United have found defensive stability Not only did Khadija “Bunny” Shaw score a record-extending ninth WSL hat-trick, she scored a “perfect hat-trick” for the fourth time in the competition, something nobody else has managed more than once. Against West Ham the Jamaica striker opened the scoring with her left foot, headed home her second off the underside of the crossbar and tucked in her third with her right foot late on. ",
-      "category": "Women's Football",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
-      "published_at": "2026-11-09T11:24:37+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
