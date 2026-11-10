@@ -669,6 +669,10 @@ def remove_similar_duplicates(articles, threshold=0.92):
             "suspend", "suspended", "ban",
             "banned", "disciplinary"
         ],
+        "international_exile": [
+            "exile", "unavailable",
+            "booed", "boos", "jeered"
+        ],
         "match_result": [
             "defeat", "defeated", "victory",
             "win", "won", "draw", "beat",
