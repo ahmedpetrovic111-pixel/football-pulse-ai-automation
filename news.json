@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-10T17:36:43.533159+00:00",
+  "updated_at": "2026-11-10T17:45:43.516361+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
@@ -96,18 +96,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/ckjrwrggjlryo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-10T11:41:27+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "aca4c7986ddc145d",
-      "title": "David Squires on … You Can MUFC Everything",
-      "summary": "Our cartoonist takes us behind the scenes as Manchester United's leading minds try to control the narrative Buy this cartoon | Some of David's favourite works And his latest book, Chaos in the Box: get it now Continue reading...",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/picture/2026/nov/10/david-squires-on-you-can-mufc-everything-manchester-united",
-      "published_at": "2026-11-10T11:02:54+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -360,6 +348,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/articles/cr3wj7wg35pxo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-09T10:33:57+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "1e1931858d4fbd62",
+      "title": "Fishlock retires after record-breaking career",
+      "summary": "Wales' record cap-holder and goalscorer, Jess Fishlock, hangs up her boots after Seattle Reign were beaten in the NWSL play-offs.",
+      "category": "Women's Football",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T06:32:11+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
