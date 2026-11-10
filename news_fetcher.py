@@ -50,7 +50,9 @@ EXCLUDED_KEYWORDS = [
     "podcast",
     "who am i?",
     "crossword",
-    "fantasy football"
+    "fantasy football",
+    "listen:",
+    "bbc sounds"
 ]
 
 
