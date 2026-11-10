@@ -420,7 +420,13 @@ def classify_article(title, summary):
     ):
         return "Women's Football"
 
-    # 3. Kompetisi yang disebutkan langsung di judul.
+    # 3. Klub yang disebutkan langsung di judul.
+    for category, clubs in CLUB_CATEGORIES.items():
+
+        if any(club in title_content for club in clubs):
+            return category
+
+    # 4. Kompetisi yang disebutkan langsung di judul.
     for category, keywords in COMPETITION_CATEGORIES.items():
 
         if category in [
@@ -430,12 +436,6 @@ def classify_article(title, summary):
             continue
 
         if any(keyword in title_content for keyword in keywords):
-            return category
-
-    # 4. Klub yang disebutkan langsung di judul.
-    for category, clubs in CLUB_CATEGORIES.items():
-
-        if any(club in title_content for club in clubs):
             return category
 
     # 5. Women's Football berdasarkan ringkasan.
