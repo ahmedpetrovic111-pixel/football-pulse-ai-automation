@@ -111,6 +111,7 @@ COMPETITION_CATEGORIES = {
         "uwcl",
         "women's super league",
         "womens super league",
+        "kerstin casparij",
         "women's football",
         "womens football",
         "women's world cup",
