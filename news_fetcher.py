@@ -319,7 +319,10 @@ def canonical_url(url):
 def is_relevant(title, summary):
 
     content = (title + " " + summary).lower()
-
+    # Menolak kartun David Squires.
+    if "david squires" in content:
+        return False
+        
     # Menolak berita yang tidak diinginkan.
     for keyword in EXCLUDED_KEYWORDS:
         if keyword in content:
