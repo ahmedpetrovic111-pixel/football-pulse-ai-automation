@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-10T17:19:09.253949+00:00",
+  "updated_at": "2026-11-10T17:28:58.747386+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
@@ -24,18 +24,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-10T16:17:10+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "a5dd26ae823a9775",
-      "title": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
-      "summary": "Coach's contract has release clause of about $10m United expected to sack Michael Carrick after awful start US men's national team head coach Mauricio Pochettino is interested in a move to Manchester United, multiple sources told the Guardian, with those same sources characterizing the interest as mutual. United are expected to sack their head coach, Michael Carrick, after a disastrous start to their season which leaves them at risk of relegation from the Premier League, their worst opening to a",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
-      "published_at": "2026-11-10T16:10:38+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -77,6 +65,18 @@
       "status": "source_only"
     },
     {
+      "id": "f1874537185b4aa8",
+      "title": "Szoboszlai fitness call to come at 'last minute'",
+      "summary": "Hungary say they will do \"everything possible\" for Liverpool midfielder Dominik Szoboszlai to feature in Nations League fixtures against Georgia and Northern Ireland across the next week.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T12:06:28+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "906ff94ca6f33e48",
       "title": "From W-M to the No 10, shirt numbers tell a story of football's tactical evolution",
       "summary": "In the days before squad numbers, the number on a shirt was an indicator of position, as well as the attributes a player was supposed to demonstrate Ultimate 1-50: check out our complete list of players Numbers have a fascination. The No 10 is revered almost everywhere, but perhaps most especially in Argentina, where it denotes the playmaker, the enganche , the quasi-mythical figure who links the front and back of the team. Liverpool and Manchester United have reasons to celebrate their No 7. Aj",
@@ -101,18 +101,6 @@
       "status": "source_only"
     },
     {
-      "id": "b74c299d4888507b",
-      "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
-      "summary": "Manchester United head coach Michael Carrick's future will be discussed at a meeting on Wednesday, but executives Omar Berrada and Jason Wilcox retain the support of minority owner Sir Jim Ratcliffe.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-10T11:23:43+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "aca4c7986ddc145d",
       "title": "David Squires on … You Can MUFC Everything",
       "summary": "Our cartoonist takes us behind the scenes as Manchester United's leading minds try to control the narrative Buy this cartoon | Some of David's favourite works And his latest book, Chaos in the Box: get it now Continue reading...",
@@ -132,18 +120,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/10/rui-pinto-lawyers-talks-uk-authorities-cooperation-deal-whistleblower",
       "published_at": "2026-11-10T10:30:35+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "81dc4e09479a3b8e",
-      "title": "Poch open to Man Utd talks with Carrick's position in doubt",
-      "summary": "Michael Carrick's position as Manchester United head coach is looking increasingly in doubt, with Mauricio Pochettino open to a discussion if he were approached by the club.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13610412/michael-carrick-future-man-utd-head-coach-position-increasingly-in-doubt-with-mauricio-pochettino-open-to-talks",
-      "published_at": "2026-11-10T10:24:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -228,18 +204,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-10T06:24:50+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "6e6b538565c040b6",
-      "title": "NI's O'Neill ruled out of Nations League matches",
-      "summary": "Arsenal forward Ceadach O'Neill is ruled out of Northern Ireland's final two Nations League fixtures against Ukraine in Belfast and Hungary in Budapest.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm5ynylnd71yo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T21:44:23+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -360,6 +324,42 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season",
       "published_at": "2026-11-09T12:38:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "5e687688ec4190d7",
+      "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
+      "summary": "The City forward hit a WSL hat-trick for the ninth time while Eva Olid's United have found defensive stability Not only did Khadija “Bunny” Shaw score a record-extending ninth WSL hat-trick, she scored a “perfect hat-trick” for the fourth time in the competition, something nobody else has managed more than once. Against West Ham the Jamaica striker opened the scoring with her left foot, headed home her second off the underside of the crossbar and tucked in her third with her right foot late on. ",
+      "category": "Women's Football",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
+      "published_at": "2026-11-09T11:24:37+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "b93f1bb68ca12159",
+      "title": "Football comes together across Spain to honour Jesús de Miguel: 'We've seen how fragile life is'",
+      "summary": "Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their history stopped his teammates for a moment and told them what it meant to wear the shirt. “This is very important,” Ante Budimir began as the dressing room, their sanctuary, fell silent around him. “W",
+      "category": "LaLiga",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+      "published_at": "2026-11-09T11:00:13+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "b7783332fb9f841d",
+      "title": "Which Premier League players are set for yellow card suspensions?",
+      "summary": "Thirteen players are on the brink of a one-match ban in the 2026-27 Premier League season.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/articles/cr3wj7wg35pxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T10:33:57+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
