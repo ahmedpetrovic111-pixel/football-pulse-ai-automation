@@ -1,9 +1,117 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-09T17:13:08.485139+00:00",
+  "updated_at": "2026-11-10T01:15:40.562688+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "b74c299d4888507b",
+      "title": "Man Utd expected to sack head coach Carrick",
+      "summary": "Michael Carrick's Manchester United reign appears close to an end following the club's worst start to a domestic campaign in 40 years.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T23:13:31+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "1540696237a43ee3",
+      "title": "Carrick position increasingly in doubt as hierarchy mulls over his future",
+      "summary": "Michael Carrick's position as Manchester United head coach is looking increasingly in doubt, but Sky Sports News has been told as yet, no final decision has been taken about his future.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13610412/michael-carrick-future-man-utd-head-coach-position-increasingly-in-doubt-but-no-final-decision-made",
+      "published_at": "2026-11-09T23:04:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "63c2dff1c518f4ba",
+      "title": "BBC Women's Football Weekly",
+      "summary": "Ellen and Ben are on location with the London City Lionesses and Spain defender!",
+      "category": "Women's Football",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sounds/play/p0pm60tc?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T21:46:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "6e6b538565c040b6",
+      "title": "NI's O'Neill ruled out of Nations League matches",
+      "summary": "Arsenal forward Ceadach O'Neill is ruled out of Northern Ireland's final two Nations League fixtures against Ukraine in Belfast and Hungary in Budapest.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm5ynylnd71yo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T21:44:23+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "b0c315c0e6ee2d27",
+      "title": "Manchester's soulless content machine football clubs sum up post-imperial Britain | Barney Ronay",
+      "summary": "United and City dominate the news cycle with stories so strange and vast they threaten to consume the rest of the league In Manchester this weekend it was possible to bookend your Thursday‑to‑Sunday entertainment with two cultural events. First up, a debut screening of the re‑released and uncensored Ken Russell film The Devils at Trafford Odeon. And three days later, three miles down the road, Manchester United versus Aston Villa at Old Trafford. As expected, one of these events provided a visce",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-city-soulless-content-machines-premier-league",
+      "published_at": "2026-11-09T21:40:16+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "4d5b4e371b336fbc",
+      "title": "Atletico target Zubimendi move - Tuesday's gossip",
+      "summary": "Arsenal midfielder Martin Zubimendi is a target for Atletico Madrid, Leeds United plan to step up contract talks with striker Dominic Calvert-Lewin, Barcelona are keen on Bayern Munich defender Jonathan Tah, plus more.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T21:13:37+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "95dc021b2a06ba07",
+      "title": "NWSL playoffs scheduling snafu: Washington Spirit keep Audi Field; Gotham move to Icahn",
+      "summary": "Washington to play in Saturday noon broadcast window Shift to Northwest Stadium was reportedly in play Gotham move to Icahn amid 'atrocious' pitch conditions The Washington Spirit will play their NWSL semi-final at Audi Field after the club reached a deal to avoid playing a playoff game at Northwest Stadium, home of the NFL's Washington Commanders. Top-seeded Gotham FC, meanwhile, will play their game at the 5,000-seat Icahn Stadium on Randall's Island in New York City because of poor pitch qual",
+      "category": "Women's Football",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/08/washington-spirit-semifinal-audi-field-gotham-nwsl-playoffs",
+      "published_at": "2026-11-09T20:51:37+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "f660d042cc5f49ce",
+      "title": "Ben White says he has no complaints at boos from England fans over self-imposed exile",
+      "summary": "Arsenal defender was jeered during draw with Uruguay 'Everyone can do whatever they want,' says White Ben White has said he has no complaints at being booed by England fans when he ended his international exile during the 1-1 draw with ­Uruguay this year. The Arsenal defender, who has returned to Thomas Tuchel's squad after missing last month's camp because of injury, became unpopular with some supporters after leaving the 2022 World Cup in Qatar early for personal reasons. White made himself un",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/ben-white-england-international-exile-arsenal-thomas-tuchel-squad-nations-league-spain-croatia",
+      "published_at": "2026-11-09T20:00:17+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "48a5bac1644c4fa7",
+      "title": "People don't know full story behind England exile - White",
+      "summary": "Arsenal defender Ben White says people don't know the \"full story\" behind his decision to previously make himself unavailable for England selection - but says he would make the same decision again.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-09T19:00:10+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "3fd107c860e50fcf",
       "title": "Manchester City's weaknesses under Enzo Maresca are being exposed",
@@ -29,18 +137,6 @@
       "status": "source_only"
     },
     {
-      "id": "f018779555889a18",
-      "title": "Manchester United weighing up Michael Carrick sacking as Wilcox leads review",
-      "summary": "Carrick given time after Como and Bournemouth defeats Recommendation will be made to Sir Jim Ratcliffe Manchester United are deciding whether Michael Carrick should be sacked, with Jason Wilcox, the director of football, leading the review after the head coach was given the Chelsea, Roma and Aston Villa games to turn results around . Wilcox is consulting with Omar Berrada, the chief executive, before a recommendation regarding Carrick is made to Sir Jim Ratcliffe, who controls sporting policy. U",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking",
-      "published_at": "2026-11-09T16:21:31+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "ad5c3c14f802a2ee",
       "title": "Real Madrid legend Raul named Real Oviedo manager",
       "summary": "Former Real Madrid striker Raul takes on his first role in senior club management after being appointed as boss of Spanish second division side Real Oviedo.",
@@ -48,18 +144,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cwnv0v1yj585o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-09T16:16:30+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "72d4ecfd56244f90",
-      "title": "What now for Man Utd and Carrick?",
-      "summary": "The future of Michael Carrick at Manchester United remains a mystery following the dramatic 4-4 draw with Aston Villa on Sunday.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13610134/manchester-united-the-key-questions-with-michael-carricks-future-still-up-in-the-air-at-old-trafford",
-      "published_at": "2026-11-09T15:00:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -78,7 +162,7 @@
     },
     {
       "id": "3f899daf72d97011",
-      "title": "That's a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life",
+      "title": "That's a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life | Nicky Bandini",
       "summary": "Roma and Lazio have both made unbeaten starts to the Serie A season, giving those in the Italian capital dreams of a Scudetto After nine games in 28 days, Gian Piero Gasperini finally got a moment to pause and reflect on Sunday night. The Roma manager was back in Liguria, where he worked for the best part of a decade across two stints at Genoa, to collect an award from Stelle Nello Sport – an association formed to promote sport in the region – celebrating his career achievements and commitment t",
       "category": "Serie A",
       "source": "The Guardian",
@@ -90,8 +174,8 @@
     },
     {
       "id": "fbb6796bf2bfc201",
-      "title": "Felix Nmecha's faith is forcing Borussia Dortmund into an uncomfortable debate",
-      "summary": "Midfielder's spectacular strikes rescued a frustrating day, only for celebrations to reignite dialogue that has followed him through his career It was just what they needed at just the right time. For a tricky first half and beyond, Elversberg had been a stone in Borussia Dortmund's shoe, the promoted side not just keeping the home team at bay but keeping them honest, nourishing ambitions of their own. “The fatigue was clearly visible,” said the sporting director, Ole Book, to Sky after a week w",
+      "title": "Felix Nmecha's faith is forcing Borussia Dortmund into an uncomfortable debate | Andy Brassell",
+      "summary": "Midfielder's spectacular strikes rescued a frustrating day, only for celebrations to reignite dialogue that has followed him through his career It was just what they needed at just the right time. For a tricky first half and beyond, Elversberg had been a stone in Borussia Dortmund's shoe, the promoted side not just keeping the home team at bay but keeping them honest, nourishing ambitions of their own. “The fatigue was clearly visible,” the sporting director, Ole Book, said to Sky after a week w",
       "category": "Bundesliga",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga",
@@ -108,18 +192,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1",
       "published_at": "2026-11-09T13:37:45+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "d33d5671cfb2557e",
-      "title": "Why are Manchester United fans wearing green and gold?",
-      "summary": "Our Ask Me Anything team explain why some Manchester United fans are wearing green and gold to matches.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cwe8l8y2egk2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T12:54:09+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -163,7 +235,7 @@
     {
       "id": "5e687688ec4190d7",
       "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
-      "summary": "The City striker hit a WSL hat-trick for the ninth time while Eva Olid's United have found defensive stability Not only did Khadija “Bunny” Shaw score a record-extending ninth WSL hat-trick, she scored a “perfect hat-trick” for the fourth time in the competition, something nobody else has managed more than once. Against West Ham the Jamaica striker opened the scoring with her left foot, headed home her second off the underside of the crossbar and tucked in her third with her right foot late on. ",
+      "summary": "The City forward hit a WSL hat-trick for the ninth time while Eva Olid's United have found defensive stability Not only did Khadija “Bunny” Shaw score a record-extending ninth WSL hat-trick, she scored a “perfect hat-trick” for the fourth time in the competition, something nobody else has managed more than once. Against West Ham the Jamaica striker opened the scoring with her left foot, headed home her second off the underside of the crossbar and tucked in her third with her right foot late on. ",
       "category": "Women's Football",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
@@ -233,18 +305,6 @@
       "status": "source_only"
     },
     {
-      "id": "b7baa4ff2f50d5dc",
-      "title": "Barcelona move clear at the top after Fermín López's double stuns Atlético Madrid",
-      "summary": "They had been in a battle, they had been behind and they had been on edge, but Barcelona found a way through, holding on to their place at the top of the table and holding the doubts at bay for another day. A fortnight in which they were defeated by Paris Saint-Germain and Real Madrid , in which they might have wondered if something was not right, ended with a 2-1 win at Atlético Madrid. This was a proper test and a proper game, 10 World Cup winners on the field and first place awaiting the winn",
-      "category": "LaLiga",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/08/atletico-madrid-barcelona-la-liga-match-report",
-      "published_at": "2026-11-08T22:27:50+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "4e1acbeed1965699",
       "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
       "summary": "Frenchman under pressure after four successive defeats Former Spurs manager Frank emerging as main candidate Crystal Palace are poised to sack Pierre Sage after Sunday's defeat by Liverpool left them bottom of the Premier League for the first time since December 2017, with Thomas Frank emerging as the main candidate to succeed him. The Frenchman, appointed in mid-June to replace Oliver Glasner, has been under mounting pressure since a 5-0 defeat by Brighton last month. There have been few signs ",
@@ -264,18 +324,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/08/diogo-dalot-manchester-united-old-trafford-aston-villa",
       "published_at": "2026-11-08T21:24:44+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "d35d05b8dc173e17",
-      "title": "Villa's Kamara on Chelsea watchlist - Monday's gossip",
-      "summary": "Aston Villa midfielder Boubacar Kamara is on Chelsea's watchlist, Manchester United could make an offer for Nottingham Forest's Murillo, plus more.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c8qlnqggwge0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T21:08:44+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -312,54 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c91463n3mlzlo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-08T19:40:34+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c1d3dd40efb21cbb",
-      "title": "Villa boss Emery explains why he went down tunnel before full-time",
-      "summary": "A prickly Unai Emery claimed he headed down the Old Trafford tunnel after Manchester United's late equaliser against his Aston Villa side because he thought the match was about to end.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13609937/unai-emery-aston-villa-boss-reveals-why-he-went-down-old-trafford-tunnel-before-full-time-in-eight-goal-thriller-at-man-utd",
-      "published_at": "2026-11-08T19:25:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "8646e7ce0963c32f",
-      "title": "Are 'outstanding' Brighton now Arsenal's main title challengers?",
-      "summary": "After moving up to second in the Premier League, could Brighton really be Arsenal's main title challengers?",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cjx23rwxdn64o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T19:24:36+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "92403cd6641532d0",
-      "title": "'Tinkerman' Alonso's Chelsea side still searching for identity",
-      "summary": "Xabi Alonso's frustration is evident as Chelsea's struggles for an identity continue with the disappointing 1-0 defeat by Sunderland.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c5m2ddz437nzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T18:20:56+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c7925ffc4b3b7574",
-      "title": "Diego Gómez hits another stunner as Brighton beat 10-man Brentford to go second",
-      "summary": "Who can stop Brighton's ­ascension in English and European football? They are setting standards, ­practices ­leaving almost everybody else ­trailing in their wake. A ­second‑place position in the ­Premier League would once have read like a glitch in a ­Football ­Manager ­session. Not in November 2026, where they appear the only team capable of throwing down any sort of challenge to Arsenal. Under low winter sun, Brentford, an opposition to which Brighton are often, if lazily, compared, were ­swa",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/08/brighton-brentford-premier-league-match-report",
-      "published_at": "2026-11-08T16:17:32+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
