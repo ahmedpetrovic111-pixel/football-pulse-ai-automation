@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-10T17:45:43.516361+00:00",
+  "updated_at": "2026-11-10T17:52:00.630367+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "a5dd26ae823a9775",
+      "title": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
+      "summary": "Coach's contract has release clause of about $10m United expected to sack Michael Carrick after awful start US men's national team head coach Mauricio Pochettino is interested in a move to Manchester United, multiple sources told the Guardian, with those same sources characterizing the interest as mutual. United are expected to sack their head coach, Michael Carrick, after a disastrous start to their season which leaves them at risk of relegation from the Premier League, their worst opening to a",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
+      "published_at": "2026-11-10T17:40:40+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "7235418ffbabc958",
       "title": "What is the Women's Champions League prize money?",
@@ -12,18 +24,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cw8dzdzq2zn6o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-10T16:29:16+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "6b4f815acd1992d7",
-      "title": "Pochettino, Howe, Emery... or Carrick? Man Utd's managerial options",
-      "summary": "As doubts grow over Manchester United boss Michael Carrick's future, what are the club's managerial options?",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-10T16:17:10+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -168,18 +168,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/10/manchester-citys-kerstin-casparij-i-love-football-but-it-takes-over-your-life",
       "published_at": "2026-11-10T08:00:32+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "5c879fed4141f246",
-      "title": "Listen: Who is your BBC Women's Footballer of the Year?",
-      "summary": "The five nominees have been announced for the BBC World Service award",
-      "category": "Women's Football",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sounds/play/w3ct9tpb?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-10T06:30:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -360,6 +348,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-09T06:32:11+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "81dd6b40dbfe4a04",
+      "title": "Who has made Troy's Premier League team of the week?",
+      "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T20:18:01+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
