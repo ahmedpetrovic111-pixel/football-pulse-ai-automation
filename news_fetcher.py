@@ -629,166 +629,166 @@ def normalize_title(title):
 # ==========================================
 
 
-def remove_similar_duplicates(articles, threshold=0.92):
+
+def remove_similar_duplicates(articles, threshold=0.90):
 
     unique_articles = []
 
     entity_stop_words = {
-    "the", "this", "that", "after", "before",
-    "former", "new", "latest", "sunday",
-    "monday", "tuesday", "wednesday",
-    "thursday", "friday", "saturday",
-    "premier", "league", "champions",
-    "football", "sport", "season",
-    "manager", "coach", "club", "team",
-    "united", "city"
-}
+        "the", "this", "that", "after", "before",
+        "former", "new", "latest", "today", "yesterday",
+        "monday", "tuesday", "wednesday", "thursday",
+        "friday", "saturday", "sunday",
+        "premier", "league", "champions", "football",
+        "sport", "season", "manager", "coach",
+        "club", "team", "united", "city",
+        "report", "reports", "says", "said",
+        "reveals", "explains", "speaks", "talks"
+    }
 
     event_groups = {
         "manager_change": [
-            "sack", "sacked", "sacking",
-            "replace", "replacing", "replacement",
-            "appoint", "appointed", "appointment",
-            "candidate", "contender"
+            "manager", "coach", "appointed",
+            "sacked", "fired", "resigns",
+            "resigned", "departure"
         ],
+
         "contract": [
-            "contract", "renew", "renewal",
-            "extend", "extension", "new deal",
-            "stay", "sign new"
+            "contract", "extension", "extends",
+            "renewal", "signs new deal",
+            "new deal"
         ],
+
         "transfer": [
-            "transfer", "bid", "signing",
-            "sign", "target", "move"
+            "transfer", "signing", "signed",
+            "joins", "joined", "move",
+            "bid", "loan"
         ],
+
         "injury": [
-            "injury", "injured", "injuries",
-            "fitness", "surgery", "return",
-            "doubt", "tests"
+            "injury", "injured", "fitness",
+            "surgery", "sidelined",
+            "ruled out", "hamstring"
         ],
+
         "discipline": [
-            "suspend", "suspended", "ban",
-            "banned", "disciplinary"
+            "suspended", "suspension",
+            "ban", "banned", "red card",
+            "charged", "misconduct"
         ],
+
         "international_exile": [
-            "exile", "unavailable",
-            "booed", "boos", "jeered"
+            "exile", "unavailable", "booed",
+            "boos", "jeered", "omitted",
+            "left out", "dropped from squad"
         ],
+
         "match_result": [
-            "defeat", "defeated", "victory",
-            "win", "won", "draw", "beat",
-            "beaten", "scored"
+            "beat", "beats", "beaten",
+            "defeat", "defeated", "draw",
+            "drew", "win", "wins", "won",
+            "lose", "loses", "lost",
+            "victory", "loss"
         ]
     }
 
     def get_entities(article):
 
-        raw_text = (
-            article.get("title", "")
-            + " "
-            + article.get("summary", "")
+        text = (
+            article.get("title", "") + " " +
+            article.get("summary", "")
         )
 
-        names = re.findall(
+        words = re.findall(
             r"\b[A-Z][a-zA-ZÀ-ÿ’'-]{2,}\b",
-            raw_text
+            text
         )
 
         entities = set()
 
-        for name in names:
+        for word in words:
 
-            word = normalize_title(name)
+            entity = normalize_title(word)
 
             if (
-                word
-                and word not in entity_stop_words
-                and len(word) > 2
+                entity
+                and entity not in entity_stop_words
             ):
-                entities.add(word)
+                entities.add(entity)
 
         return entities
 
     def get_events(article):
 
         text = normalize_title(
-            article.get("title", "")
-            + " "
-            + article.get("summary", "")
+            article.get("title", "") + " " +
+            article.get("summary", "")
         )
 
         events = set()
 
-        for group, keywords in event_groups.items():
+        for event_name, keywords in event_groups.items():
 
             for keyword in keywords:
 
-                pattern = (
-                    r"\b"
-                    + re.escape(keyword)
-                    + r"\b"
-                )
+                normalized_keyword = normalize_title(keyword)
 
-                if re.search(pattern, text):
-
-                    events.add(group)
+                if normalized_keyword in text:
+                    events.add(event_name)
                     break
 
         return events
 
     for article in articles:
 
-        title = normalize_title(
+        is_duplicate = False
+
+        current_title = normalize_title(
             article.get("title", "")
         )
-
-        if not title:
-            continue
 
         current_entities = get_entities(article)
         current_events = get_events(article)
 
-        is_duplicate = False
+        current_time = date_timestamp(
+            article.get("published_at", "")
+        )
 
         for existing in unique_articles:
 
-            if (
-                article.get("category")
-                != existing.get("category")
-            ):
+            # Hanya membandingkan berita dalam kategori yang sama.
+            if article.get("category") != existing.get("category"):
                 continue
 
             existing_title = normalize_title(
                 existing.get("title", "")
             )
 
+            # Aturan 1: kemiripan judul sangat tinggi.
             title_similarity = difflib.SequenceMatcher(
                 None,
-                title,
+                current_title,
                 existing_title
             ).ratio()
 
             if title_similarity >= threshold:
-
                 is_duplicate = True
                 break
 
-            current_time = date_timestamp(
-                article.get("published_at", "")
-            )
-
+            # Aturan 2: entitas dan jenis peristiwa sama
+            # dalam rentang waktu maksimal 72 jam.
             existing_time = date_timestamp(
                 existing.get("published_at", "")
             )
 
-            recent_articles = (
-                current_time > 0
-                and existing_time > 0
-                and abs(
-                    current_time - existing_time
-                ) <= 72 * 60 * 60
+            if not current_time or not existing_time:
+                continue
+
+            time_difference = abs(
+                current_time - existing_time
             )
 
-            if not recent_articles:
+            if time_difference > 72 * 60 * 60:
                 continue
 
             existing_entities = get_entities(existing)
@@ -802,22 +802,17 @@ def remove_similar_duplicates(articles, threshold=0.92):
                 current_events & existing_events
             )
 
-            # V5: Minimal 2 entitas dan 1 peristiwa sama.
             if (
                 len(common_entities) >= 2
                 and len(common_events) >= 1
             ):
-
                 is_duplicate = True
                 break
 
         if not is_duplicate:
-
             unique_articles.append(article)
 
     return unique_articles
-
-
 
 
 
