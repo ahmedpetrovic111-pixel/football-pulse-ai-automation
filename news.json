@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-11T18:22:47.110598+00:00",
+  "updated_at": "2026-11-11T18:27:16.219712+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
@@ -197,18 +197,6 @@
       "status": "source_only"
     },
     {
-      "id": "4a823a28112c3e6d",
-      "title": "Scotland without captain Weir for World Cup play-off",
-      "summary": "Scotland will be without Caroline Weir for the World Cup play-off final with Sweden following a setback in the influential midfielder's recovery from a muscle injury.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-11T11:59:18+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "82f988bea685ffb5",
       "title": "Danny Kelly, football broadcaster and renowned editor, dies aged 69",
       "summary": "Danny Baker pays tribute to the 'funniest man I knew' Kelly was former editor of the NME and Q magazines The journalist and broadcaster Danny Kelly, who helped define coverage of music and football in the UK for a generation, has died at the age of 69. Kelly edited the NME and Q magazine, and launched the Football 365 website before going on to be a presenter and pundit on the BBC and TalkSport. He had been receiving treatment for oesophageal cancer. Continue reading...",
@@ -360,6 +348,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c5zjxjj91dn1o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T08:00:14+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "65d3ecc0ccb673c7",
+      "title": "England's best? Record-breaking Ballon d'Or winner Kane set for Wembley celebration",
+      "summary": "Harry Kane is set to become England's most-capped player ever on Thursday night - will it also be time to crown him the country's greatest?",
+      "category": "Berita Sepak Bola",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13610251/harry-kane-ballon-dor-winner-set-for-wembley-celebration-of-england-record",
+      "published_at": "2026-11-11T08:00:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
