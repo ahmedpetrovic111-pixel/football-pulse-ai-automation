@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-11T17:29:22.964878+00:00",
+  "updated_at": "2026-11-11T17:45:23.195304+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "402c739f179d1d68",
+      "title": "Legally restrict heading a football in training, says MP",
+      "summary": "An MP is calling for legal safeguards to limit repetitive heading in football training, amid growing concerns about the risk of brain injury.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm1ewpjyy3dzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T17:38:18+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "f981436ecd2c09b3",
       "title": "Could King really become 'one of the best players in the world'?",
@@ -60,18 +72,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/ckedq15wq0dlo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T16:26:24+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "48d416f43076aaf2",
-      "title": "Top four teams in Fifa rankings set to be kept apart until semi-finals at 2027 Women's World Cup",
-      "summary": "Team must win World Cup group to trigger rule Spain, US, Germany and England currently in top four The top four-ranked teams will be separated until the semi-finals at the 2027 Women's World Cup, provided they each win their group, after a change to the tournament's draw procedure was confirmed by Fifa. Spain, the United States, Germany and England are currently ranked one to four in the world respectively, although the US and England still need to qualify for the tournament. The seedings will b",
-      "category": "Women's Football",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
-      "published_at": "2026-11-11T16:03:44+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -163,7 +163,7 @@
     {
       "id": "e32e1128bd3dcba1",
       "title": "'An eternal shame': Bilic and Croatia aim to use 7-0 humbling as fuel against England",
-      "summary": "The home humiliation last month has left a scar on Croatian football but their manager wants them to use it to positive effect in the Wembley rematch As Croatia prepare to face England at Wembley on Thursday in the Nations League, wounds from a humiliating defeat by the same opponents just over a month ago are fresh and there is a lingering feeling of unease. No one will say it – certainly not Slaven Bilic, who always believes in goals that may seem unreachable to most others – but the impressio",
+      "summary": "The home humiliation last month has left a scar on Croatian football but their manager wants them to use it to positive effect in the Wembley rematch As Croatia prepare to face England at Wembley on Thursday in the Nations League, wounds from a humiliating defeat by the same opponents last month are fresh and there is a lingering feeling of unease. No one will say it – certainly not Slaven Bilic, who always believes in achieving goals that may seem unreachable to most others – but the impression",
       "category": "Berita Sepak Bola",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/11/slaven-bilic-croatia-7-0-england-nations-league-wembley",
@@ -240,18 +240,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c5x2wle9nnvzo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T10:32:23+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "d711f3012c7675af",
-      "title": "Big underdogs once more, can Arsenal beat Barcelona again?",
-      "summary": "Arsenal face Barcelona in the Women's Champions League this week - the first time the two have met since the 2025 final when the Gunners were victorious against all odds.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13610549/barcelona-vs-arsenal-can-gunners-learn-from-2025-womens-champions-league-victory-ahead-of-league-phase-meeting-on-thursday",
-      "published_at": "2026-11-11T10:30:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -360,6 +348,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c5zjxjj91dn1o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T08:00:14+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "dc9f979d6c642481",
+      "title": "From Jersey to Somalia... via Liverpool & Man City",
+      "summary": "BBC Sport charts Jarma Mohamed's surprising football journey from Premier League academies to the Somalia national team, via an app and Jersey Bulls.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm5ynnklgl9xo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T07:13:52+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
