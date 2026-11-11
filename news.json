@@ -1,13 +1,25 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-10T22:55:38.015588+00:00",
+  "updated_at": "2026-11-11T05:03:51.390338+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
     {
+      "id": "1a9d826af5d5b472",
+      "title": "Arsenal eye Real's Endrick - Wednesday's gossip",
+      "summary": "Real Madrid forward Endrick is on Arsenal's radar, Liverpool right-back Jeremie Frimpong is not headed for the Anfield exit door, Newcastle and Sunderland among the clubs interested in Croatian striker Dion Beljo, plus more.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cq8jzjz9x23jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-10T23:08:35+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "fd919f00cad3a07d",
       "title": "Fujino's double sparks WCL comeback win for Manchester City against Inter",
-      "summary": "Manchester City's European campaign finally came roaring into life as they put four goals past Inter to record their first Women's Champions League victory of the season and greatly improve their prospects of reaching the knockout stages. The English side had to come from behind after a slow start but two goals from Aoba Fujino put them ahead before half-time, and second-half efforts from Kerstin Casparij and Grace Clinton gave them a 4-1 victory in Monza that doubled their points tally, after t",
+      "summary": "On a very satisfying night for Manchester City, perhaps the most pleasing element was that they did not even need to call on Khadija 'Bunny' Shaw. While giving their talismanic striker some precious rest, Manchester City's European campaign finally came roaring into life as they put four goals past Inter to record their first Women's Champions League victory of the season and greatly improve their prospects of reaching the knockout stages. Continue reading...",
       "category": "Premier League",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
@@ -187,7 +199,7 @@
     {
       "id": "043d65af95183f15",
       "title": "Felix Nmecha denies goal celebrations promote 'intolerance, discrimination and hate'",
-      "summary": "Celebrations linked to ultra-conservative Christian group 'Our message is of love' Nmecha says in reply to criticism Borussia Dortmund and Germany midfielder Felix Nmecha has responded to criticism of goal celebrations linked to an evangelical network by saying they've been misunderstood and are not meant to promote “intolerance, discrimination, or hate in any form”. Nmecha, a devout Christian, was criticised by the Dortmund official supporters' group at the weekend for celebrating goals with a ",
+      "summary": "Celebrations linked to ultra-conservative Christian group 'Our message is of love' Nmecha says in reply to criticism The Borussia Dortmund and Germany midfielder Felix Nmecha has responded to criticism of goal celebrations linked to an evangelical network by saying they have been misunderstood and are not meant to promote “intolerance, discrimination, or hate in any form”. Nmecha, a devout Christian, was criticised by the Dortmund official supporters' group at the weekend for celebrating goals w",
       "category": "Bundesliga",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/10/felix-nmecha-denies-goal-celebrations-promote-intolerance-discrimination-and-hate",
@@ -281,18 +293,6 @@
       "status": "source_only"
     },
     {
-      "id": "4d5b4e371b336fbc",
-      "title": "Atletico target Zubimendi move - Tuesday's gossip",
-      "summary": "Arsenal midfielder Martin Zubimendi is a target for Atletico Madrid, Leeds United plan to step up contract talks with striker Dominic Calvert-Lewin, Barcelona are keen on Bayern Munich defender Jonathan Tah, plus more.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-09T21:13:37+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "95dc021b2a06ba07",
       "title": "NWSL playoffs scheduling snafu: Washington Spirit keep Audi Field; Gotham move to Icahn",
       "summary": "Washington to play in Saturday noon broadcast window Shift to Northwest Stadium was reportedly in play Gotham move to Icahn amid 'atrocious' pitch conditions The Washington Spirit will play their NWSL semi-final at Audi Field after the club reached a deal to avoid playing a playoff game at Northwest Stadium, home of the NFL's Washington Commanders. Top-seeded Gotham FC, meanwhile, will play their game at the 5,000-seat Icahn Stadium on Randall's Island in New York City because of poor pitch qual",
@@ -341,18 +341,6 @@
       "status": "source_only"
     },
     {
-      "id": "9bc36e4b70531f72",
-      "title": "'My will is to stay' - Alisson wants new Liverpool contract",
-      "summary": "Liverpool goalkeeper Alisson says he wants to stay at Anfield beyond the end of the season when his contract expires.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season",
-      "published_at": "2026-11-09T12:38:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "5e687688ec4190d7",
       "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
       "summary": "The City forward hit a WSL hat-trick for the ninth time while Eva Olid's United have found defensive stability Not only did Khadija “Bunny” Shaw score a record-extending ninth WSL hat-trick, she scored a “perfect hat-trick” for the fourth time in the competition, something nobody else has managed more than once. Against West Ham the Jamaica striker opened the scoring with her left foot, headed home her second off the underside of the crossbar and tucked in her third with her right foot late on. ",
@@ -360,6 +348,18 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
       "published_at": "2026-11-09T11:24:37+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "b93f1bb68ca12159",
+      "title": "Football comes together across Spain to honour Jesús de Miguel: 'We've seen how fragile life is'",
+      "summary": "Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their history stopped his teammates for a moment and told them what it meant to wear the shirt. “This is very important,” Ante Budimir began as the dressing room, their sanctuary, fell silent around him. “W",
+      "category": "LaLiga",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+      "published_at": "2026-11-09T11:00:13+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
