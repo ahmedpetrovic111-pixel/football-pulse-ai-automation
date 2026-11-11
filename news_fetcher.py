@@ -434,15 +434,19 @@ def classify_article(title, summary):
 
         if any(keyword in title_content for keyword in keywords):
             return category
-
-    # 4. Timnas Indonesia berdasarkan ringkasan.
+            
+    # 4. Premier League berdasarkan frasa khusus dalam ringkasan.
+    if "premier league panel" in summary_content:
+        return "Premier League"
+        
+    # 5. Timnas Indonesia berdasarkan ringkasan.
     if any(
         keyword in summary_content
         for keyword in INDONESIA_TEAM_KEYWORDS
     ):
         return "Timnas Indonesia"
 
-    # 5. Liga 1 Indonesia.
+    # 6. Liga 1 Indonesia.
     indonesia_keywords = COMPETITION_CATEGORIES[
         "Liga 1 Indonesia"
     ]
@@ -450,14 +454,14 @@ def classify_article(title, summary):
     if any(keyword in content for keyword in indonesia_keywords):
         return "Liga 1 Indonesia"
 
-    # 6. Tim nasional negara lain.
+    # 7. Tim nasional negara lain.
     if any(
         keyword in content
         for keyword in NATIONAL_KEYWORDS
     ):
         return "Tim Nasional"
 
-    # 7. Berita sepak bola umum.
+    # 8. Berita sepak bola umum.
     return "Berita Sepak Bola"
 
 
