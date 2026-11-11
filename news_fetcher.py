@@ -129,7 +129,40 @@ INDONESIA_TEAM_KEYWORDS = [
 # KATA KUNCI TIM NASIONAL NEGARA LAIN
 # ==========================================
 
-NATIONAL_KEYWORDS = []
+NATIONAL_KEYWORDS = [
+    "england",
+    "scotland",
+    "wales",
+    "northern ireland",
+    "republic of ireland",
+    "ireland national team",
+    "croatia",
+    "france national team",
+    "germany national team",
+    "spain national team",
+    "italy national team",
+    "portugal national team",
+    "netherlands national team",
+    "belgium national team",
+    "switzerland national team",
+    "austria national team",
+    "denmark national team",
+    "sweden national team",
+    "norway national team",
+    "poland national team",
+    "brazil national team",
+    "argentina national team",
+    "uruguay national team",
+    "colombia national team",
+    "japan national team",
+    "south korea national team",
+    "australia national team",
+    "morocco national team",
+    "senegal national team",
+    "nigeria national team",
+    "united states national team",
+    "mexico national team"
+]
 
 
 # ==========================================
