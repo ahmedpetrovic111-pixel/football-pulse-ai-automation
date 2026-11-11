@@ -104,39 +104,8 @@ COMPETITION_CATEGORIES = {
         "liga 1 indonesia",
         "bri liga 1",
         "liga 1"
-    ],
-
-    "Women's Football": [
-        "women's champions league",
-        "womens champions league",
-        "women champions league",
-        "uwcl",
-        "women's super league",
-        "womens super league",
-        "kerstin casparij",
-        "women's football",
-        "womens football",
-        "women's world cup",
-        "womens world cup",
-        "women's euro",
-        "womens euro",
-        "women's olympic football",
-        "women's team",
-        "women's teams",
-        "women's game",
-        "women's soccer",
-        "wsl",
-        "liga f",
-        "barcelona femeni",
-        "barcelona femení",
-        "arsenal wfc",
-        "chelsea women",
-        "manchester city women",
-        "manchester united women",
-        "lionesses"
     ]
 }
-
 
 # ==========================================
 # KATA KUNCI TIMNAS INDONESIA
@@ -321,6 +290,40 @@ def canonical_url(url):
 def is_relevant(title, summary):
 
     content = (title + " " + summary).lower()
+
+    
+    # Menolak seluruh berita sepak bola wanita.
+    womens_excluded_keywords = [
+        "women's football",
+        "womens football",
+        "women's champions league",
+        "womens champions league",
+        "women champions league",
+        "women's super league",
+        "womens super league",
+        "women's world cup",
+        "womens world cup",
+        "women's euro",
+        "womens euro",
+        "women's olympic football",
+        "women's team",
+        "women's teams",
+        "women's game",
+        "women's soccer",
+        "barcelona femeni",
+        "barcelona femení",
+        "arsenal wfc",
+        "chelsea women",
+        "manchester city women",
+        "manchester united women",
+        "lionesses",
+        "uwcl"
+    ]
+
+    if any(keyword in content for keyword in womens_excluded_keywords):
+        return False
+
+    
     # Menolak kartun David Squires.
     if "david squires" in content:
         return False
@@ -396,64 +399,43 @@ def is_relevant(title, summary):
 
 
 
+
 def classify_article(title, summary):
 
     title_content = title.lower()
     summary_content = summary.lower()
     content = title_content + " " + summary_content
 
-    # 1. Timnas Indonesia.
+    # 1. Timnas Indonesia berdasarkan judul.
     if any(
         keyword in title_content
         for keyword in INDONESIA_TEAM_KEYWORDS
     ):
         return "Timnas Indonesia"
 
-    # 2. Women's Football berdasarkan judul.
-    womens_keywords = COMPETITION_CATEGORIES[
-        "Women's Football"
-    ]
-
-    if any(
-        keyword in title_content
-        for keyword in womens_keywords
-    ):
-        return "Women's Football"
-
-    # 3. Klub yang disebutkan langsung di judul.
+    # 2. Klub yang disebutkan langsung di judul.
     for category, clubs in CLUB_CATEGORIES.items():
 
         if any(club in title_content for club in clubs):
             return category
 
-    # 4. Kompetisi yang disebutkan langsung di judul.
+    # 3. Kompetisi yang disebutkan langsung di judul.
     for category, keywords in COMPETITION_CATEGORIES.items():
 
-        if category in [
-            "Women's Football",
-            "Liga 1 Indonesia"
-        ]:
+        if category == "Liga 1 Indonesia":
             continue
 
         if any(keyword in title_content for keyword in keywords):
             return category
 
-    # 5. Women's Football berdasarkan ringkasan.
-    # Hanya jika tidak ditemukan kategori pria di judul.
-    if any(
-        keyword in summary_content
-        for keyword in womens_keywords
-    ):
-        return "Women's Football"
-
-    # 6. Timnas Indonesia berdasarkan ringkasan.
+    # 4. Timnas Indonesia berdasarkan ringkasan.
     if any(
         keyword in summary_content
         for keyword in INDONESIA_TEAM_KEYWORDS
     ):
         return "Timnas Indonesia"
 
-    # 7. Liga 1 Indonesia.
+    # 5. Liga 1 Indonesia.
     indonesia_keywords = COMPETITION_CATEGORIES[
         "Liga 1 Indonesia"
     ]
@@ -461,14 +443,14 @@ def classify_article(title, summary):
     if any(keyword in content for keyword in indonesia_keywords):
         return "Liga 1 Indonesia"
 
-    # 8. Tim nasional negara lain.
+    # 6. Tim nasional negara lain.
     if any(
         keyword in content
         for keyword in NATIONAL_KEYWORDS
     ):
         return "Tim Nasional"
 
-    # 9. Berita sepak bola umum.
+    # 7. Berita sepak bola umum.
     return "Berita Sepak Bola"
 
 
