@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-11T17:52:03.872762+00:00",
+  "updated_at": "2026-11-11T18:01:59.302212+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "9a29fd5438d7f3c8",
+      "title": "Shrewsbury 'hit all the boxes' for new owners - Friedel",
+      "summary": "In an exclusive interview with BBC Radio Shropshire new Shrewsbury Town sporting director Brad Friedel says the club is a perfect fit for the new owners.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm894wegv3lno?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T17:44:42+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "402c739f179d1d68",
       "title": "Legally restrict heading a football in training, says MP",
@@ -248,7 +260,7 @@
       "id": "8c5c409a93fcc704",
       "title": "Shirt pull on Isak should have been penalty - panel",
       "summary": "Liverpool should have been awarded a penalty against Arsenal for Jurrien Timber's shirt pull on Alexander Isak, says a Premier League panel.",
-      "category": "Berita Sepak Bola",
+      "category": "Premier League",
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6n8d8kl125vo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T10:23:37+00:00",
@@ -348,18 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c5zjxjj91dn1o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T08:00:14+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "dc9f979d6c642481",
-      "title": "From Jersey to Somalia... via Liverpool & Man City",
-      "summary": "BBC Sport charts Jarma Mohamed's surprising football journey from Premier League academies to the Somalia national team, via an app and Jersey Bulls.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm5ynnklgl9xo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-11T07:13:52+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
