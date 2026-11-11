@@ -137,14 +137,20 @@ NATIONAL_KEYWORDS = []
 # ==========================================
 
 CLUB_CATEGORIES = {
+    
     "Premier League": [
         "manchester united",
+        "man utd",
+        "man united",
         "manchester city",
+        "man city",
         "liverpool",
         "arsenal",
         "chelsea",
         "tottenham",
+        "spurs",
         "newcastle united",
+        "newcastle",
         "aston villa",
         "everton",
         "brighton",
@@ -157,6 +163,7 @@ CLUB_CATEGORIES = {
         "wolves",
         "sunderland"
     ],
+
 
     "LaLiga": [
         "real madrid",
