@@ -513,8 +513,34 @@ def classify_article(title, summary):
 
     # 7. Tim nasional negara lain.
     if any(
-        keyword in content
+        keyword in title_content
         for keyword in NATIONAL_KEYWORDS
+    ):
+        return "Tim Nasional"
+
+    national_summary_keywords = [
+        "england career",
+        "england's record appearance",
+        "england record appearance",
+        "england cap",
+        "scotland career",
+        "scotland head coach",
+        "scotland manager",
+        "scotland squad",
+        "northern ireland manager",
+        "northern ireland squad",
+        "republic of ireland defender",
+        "republic of ireland manager",
+        "croatian football",
+        "croatia prepare to face",
+        "croatia manager",
+        "national team squad",
+        "national team coach"
+    ]
+
+    if any(
+        keyword in summary_content
+        for keyword in national_summary_keywords
     ):
         return "Tim Nasional"
 
