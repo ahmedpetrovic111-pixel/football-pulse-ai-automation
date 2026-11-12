@@ -611,6 +611,12 @@ def fetch_feed(feed):
                 continue
 
             url_lower = link.lower()
+            # Menolak konten audio BBC Sounds.
+            if (
+                "bbc.co.uk/sounds/" in url_lower
+                or "bbc.com/sounds/" in url_lower
+            ):
+                continue
 
             # Menolak tautan video.
             if (
