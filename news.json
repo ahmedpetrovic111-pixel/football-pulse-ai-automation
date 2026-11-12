@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-12T18:26:15.456555+00:00",
+  "updated_at": "2026-11-12T18:29:59.586482+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
@@ -116,7 +116,7 @@
       "id": "ac5b36a95668b280",
       "title": "Archive, 1990: Peter Shilton wins 125th and final cap of record-breaking England career",
       "summary": "9 July 1990: The goalkeeper's 20-year international career ends at the Italia 90 World Cup Harry Kane is expected to break the record for England men's appearances tonight against Croatia at Wembley in the Nations League, overtaking goalkeeper Peter Shilton's 125 appearances, a record set nearly four decades ago at the World Cup in Italy . Shilton wore the captain's armband in his final England appearance in the unloved third-place play-off against Italy in Bari. The Three Lions had previously l",
-      "category": "Berita Sepak Bola",
+      "category": "Tim Nasional",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/12/archive-1990-peter-shilton-wins-125th-cap-making-him-englands-record-appearance-holder",
       "published_at": "2026-11-12T13:27:18+00:00",
@@ -200,7 +200,7 @@
       "id": "162f05f1a5a2a510",
       "title": "Young duo at heart of Nations League's meanest defence",
       "summary": "With Northern Ireland yet to concede a goal in the 2026-27 Nations League, young defenders Ruairi McConville and Tom Atcheson have been impressing for Michael O'Neill's side.",
-      "category": "Berita Sepak Bola",
+      "category": "Tim Nasional",
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/articles/cw24epvmq96lo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-12T08:17:52+00:00",
@@ -233,10 +233,22 @@
       "status": "source_only"
     },
     {
+      "id": "86fbd78c768a0040",
+      "title": "USA withdraw from U17 World Cup",
+      "summary": "The USA pull out of the Under-17 World Cup, which starts in Qatar next week, because of the risk of armed conflict.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6y49yz77pppo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-12T07:44:21+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "d26cec14a581d452",
       "title": "Robertson set to make history, but hero Dalglish will always be King",
       "summary": "Ties bind Scotland captain Andy Robertson and the man whose caps record he's about to equal, Kenny Dalglish, in more ways than one, writes Tom English.",
-      "category": "Berita Sepak Bola",
+      "category": "Tim Nasional",
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cxe89dq16dp2o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-12T07:19:57+00:00",
@@ -248,7 +260,7 @@
       "id": "0f0d3f5742c0e7b3",
       "title": "England's Blues brothers - how the Bellinghams helped save Birmingham",
       "summary": "Boyhood Birmingham City fans Jude and Jobe Bellingham could become the first brothers to play for England for 19 years.",
-      "category": "Berita Sepak Bola",
+      "category": "Tim Nasional",
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cm1j3j20r2rzo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-12T07:12:41+00:00",
@@ -348,18 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T16:44:58+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "16864cafe5aed2c5",
-      "title": "No excuses as Pocognoli seeks first Hampden victory",
-      "summary": "Having lost his first two home matches, Scotland head coach Sebastien Pocognoli needs to deliver a convincing win against North Macedonia, writes Tom English.",
-      "category": "Tim Nasional",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6702jxw17pjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-11T16:38:14+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
