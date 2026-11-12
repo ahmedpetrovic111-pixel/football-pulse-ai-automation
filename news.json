@@ -1,9 +1,33 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-12T18:12:33.279578+00:00",
+  "updated_at": "2026-11-12T18:16:13.574894+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "47c956c4146e549f",
+      "title": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
+      "summary": "Jordan Ayew has a first-half penalty saved as Ghana secure a comfortable 2-0 home win over Somalia to kick-start their Afcon 2027 qualifying campaign.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-12T18:12:55+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "f7931b105e178898",
+      "title": "Robertson pays tribute to Dalglish as he matches Scotland cap record",
+      "summary": "Tottenham full-back will make 102nd appearance on Friday 'It's another reason to honour one of the greatest players' Andy Robertson insists his matching of Kenny Dalglish's Scotland cap record by no means brings reputational parity. Four decades after Dalglish, widely regarded as the country's finest player, ended his international run at 102 games Robertson will hit the same figure with the visit of North Macedonia to Hampden Park on Friday. The Tottenham full-back is understandably delighted b",
+      "category": "Berita Sepak Bola",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/12/robertson-pays-tribute-to-dalglish-as-he-matches-scotland-cap-record",
+      "published_at": "2026-11-12T18:06:56+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "6c2aecc1feff947e",
       "title": "Crystal Palace sack boss Sage after 16 games",
@@ -24,18 +48,6 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13611545/uefa-nations-league-format-rules-promotion-and-relegation-explained-and-how-it-affects-euro-2028-qualifying",
       "published_at": "2026-11-12T17:09:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "47c956c4146e549f",
-      "title": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "summary": "Jordan Ayew has a first-half penalty saved as Ghana secure a comfortable 2-0 home win over Somalia to kick-start their Afcon 2027 qualifying campaign.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-12T17:02:10+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -348,18 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6702jxw17pjo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T16:38:14+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c18c918b6b488647",
-      "title": "Referee observer banned for discriminatory comments",
-      "summary": "A Pro Ref referee observer is banned for nine weeks and fined £200 for making discriminatory remarks after a match he was working at.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/ckedq15wq0dlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-11T16:26:24+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
