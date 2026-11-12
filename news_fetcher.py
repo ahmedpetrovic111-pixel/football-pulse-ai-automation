@@ -382,7 +382,10 @@ def is_relevant(title, summary):
         "manchester united women",
         "lionesses",
         "uwcl",
-        "caroline weir"
+        "caroline weir",
+        "moving the goalposts",
+        "pregnant players",
+        "female footballers"
     ]
 
     if any(keyword in content for keyword in womens_excluded_keywords):
