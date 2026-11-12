@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-12T18:08:11.683796+00:00",
+  "updated_at": "2026-11-12T18:12:33.279578+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
@@ -132,18 +132,6 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13607192/pierre-sage-under-pressure-how-crystal-palace-and-last-seasons-ligue-1-manager-of-the-year-are-both-suffering",
       "published_at": "2026-11-12T12:44:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c4d9aa2a1dd3a72f",
-      "title": "'Pregnancy does not mean game over': meet the footballers challenging the myths | Moving the Goalposts",
-      "summary": "Claire Emslie and Emma Kelly are among those taking advantage of new research and guidelines for pregnant players Claire Emslie wasn't expecting to be able to run at 81% of her max speed at 32 weeks pregnant. Emslie, a Scotland international who also plays as a forward for Angel City FC , documented her journey through pregnancy and football training on social media and is part of a growing number of professional female footballers who are getting pregnant in their athletic prime and approaching",
-      "category": "Berita Sepak Bola",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/12/pregnancy-womens-football-moving-the-goalposts-newsletter",
-      "published_at": "2026-11-12T12:00:47+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -360,6 +348,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6702jxw17pjo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-11T16:38:14+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "c18c918b6b488647",
+      "title": "Referee observer banned for discriminatory comments",
+      "summary": "A Pro Ref referee observer is banned for nine weeks and fined £200 for making discriminatory remarks after a match he was working at.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/ckedq15wq0dlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-11T16:26:24+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
