@@ -526,7 +526,11 @@ def classify_article(title, summary):
         "tuchel committed to england",
         "england moments",
         "wales' james",
-        "wales james"
+        "wales james",
+        "peter shilton",
+        "nations league's meanest defence",
+        "robertson set to make history",
+        "england's blues brothers"
     ]
 
     if any(
