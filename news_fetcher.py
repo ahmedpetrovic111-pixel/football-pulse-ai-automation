@@ -516,8 +516,9 @@ def classify_article(title, summary):
     if any(keyword in content for keyword in indonesia_keywords):
         return "Liga 1 Indonesia"
 
-      # 7. Tim nasional negara lain berdasarkan judul.
-      national_title_keywords = [
+    
+    # 7. Tim nasional negara lain berdasarkan judul.
+    national_title_keywords = [
         "scotland cap",
         "scotland u21",
         "scotland under-21",
@@ -573,6 +574,7 @@ def classify_article(title, summary):
 
     # 8. Berita sepak bola umum.
     return "Berita Sepak Bola"
+
 
 
 
