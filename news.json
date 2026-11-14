@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-13T23:19:52.540722+00:00",
+  "updated_at": "2026-11-14T05:20:49.195190+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "00e6d688a4c3b0bc",
+      "title": "Nations League: Germany set up Netherlands clash after beating Serbia",
+      "summary": "Florian Wirtz on target in Germany's 3-1 win in Serbia Tijjani Reijnders hat-trick as Netherlands hammer Greece Germany cruised to a 3-1 win against Serbia in Belgrade on Friday, setting up a crunch encounter with the Netherlands in Berlin on Monday to decide who tops Group A2. In teeming rain in an almost empty stadium, the Germans forced Serbia's Srdan Babic into an early own goal with Florian Wirtz and debutant Brajan Gruda also scoring. Continue reading...",
+      "category": "Berita Sepak Bola",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/13/nations-league-germany-set-up-netherlands-clash-serbia-greece",
+      "published_at": "2026-11-13T23:14:45+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "98b792b3c4df9c68",
       "title": "Ferguson 'made up' with first win as Glentoran boss",
@@ -348,18 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-13T06:57:25+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "30b863828c44cd71",
-      "title": "'A lie' & 'nonsense' - Palmer committed to England, says Rogers",
-      "summary": "Morgan Rogers says any suggestion Cole Palmer is not committed to England \"is a lie\" and \"nonsense\".",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6e9kjne5y8vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-12T23:09:07+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
