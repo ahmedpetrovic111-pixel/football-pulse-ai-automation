@@ -1,9 +1,57 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-14T22:03:30.392675+00:00",
+  "updated_at": "2026-11-15T05:16:54.485585+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "ba11751c28da5ec3",
+      "title": "The 'manager's dream' who has put NI one game from history",
+      "summary": "After scoring his first international goal in the 1-0 win over Ukraine, Northern Ireland boss Michael O'Neill says Terry Devlin is \"a bit of a dream\" to manage.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c84gn2dl4zleo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-14T23:21:45+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "b1531fb40d138b33",
+      "title": "Hallgrimsson rues 'painful' defeat for Republic of Ireland",
+      "summary": "Republic of Ireland boss Heimir Hallgrimsson says their 1-0 defeat against Austria in their penultimate Nations League game was \"painful\".",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cr15e4w75wxpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-14T22:40:02+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "13c3dca011b10012",
+      "title": "White has 'exciting future' despite boos - Rice",
+      "summary": "Midfielder Declan Rice has defended his Arsenal team-mate Ben White after he was booed during England's win over Croatia at Wembley.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cq0mdzrjn0j2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-14T22:26:56+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "e8e7d7440e7d30b1",
+      "title": "Nations League roundup: Portugal mauled by Denmark as Norway sink Wales",
+      "summary": "Portugal thrashed 4-1 at home by Denmark Wales bottom of Group A4 after 3-1 loss Portugal were hammered 4-1 by Denmark on Saturday, an embarrassing Nations League defeat in their first match without Cristiano Ronaldo after his retirement from international football. Rasmus Højlund starred with a superb double as Denmark moved into second place in Group A4 and closed in on a spot in the quarter-finals with an exceptional display in Braga. Continue reading...",
+      "category": "Berita Sepak Bola",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/14/clinical-norway-dent-wales-nations-league-top-tier-hopes-with-victory-in-oslo",
+      "published_at": "2026-11-14T22:23:39+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "fc9315c090769e89",
       "title": "Arsenal target Nusa could cost £66m - Sunday's gossip",
@@ -12,18 +60,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6e9kgn532gxo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-14T21:48:45+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "222120d8d172c152",
-      "title": "Kalajdzic scores late as Republic of Ireland taste defeat in Austria",
-      "summary": "Sasa Kalajdzic dealt the Republic of Ireland a late blow in Linz with the only goal in Austria's 1-0 Nations League victory at the Raiffeisen Arena.",
-      "category": "Berita Sepak Bola",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/austria-vs-republic-of-ireland/report/554103",
-      "published_at": "2026-11-14T21:35:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -55,35 +91,11 @@
     {
       "id": "965c77c355cc9414",
       "title": "'No racism in Spain' – De la Fuente message for Tuchel",
-      "summary": "Spain manager Luis de la Fuente says \"there is no racism in Spain\" after Thomas Tuchel issued a warning to his England players before Sunday's Nations League meeting in Madrid.",
+      "summary": "Spain manager Luis de la Fuente says \"there is no racism in Spain\" and England boss Thomas Tuchel reiterates that he does not believe it will be an issue at Sunday's Nations League meeting in Madrid.",
       "category": "Berita Sepak Bola",
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c893r74ryy3qo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-14T20:43:57+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "13c3dca011b10012",
-      "title": "Rice close to signing new Arsenal contract",
-      "summary": "Arsenal and England midfielder Declan Rice says he is close to signing a new contract with his club.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cq0mdzrjn0j2o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-14T20:40:35+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c6773d86f9676c93",
-      "title": "Declan Rice accepts he had an 'average World Cup' as England gear up for Spain showdown",
-      "summary": "Midfielder needed a break 'to come back stronger' James Trafford selected to start in goal for England Declan Rice has admitted he had an “average” World Cup at the end of a gruelling season and needed time out during the international window in September and October in order to return stronger. The Arsenal midfielder believes the break has served its purpose, having produced starring performances against Bayern Munich and Liverpool in recent weeks . He is now ready to hit his best level for Eng",
-      "category": "Berita Sepak Bola",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/14/declan-rice-england-spain-nations-league-world-cup-thomas-tuchel",
-      "published_at": "2026-11-14T20:30:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -96,18 +108,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/14/here-manchester-united-go-again-taking-the-two-ronnies-route-to-hiring-a-new-boss",
       "published_at": "2026-11-14T20:00:53+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "e8e7d7440e7d30b1",
-      "title": "Clinical Norway dent Wales' Nations League top-tier hopes with victory in Oslo",
-      "summary": "Home side avenge October defeat in Cardiff Wales bottom of Group A4 with one game left Wales suffered a 3-1 defeat to Norway in Oslo to dent their hopes of staying in the top tier of the Nations League. Antonio Nusa and Andreas Schjelderup struck in the space of nine second-half minutes as Norway turned the screw. Continue reading...",
-      "category": "Berita Sepak Bola",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/14/clinical-norway-dent-wales-nations-league-top-tier-hopes-with-victory-in-oslo",
-      "published_at": "2026-11-14T19:17:14+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -187,7 +187,7 @@
     {
       "id": "a8d1f3c642081624",
       "title": "Raphinha sees red as Brazil stunned by Japan while Argentina's post-Messi era starts with defeat",
-      "summary": "Loss in Singapore marred by unruly end to friendly Argentina beaten 2-1 by Uruguay in Buenos Aires Raphinha was sent off as Brazil crashed to a 3-2 defeat to Japan in their international friendly in Singapore. The Barcelona captain had been substituted after 71 minutes, but was shown a red card after protesting against Tatsuhiro Sakamoto's stoppage-time winner on the touchline. The Brazil head coach, Carlo Ancelotti, was also sent off in a fractious ending to the match. Japan went 2-0 up inside ",
+      "summary": "Brazil loss in Singapore marred by unruly end to friendly Argentina beaten 2-1 by Uruguay in Buenos Aires Raphinha was sent off as Brazil crashed to a 3-2 defeat by Japan in their international friendly in Singapore. The Barcelona captain had been substituted after 71 minutes, but was shown a red card after protesting against Tatsuhiro Sakamoto's stoppage-time winner on the touchline. The Brazil head coach, Carlo Ancelotti, was also sent off in a fractious ending to the match. Japan went 2-0 up ",
       "category": "Berita Sepak Bola",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/14/brazil-argentina-japan-uruguay-wales-norway-portugal-denmark",
@@ -204,18 +204,6 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/manchester-united-women-vs-crystal-palace-women/report/575822",
       "published_at": "2026-11-14T10:54:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "774338f423745d14",
-      "title": "'Exciting' Moylan flourishing for club and country",
-      "summary": "BBC Sport NI looks as Jack Moylan's terrific form for Cardiff City and Republic of Ireland ahead of the Irish's final two Nations League games.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmlydwy2zg10o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-14T09:59:18+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -276,18 +264,6 @@
       "source": "Sky Sports",
       "source_url": "https://www.skysports.com/football/news/11095/13611443/mauricio-pochettino-to-man-utd-what-does-a-pochettino-team-look-like-and-how-will-he-set-up-struggling-red-devils",
       "published_at": "2026-11-14T07:00:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "8346af48045193d5",
-      "title": "Portugal did the extraordinary with Cristiano Ronaldo. Can they do it without him?",
-      "summary": "The captain, the talisman, the brand: former teammates and experts discuss Portugal entering a new era after 23 years There are days football fans hope will never come. For Portugal, this is one of them. For 23 years, Cristiano Ronaldo has been more than the country's greatest footballer; he has been its defining sporting figure, a symbol of national pride and constant presence in the lives of supporters. After 234 appearances and 146 goals, the No 7 brought that chapter to a close and on Saturd",
-      "category": "Berita Sepak Bola",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/14/portugal-cristiano-ronaldo-football-memories-future",
-      "published_at": "2026-11-14T06:53:23+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -360,6 +336,30 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/sport/2026/nov/13/rugby-league-world-cup-finals-atp-and-wta-tennis-plus-wsl-follow-with-us",
       "published_at": "2026-11-13T16:42:46+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "54f779e6bf7a06e4",
+      "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
+      "summary": "An emotional Mauricio Pochettino broke down as he explained why he was leaving the USA to take the Manchester United job.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-13T15:28:06+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "a696cbb8a7b897ca",
+      "title": "Fernandes rejects second Man Utd contract offer",
+      "summary": "Manchester United captain Bruno Fernandes rejects the club's second contract offer, with his current deal due to expire at the end of the season.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-13T09:55:01+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
