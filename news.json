@@ -1,9 +1,45 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-15T22:33:48.664402+00:00",
+  "updated_at": "2026-11-16T05:14:03.646268+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "c205c4ca4caca511",
+      "title": "How did England cling on against Spain and what did Tuchel do differently?",
+      "summary": "Trying to protect a lead in the closing stages, England have been here before - so how did they cling on against Spain?",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6742l4z91lwo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-16T00:02:22+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "3eeef42e37e62984",
+      "title": "60 minutes of perfection, 30 minutes of chaos - an England win for the ages",
+      "summary": "England's stunning win in Spain had everything - and was their best under Thomas Tuchel, writes Phil McNulty.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c933ge310n33o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-15T23:52:43+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "54f06d2bc55fdbc7",
+      "title": "Papers: Guardiola to reject USA approach to replace Pochettino",
+      "summary": "The top stories and transfer rumours from Monday's newspapers...",
+      "category": "Berita Sepak Bola",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13612630/pep-guardiola-usa-approach-to-replace-mauricio-pochettino-to-be-rejected-by-ex-man-city-boss-paper-talk",
+      "published_at": "2026-11-15T22:45:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "ed7fc3b11f2add56",
       "title": "Who swaggered around like he owned the place? Spain v England ratings",
@@ -12,18 +48,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cjg46lrpllrpo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-15T22:12:55+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "a6c181d2e982e1f6",
-      "title": "England fend off fiery Spain fightback after Anderson's red to top Nations League group",
-      "summary": "It was the game to show Thomas Tuchel where his rebooted England team had got to; surely the ultimate test in international football. Spain in Spain. A world champion team who, in Tuchel's words, had “forgotten how to lose.” Before this Nations League tie, they had been beaten only once in 43 matches – on penalties to Portugal in the final of this competition last year. What England produced for 65 minutes here in Madrid was extraordinary. What followed was equally so for very different reasons.",
-      "category": "Berita Sepak Bola",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
-      "published_at": "2026-11-15T21:56:41+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -221,18 +245,6 @@
       "status": "source_only"
     },
     {
-      "id": "db1ad0152a0cc8b2",
-      "title": "Papers: Fernandes wants to see if Poch is 'real deal' before signing new contract",
-      "summary": "The top stories and transfer rumours from Sunday's newspapers...",
-      "category": "Berita Sepak Bola",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13612415/x-paper-talk",
-      "published_at": "2026-11-15T09:47:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "855aadf6321e5b8d",
       "title": "Terry Butcher: 'I've learned to live with the Hand of God goal better'",
       "summary": "The former England centre-back answers your questions on Diego Maradona, Bobby Robson and on staying in strange places “Have you made up all these on your own?” asks Terry Butcher, sitting in a London office in the week he is presented with his England legacy cap. It turns out dozens of Guardian readers want to pick the brains of a much-loved centre-back who was feted en route to a World Cup semi-final and tormented four years previously by the mercurial genius of Diego Maradona. Did Maradona ev",
@@ -293,6 +305,18 @@
       "status": "source_only"
     },
     {
+      "id": "e8e7d7440e7d30b1",
+      "title": "Nations League roundup: Portugal mauled by Denmark as Norway sink Wales",
+      "summary": "Portugal thrashed 4-1 at home by Denmark Wales bottom of Group A4 after 3-1 loss Portugal were hammered 4-1 by Denmark on Saturday, an embarrassing Nations League defeat in their first match without Cristiano Ronaldo after his retirement from international football. Rasmus Højlund starred with a superb double as Denmark moved into second place in Group A4 and closed in on a spot in the quarter-finals with an exceptional display in Braga. Continue reading...",
+      "category": "Berita Sepak Bola",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/14/clinical-norway-dent-wales-nations-league-top-tier-hopes-with-victory-in-oslo",
+      "published_at": "2026-11-14T22:23:39+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "7a87928c66380dcb",
       "title": "What Wales need to stay in Nations League top tier",
       "summary": "BBC Sport Wales explains how Wales can stay in the Nations League top tier despite finishing bottom of their group.",
@@ -336,30 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cmvg25w18q9qo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-14T18:55:34+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "108a73038c91bd71",
-      "title": "Former Stoke City manager Thordarson dies aged 71",
-      "summary": "Gudjon Thordarson, who led Stoke City to promotion from the third tier in 2002 and managed three other English clubs, dies aged 71.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c98r7l5yrn6go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-14T15:04:59+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "731faf0b60d89d96",
-      "title": "Mauricio Pochettino asked the US to believe in his project. Did he believe in it himself?",
-      "summary": "The coach's tenure with the USMNT brought a whiplash of highs and lows. He met some goals but also left many with the impression he never truly bought in It did not take US men's national team coach Mauricio Pochettino very long to take his first big swing. He'd just taken the reins of the program after a disastrous performance at the 2024 Copa América cost his predecessor his job, with the first home World Cup in three decades looming on the horizon. The federation introduced him in New York Ci",
-      "category": "Tim Nasional",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/14/mauricio-pochettino-usmnt-legacy-belief",
-      "published_at": "2026-11-14T14:06:37+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
