@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-18T23:58:15.414122+00:00",
+  "updated_at": "2026-11-19T07:08:39.746923+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "a9eeea3b32a0fcc0",
+      "title": "Vote for the first BBC Men's Footballer of the Year",
+      "summary": "Jude Bellingham, Harry Kane, Kylian Mbappe, Rodri and Lamine Yamal are shortlisted for the BBC's Men's Footballer of the Year award.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c61wrqr7l1d8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-19T06:30:04+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "f49f5bf1cc31309c",
       "title": "Man Utd pursuing Como's Paz - Thursday's gossip",
@@ -288,18 +300,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-18T10:51:37+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "3d4b2015394cbeb7",
-      "title": "Former Spain midfielder Mata retires aged 38",
-      "summary": "Former Spain midfielder Juan Mata, who had spells at Chelsea and Manchester United in the Premier League, announces his retirement from playing at the age of 38.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-18T10:12:46+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
