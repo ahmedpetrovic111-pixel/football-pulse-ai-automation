@@ -1,9 +1,57 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-21T05:57:34.420081+00:00",
+  "updated_at": "2026-11-21T14:30:50.047761+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "6416367cb398b3c9",
+      "title": "Anderson steps up, Berge impresses - player ratings for Man City v Fulham",
+      "summary": "How Manchester City and Fulham players rated in their Premier League match.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cqwy06p44g3no?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-21T14:21:31+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "3342820122fa5b76",
+      "title": "Kane vows to be back for 'business end of season' after ankle surgery",
+      "summary": "Harry Kane is targeting the \"business end of the season\" after undergoing surgery on a torn ligament in his left ankle.",
+      "category": "Berita Sepak Bola",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13614655/harry-kane-england-and-bayern-munich-striker-vows-to-be-back-for-business-end-of-season-after-ankle-surgery",
+      "published_at": "2026-11-21T11:20:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "d4ae192d59193e29",
+      "title": "Jeers, injuries and doubters - White's journey back to the top",
+      "summary": "When Ben White wheeled away after scoring England's third goal against world champions Spain, it was more than just a strike which ended up being the winner in a special win.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-21T06:17:32+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "0a649dd7f99b6775",
+      "title": "Brighton are rocking the Premier League elite. But can they mount a title tilt?",
+      "summary": "A combination of smart analytics, a young manager and players hand-picked for their particular skills has the Seagulls flying high They lined up in sky‑blue shirts, white shorts. A combined value of £327m. Enzo Fernández, Ayyoub Bouaddi and Elliot Anderson were starting their first match together in Manchester City's midfield. But it was a Brighton midfielder who made the game's first decisive contribution. Yasin Ayari slotted the ball home. The away crowd at the Etihad Stadium roared, then watc",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/21/brighton-rocking-premier-league-elite-title-challenge",
+      "published_at": "2026-11-21T06:00:52+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "0a90373df67c0e55",
       "title": "Papers: Osimhen ready to listen to Man Utd offers",
@@ -77,18 +125,6 @@
       "status": "source_only"
     },
     {
-      "id": "9f1f0c2eaaf055c4",
-      "title": "Kane set to miss three months with ankle injury",
-      "summary": "Harry Kane is expected to be sidelined for three months after suffering an ankle injury during Bayern Munich's Bundesliga game with Cologne on Friday.",
-      "category": "Berita Sepak Bola",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13614559/harry-kane-england-and-bayern-munich-striker-set-to-miss-three-months-with-ankle-injury",
-      "published_at": "2026-11-20T22:26:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "b5d974d4c8968ca8",
       "title": "Lampard calls for fairness after Coventry penalty row",
       "summary": "Coventry boss Frank Lampard wants officials to spend time ensuring they get decisions correct in the wake of his side being denied a penalty at Everton.",
@@ -113,18 +149,6 @@
       "status": "source_only"
     },
     {
-      "id": "bbace877bc6b1ebe",
-      "title": "Van Dijk uncertain on Liverpool future",
-      "summary": "Liverpool captain Virgil van Dijk believes he can keeping playing for \"many more years\" - but says he does not yet know whether that will be at Anfield next season.",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13614508/liverpool-virgil-van-dijk-uncertain-on-anfield-future-beyond-the-summer-but-believes-he-can-play-for-many-more-years",
-      "published_at": "2026-11-20T20:15:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "2a3b0dc9c871edc0",
       "title": "Drones, data and Bruno - Pochettino on his early Man Utd challenges",
       "summary": "Mauricio Pochettino has questioned what could have been gained from the drone footage of a Manchester United training session ahead of his first game in charge against Liverpool.",
@@ -144,18 +168,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/20/dele-alli-tottenham-mk-dons-england",
       "published_at": "2026-11-20T19:00:37+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "d37ee0d22f774142",
-      "title": "Sarr focused on Palace return after Liverpool interest",
-      "summary": "Crystal Palace forward Ismaila Sarr says he has moved on from Liverpool's interest in signing him and is keen for a \"fresh start\" under Thomas Frank.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-20T18:41:33+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -186,7 +198,7 @@
     },
     {
       "id": "771039b876f6268e",
-      "title": "Johnstone no longer need to play twice in one day",
+      "title": "Johnstone Burgh no longer required to play twice on Saturday",
       "summary": "Scottish fifth-tier club Johnstone Burgh are forced to play two cup ties on the same day, with the kick-offs only half an hour apart.",
       "category": "Berita Sepak Bola",
       "source": "BBC Sport",
@@ -324,18 +336,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c50mdwnn90jyo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-20T13:53:22+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "7723ac9bc51314d8",
-      "title": "Legendary Irish League manager Coyle dies aged 80",
-      "summary": "The Irish League's most successful manager Roy Coyle dies at the age of 80.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/articles/c63eg4x112wqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-20T13:52:15+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
