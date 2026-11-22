@@ -1,9 +1,21 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-21T22:51:23.405746+00:00",
+  "updated_at": "2026-11-22T05:31:51.542908+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "b1c208eb0e77daab",
+      "title": "Naderi's 'lucky punch' keeps Rangers in touch",
+      "summary": "On a Saturday laden with Scottish Premiership goals, Ryan Naderi's was far from the most impressive - but vital for Rangers all the same.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/ckzd930mjp1po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-22T00:01:31+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "5717efa7e0838f37",
       "title": "'They looked like a team again' - Hearts roar back with Dundee demolition",
@@ -67,7 +79,7 @@
     {
       "id": "bb815e15d95026d2",
       "title": "European football: Doué carried off for PSG while Kane vows to return fresh",
-      "summary": "Doué injury adds to that of Kvaratskhelia last month Nice 2-3 PSG; Lazio 3-0 Lecce; Gladbach 0-1 Dortmund Désiré Doué was carried off in tears after suffering what looked like a nasty knee injury as Paris Saint-Germain beat Nice 3-2 in Ligue 1. Doué went down after twisting awkwardly late in the first half as he tried to control the ball, shortly after scoring to put PSG 2-1 ahead. The match was stopped for five minutes to allow Doué to receive treatment to his right knee before being carried of",
+      "summary": "Doué injury adds to that of Kvaratskhelia last month Nice 2-3 PSG; Lazio 3-0 Lecce; Gladbach 0-1 Dortmund Désiré Doué was carried off in tears after suffering what looked like a nasty knee injury as Paris Saint-Germain beat Nice 3-2 in Ligue 1. Doué went down after twisting awkwardly late in the first half as he tried to control the ball, shortly after scoring to put PSG 2-1 ahead. The match was stopped for five minutes to allow Doué to receive treatment to his right knee before he was carried o",
       "category": "Ligue 1",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/21/european-football-borussia-dortmund-psg-real-madrid",
@@ -324,18 +336,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/20/arsenal-lisa-baum-germany-brother-dennis",
       "published_at": "2026-11-20T13:00:29+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "61d152e47301ba29",
-      "title": "Liverpool fan found not guilty of racial abuse after Antoine Semenyo withdraws from case",
-      "summary": "Man accused of abusing former Bournemouth winger Alleged incident happened at Anfield game in 2025 A Liverpool fan accused of racially abusing Antoine Semenyo has been found not guilty after the Manchester City forward withdrew his support for the prosecution. Semenyo was due to give evidence at Liverpool magistrates court on Friday in the trial of Mark Mogan, 47, who was accused of shouting abuse during the Premier League match between Liverpool and Semenyo's former club Bournemouth at Anfield ",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/20/liverpool-fan-not-guilty-racial-abuse-antoine-semenyo-withdraws-from-case-bournemouth-liverpool",
-      "published_at": "2026-11-20T12:20:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
