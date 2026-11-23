@@ -1,13 +1,25 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-22T23:20:19.419590+00:00",
+  "updated_at": "2026-11-23T06:12:54.022372+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
     {
+      "id": "4be58c1161cbedcd",
+      "title": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
+      "summary": "Match of the Day pundit Danny Murphy explains how Rio Ngumoha showed everyone what he is capable of in Liverpool's 4-0 win over Manchester United.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-22T23:20:16+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "b452ec5ccb41b57f",
       "title": "European football: Barcelona roar back from two goals down to sink Villarreal",
-      "summary": "Barça prevail 3-2 despite Lamine Yamal's missed penalty Atalanta snatch point in thrilling 4-4 draw with Inter Barcelona came back from two goals behind to beat Villarreal 3-2 at home on Sunday and restore their three-point lead at the top of La Liga. Two goals inside seven minutes from Tajon Buchanan and Tani Oluwaseyi gave Villarreal a commanding lead at Camp Nou, and things got worse for Barça when winger Lamine Yamal missed a first-half penalty. Continue reading...",
+      "summary": "Barça prevail 3-2 despite Lamine Yamal's missed penalty Atalanta snatch point in thrilling 4-4 draw with Inter Barcelona came back from two goals behind to beat Villarreal 3-2 at home on Sunday and restore their three-point lead at the top of La Liga. Two goals inside seven minutes from Tajon Buchanan and Tani Oluwaseyi gave Villarreal a commanding lead at Camp Nou and things got worse for Barça when winger Lamine Yamal missed a first-half penalty. Continue reading...",
       "category": "LaLiga",
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/22/european-football-barcelona-villarreal-juventus-milan-inter",
@@ -17,13 +29,13 @@
       "status": "source_only"
     },
     {
-      "id": "eb0127dbce75b2aa",
-      "title": "'World's best could've lost 4-0' - but should Man Utd have done more at Anfield?",
-      "summary": "Mauricio Pochettino believes even the best team in the world could have conceded four goals at Liverpool in Manchester United's circumstances - but should the Red Devils have done more in defeat?",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm782j80yypwo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-22T21:36:00+00:00",
+      "id": "9b6a7eac9068db85",
+      "title": "'It's painful for me': Pochettino criticises Yoro red card in Anfield humiliation",
+      "summary": "Manchester United lose 4-0 to Liverpool after early red Argentinian suffers club's joint-heaviest debut defeat Mauricio Pochettino argued that Leny Yoro was wrongly sent off and that Manchester United were earlier denied a penalty against Liverpool after suffering the joint-heaviest debut defeat in the club's history. Liverpool's emphatic 4-0 win ensured Pochettino equalled Lal Hilditch's unwanted record from 1926 of losing his first United game by such a scoreline. United's 34 goals conceded ac",
+      "category": "Berita Sepak Bola",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool",
+      "published_at": "2026-11-22T21:31:03+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -84,18 +96,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cm4gn7npqe8yo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-22T19:03:32+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "a07f772c46f76792",
-      "title": "'No chance!' - Poch and Mainoo fume at 'unfair' Yoro red card",
-      "summary": "Mauricio Pochettino felt Manchester United were given an \"unfair\" red card in their 4-0 defeat at Liverpool - with Kobbie Mainoo replying \"no chance\" when asked whether Leny Yoro should have been sent off.",
-      "category": "Berita Sepak Bola",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13615402/leny-yoro-red-card-man-utd-boss-mauricio-pochettino-and-kobbie-mainoo-angry-at-sending-off-for-foul-on-liverpools-alexander-isak",
-      "published_at": "2026-11-22T18:58:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -173,6 +173,18 @@
       "status": "source_only"
     },
     {
+      "id": "49397da333119685",
+      "title": "Man City lose again as home WSL record crumbles with Spurs defeat",
+      "summary": "Manchester City lost for a second WSL game in a row, beaten 3-1 by Tottenham, with their 100 per cent home league record under Andree Jeglertz coming to an abrupt end.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/manchester-city-women-vs-tottenham-hotspur-women/report/575831",
+      "published_at": "2026-11-22T14:15:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
       "id": "b5eb9744d376f4ad",
       "title": "Frick delivers on 'heavy metal football' promise",
       "summary": "Mario Frick aimed for \"heavy metal football\" after taking over from Aberdeen and travelling fans were served up quite the concert at Rugby Park.",
@@ -233,18 +245,6 @@
       "status": "source_only"
     },
     {
-      "id": "d7e36a0be7e2aeed",
-      "title": "Lionel Messi at center of red-card controversy as Inter Miami face early MLS playoff exit",
-      "summary": "Messi booked for throwing ball into opponent's face Columbus coach insists Argentine deserved red card Defending champions thrashed 3-0 in series opener Columbus Crew coach Laurent Courtois said Lionel Messi should have been sent off after throwing a ball into an opponent's face as Inter Miami crashed to a 3-0 defeat in the MLS Cup playoffs on Saturday. Messi's frustration boiled over on the stroke of half-time when he hurled a throw-in into the face of Columbus forward Gonzalo Tapia, with 10-ma",
-      "category": "Berita Sepak Bola",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/21/lionel-messi-red-card-controversy-inter-miami-columbus-crew-mls-playoffs",
-      "published_at": "2026-11-22T03:01:55+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "49b066013d15807e",
       "title": "'Obviously it's not good': Arteta sweating over David Raya's fitness after injury",
       "summary": "Keeper close to tears at Newcastle after hurting shoulder Arsenal held 2-2, with Jaissle hailing 'excellent' display Arsenal were left sweating on the fitness of their goalkeeper David Raya after the Spaniard was forced off with a shoulder injury during the second half of the 2-2 draw at Newcastle on Saturday evening. It left Mikel Arteta's side six points clear of Brighton and Manchester City at the top of the Premier League but Arsenal's manager was more concerned about Raya following an accid",
@@ -288,6 +288,18 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6p9d102k4mdo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-21T20:07:56+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "67c78e228746ae2c",
+      "title": "Pochettino needs New Manager Bounce to break torrid Manchester United turnover | Jonathan Wilson",
+      "summary": "Latest hire will depend on fresh faces and time to bed in at Old Trafford where the dugout churn is hardest to budge Everybody knows the pattern. Performances fade. Results falter. A title challenge becomes clinging on for the last Champions League spot becomes mid-table. Or a promising start becomes a troubling dip, becomes a full-on battle against relegation. Fans begin to grumble. The media wonder whether the spark has gone. Players look disaffected. A dressing room, once lost, is seldom redi",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/21/pochettino-needs-new-manager-bounce-to-break-torrid-manchester-united-turnover",
+      "published_at": "2026-11-21T20:00:06+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -348,18 +360,6 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/football/2026/nov/21/aston-villa-sunderland-premier-league-match-report",
       "published_at": "2026-11-21T17:32:34+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "125c4a9fe2bcfc1f",
-      "title": "Coventry edge thriller to keep Crystal Palace bottom and ruin Thomas Frank's start",
-      "summary": "New manager, new formation, familiar defensive failings. Twice Crystal Palace equalised. They seemed to have stabilised after half-time. But sometimes the rot is so deep-rooted that the new manager bounce manifests as nothing more than it not looking quite as shambolic as it did before. Thomas Frank started with a defeat that means Palace remain bottom of the table having lost five league games in a row. Yet for much of the second half, there had been reasons for Palace optimism. They seemed to ",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/21/coventry-crystal-palace-premier-league-match-report",
-      "published_at": "2026-11-21T17:09:02+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
