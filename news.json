@@ -1,9 +1,153 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-24T21:59:31.833994+00:00",
+  "updated_at": "2026-11-25T07:24:34.699058+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "317f2e533dffd371",
+      "title": "Are Manchester United this season's Tottenham?",
+      "summary": "Tottenham escaped an unthinkable Premier League relegation last season on the final day, but are Man Utd in danger of being the new Spurs?",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cj4gndepk312o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T06:22:36+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "dc57a5e776e32452",
+      "title": "Matildas keeper reveals head trauma-induced neurological disorder almost ended career",
+      "summary": "Teagan Micah reveals she was nearly forced into early retirement 29-year-old consulted international specialists to get back on field A neurological disorder threatened to cut Teagan Micah's career short, but the Australian goalkeeper has overcome it with a little help from her Matildas friends. The 29-year-old was diagnosed with autonomic dysfunction after suffering a concussion in March while training with her current French club, Lyon. Continue reading...",
+      "category": "Berita Sepak Bola",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/25/matildas-goalkeeper-teagan-micah-neurological-disorder-head-trauma",
+      "published_at": "2026-11-25T03:46:28+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "5c7cf79627bfce97",
+      "title": "Rangers 'dug it out' despite naivety & complacency - McInnes",
+      "summary": "Rangers manager Derek McInnes says his team's naivety and complacency made their task more difficult in their thrilling 3-2 win over Aberdeen, but hails their ability to get the job done.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw808pyyxgzjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T01:20:53+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "0087592e17a3d466",
+      "title": "Bellingham plays down Zidane comparison after wonder goal",
+      "summary": "Jose Mourinho says Jude Bellingham is the best midfielder in the world, but the Real Madrid star played down comparisons to Zinedine Zidane.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c893r9kdwl91o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T23:54:10+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "6487ce403849f625",
+      "title": "Arteta says Arsenal need more luck to kill off games",
+      "summary": "Arsenal need more luck to kill off games says manager Mikel Arteta after they are held to a draw by Borussia Dortmund.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c3ewv0kdjlp9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T23:44:04+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "a7fb9d01cf392a3f",
+      "title": "'Pass, pass, slow, slow' - Man City's slick machine grinding to a halt",
+      "summary": "Manchester City's slick footballing machine is starting to grind to a halt, as displayed in their laborious Champions League draw against Napoli.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cj3vgdp2edpxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T23:17:42+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "f46edacfe66ebb93",
+      "title": "Papers: Chelsea will push to sign Bournemouth's Scott in January",
+      "summary": "The top stories and transfer rumours from Tuesday's newspapers...",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13616238/chelsea-transfer-news-blues-will-push-to-sign-bournemouth-midfielder-alex-scott-in-january-paper-talk",
+      "published_at": "2026-11-24T23:02:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "4f20794dd28343b2",
+      "title": "Arsenal punished for bluntless in attack - but Man City also have problems",
+      "summary": "Arsenal face Manchester City in a blockbuster Premier League contest this weekend, but in recent days and months, both teams have issues to overcome.",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13616234/arsenal-and-manchester-citys-problems-analysed-as-both-set-to-meet-in-bumper-premier-league-clash-this-weekend",
+      "published_at": "2026-11-24T22:54:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "948fdbe17848442a",
+      "title": "'You question everything' - Haaland lays City's frustrations bare",
+      "summary": "Erling Haaland has admitted Manchester City's poor form is affecting the players, admitting \"when you don't win, you question everything\" after they were held 2-2 at home by Napoli in the Champions League.",
+      "category": "Berita Sepak Bola",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13616226/erling-haaland-frustrated-with-manchester-city-form-when-you-dont-win-you-question-everything",
+      "published_at": "2026-11-24T22:51:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "ab7becaee7b56d3b",
+      "title": "Pochettino leads Man Utd fury at Yoro red card ruling",
+      "summary": "Manchester United and Mauricio Pochettino are furious at how Leny Yoro's red card has been handled by VAR John Brooks and referees' chief Howard Webb",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cqzr5ylmeerlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-24T22:05:31+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "75769435fbaeadb6",
+      "title": "Rayan Cherki magic denies Napoli but Manchester City's struggles continue",
+      "summary": "For reasons best known to those eyeing the pound signs, Manchester City gave a debut to a special rust-coloured kit in front of a nonplussed crowd. It was of a piece with their performance for most of a familiarly frustrating night that at least concluded with a shot of energy, the home side belatedly shaking off their torpor and ending the prospect of a triumphant return to the Etihad for Kevin De Bruyne. Despite the relief sparked by a fine equaliser by Rayan Cherki, who was rewarded for an in",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/24/manchester-city-napoli-champions-league-match-report",
+      "published_at": "2026-11-24T22:01:51+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "709228b6d3f7315f",
+      "title": "Poch fumes at Yoro red and thinks Szoboszlai goal shouldn't have stood",
+      "summary": "Mauricio Pochettino has heavily criticised VAR in Manchester United's loss at Liverpool after Leny Yoro's red card was overturned, while the Argentine believes Dominik Szoboszlai's opener should not have stood.",
+      "category": "Berita Sepak Bola",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13616134/mauricio-pochettino-man-utd-boss-fumes-at-var-in-liverpool-loss-over-leny-yoro-and-dominik-szoboszlai-calls",
+      "published_at": "2026-11-24T21:50:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "3bf62eedf85a7954",
       "title": "Parker still winless as Portsmouth beat West Ham",
@@ -17,32 +161,8 @@
       "status": "source_only"
     },
     {
-      "id": "ab7becaee7b56d3b",
-      "title": "Pochettino leads Man Utd fury at Yoro red card ruling",
-      "summary": "Manchester United and Mauricio Pochettino are furious at how Leny Yoro's red card has been handled by VAR John Brooks and referees' chief Howard Webb",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cqzr5ylmeerlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T21:27:13+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "e0cb82b34ffa7b4c",
-      "title": "Man Utd target Collins - Wednesday's gossip",
-      "summary": "Manchester United target Brentford defender Nathan Collins, Bournemouth price forward Eli Junior Kroupi at £100m and Liverpool close in on new Rio Ngumoha contract.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm15en5je9eko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T20:51:44+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "4e05d402cbea3fd1",
-      "title": "Gul swoops late for buoyant Galatasaray to condemn Aston Villa to Champions League loss",
+      "title": "Gul takes pain for buoyant Galatasaray to condemn Aston Villa to Champions League loss",
       "summary": "This was Aston Villa's third trip to Istanbul in the calendar year but, this time, they departed with different emotions. Unlike on the banks of the Bosphorus at Besiktas Park in May, the scene of their unforgettable Europa League triumph , or at Fenerbahce in January, they came away with a bloody nose. Galatasaray's match-winner, Deniz Gul, finished with similar, the substitute requiring a bandage after bravely taking a boot to the face from Nicolas Jackson as the hosts rippled the net on 77 mi",
       "category": "Premier League",
       "source": "The Guardian",
@@ -113,30 +233,6 @@
       "status": "source_only"
     },
     {
-      "id": "d2ed4d08ad976d1e",
-      "title": "How 'quick check' and unseen angle saw Timber's Isak shirt-pull go unpunished",
-      "summary": "Referees' chief Howard Webb admitted it was a “quick check” by VAR for Arsenal defender Jurrien Timber's unpunished shirt-pull on Liverpool striker Alexander Isak in the Gunners' win at Anfield.",
-      "category": "Berita Sepak Bola",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13616058/jurrien-timbers-shirt-pull-on-alexander-isak-ref-chief-howard-webb-admits-quick-check-in-arsenals-win-at-liverpool",
-      "published_at": "2026-11-24T17:13:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "a3fc56d54406bc75",
-      "title": "Yoro red card overturned, but refs' chief Webb backs decision",
-      "summary": "Manchester United defender Leny Yoro is clear to face Brentford on Saturday as his red card at Anfield is overturned.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/ck868g93djl5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T17:00:32+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "bd995d89a9c052e3",
       "title": "FA chief signs NDA to view Fifa sell-off plot documents",
       "summary": "Debbie Hewitt is among several football chiefs to view documents made available by Fifa, but cannot speak about them.",
@@ -161,18 +257,6 @@
       "status": "source_only"
     },
     {
-      "id": "ec3c0de6b8c5e968",
-      "title": "Defender Heaven open to leaving Man Utd",
-      "summary": "Manchester United defender Ayden Heaven is open to a loan move in January amid concerns over his game time as his side battles in the Premier League relegation zone.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/crd61gy4ednvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T15:56:55+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "775ab4da2f43a32f",
       "title": "Millwall face partial stadium closure after discriminatory chants",
       "summary": "Millwall must play a home game in front of a partially-closed stadium as punishment for fans' discriminatory chants.",
@@ -180,18 +264,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6wy474lxd22o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-24T14:23:49+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "670042e0e46bad30",
-      "title": "Millwall first club hit with partial closure over discriminatory chants",
-      "summary": "Millwall have become the first club in the top four divisions of English football to be punished with a partial stadium closure for discriminatory chanting after a regulatory commission proved two FA charges.",
-      "category": "Berita Sepak Bola",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13615754/millwall-forced-to-partially-close-the-den-after-commission-proves-fa-charges-of-discriminatory-chanting",
-      "published_at": "2026-11-24T14:00:00+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -245,18 +317,6 @@
       "status": "source_only"
     },
     {
-      "id": "3cdf9733f6051a8d",
-      "title": "Republic of Ireland boss Ward signs new contract",
-      "summary": "Republic of Ireland manager Carla Ward signs a contract extension until the conclusion of the side's Euro 2029 campaign.",
-      "category": "Tim Nasional",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cm4gn31z553go?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T10:45:30+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "c851c372a6cae9f4",
       "title": "Philippe Diallo learns harsh reality of mounting global challenge to Infantino",
       "summary": "French Football Federation president faces uphill battle to win backing of Africa's decision-makers in Fifa election Philippe Diallo must be learning very quickly that the battle to wrest the Fifa presidency from Gianni Infantino will be very challenging. When Patrice Motsepe, the president of the Confederation of African Football (Caf), asked the presidents and general secretaries of its 54 member associations to give Infantino a standing ovation at Caf's general assembly last weekend, Diallo, ",
@@ -300,66 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/news/articles/c8dx1v361vw7o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-24T08:50:17+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "7dae818f9f552965",
-      "title": "Why Potts swapped West Ham for Club Brugge after 16 years",
-      "summary": "When Liverpool visit Club Brugge on Wendesday they are likely to come up against English midfelder Freddie Potts.",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cxe89j8gj96jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T08:36:50+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "6a17feed65355164",
-      "title": "Can returning Beattie and Haughey make an impact?",
-      "summary": "BBC Sport NI looks at Michael McArdle's decision to recall striker Kerry Beattie and the uncapped Ella Haughey to his squad for a friendly double-header against Greece.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/articles/cm04wz6ez2rgo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T08:08:33+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "fa6319a8b283de1d",
-      "title": "Nwaneri at risk of becoming Arsenal's forgotten teenager on return with Dortmund",
-      "summary": "Youngest player to appear in Premier League is struggling to establish himself on loan at the Bundesliga club Ethan Nwaneri has one record Max Dowman can never break. It is more than four years since he became the youngest player to appear in the Premier League , with Dowman, his fellow Hale End academy graduate, older by 54 days when he made his highly anticipated debut . But after a week when Arsenal published an article dedicated to Dowman's growing collection of milestones, Nwaneri risks bec",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/24/ethan-nwaneri-arsenal-dortmund-mikel-arteta-champions-league",
-      "published_at": "2026-11-24T08:00:11+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "c021c1082c38f998",
-      "title": "De Bruyne's Napoli return will remind Manchester City what they are missing",
-      "summary": "Even without the charges, the Belgian maestro will be an unwelcome throwback to happier times for Enzo Maresca As Manchester City come to terms with turbulence, one of their all-time greats has flown in to remind them of the best of times. Kevin De Bruyne will be back at the Etihad Stadium on Tuesday, evoking the greatest period of Pep Guardiola's decade in charge when they won four straight Premier League titles and the Champions League . In Europe, things are comfortable for Enzo Maresca, with",
-      "category": "Premier League",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/24/kevin-de-bruyne-napoli-manchester-city-champions-league",
-      "published_at": "2026-11-24T08:00:10+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "653773b7222283a2",
-      "title": "115 days, 39 private-jet flights, one election - Infantino's globetrotting",
-      "summary": "Fifa president Gianni Infantino's globetrotting by private jet since his plan to sell off a stake in the World Cup has come under scrutiny.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cmkgk22w3vlvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-24T06:16:53+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
