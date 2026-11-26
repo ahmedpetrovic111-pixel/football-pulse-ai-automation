@@ -1,9 +1,117 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-25T21:12:51.735429+00:00",
+  "updated_at": "2026-11-26T07:13:19.015085+00:00",
   "total": 30,
   "sources_checked": 3,
   "articles": [
+    {
+      "id": "5a3f146728ed8d30",
+      "title": "'Laughing gas has ended careers' - so how common is it in football?",
+      "summary": "After Raheem Sterling's court case, BBC Sport looks at how common the use of nitrous oxide is among footballers.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6kgdrj9nxgdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-26T06:18:30+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "19963d3361f22fd8",
+      "title": "Frustration reigns for Pochettino in chaotic start to Man Utd job",
+      "summary": "What are the findings for Mauricio Pochettino after his first two matches as Manchester United manager?",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-26T00:24:48+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "08e8e4a3627765c5",
+      "title": "Divots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon",
+      "summary": "BBC Sport breaks down the chaos amid Manchester United's rollercoaster Champions League draw against Sporting in Lisbon.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cvrlg074ld74o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-26T00:22:28+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "5c12a1a7baa8fe10",
+      "title": "'All coming together' - Isak repaying Liverpool faith",
+      "summary": "Alexander Isak's two goals against Club Brugge take his tally for the season to 10 as the striker continues to show why Liverpool last year paid £125m to bring him to the club.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cqm2l0gelkzxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T23:25:30+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "cb4433e790c2f977",
+      "title": "Champions League: Lille comeback adds to Bayern woes, Gordon leads Barcelona rout",
+      "summary": "Lille 2-1 Bayern Munich, Sabah 1-4 Barcelona Malen penalty earns Roma 2-2 draw at PSG Bayern Munich endured their first defeat of the season on Wednesday, losing 2-1 at Lille in the Champions League as a tough week for the German giants worsened. Dayot Upamecano opened the scoring for Bayern but Ayase Ueda levelled for Lille before a horror Aleksandar Pavlovic own goal gifted the hosts victory. Bayern's unbeaten record in all competitions was ended by a Lille side who kicked off in 35th place in",
+      "category": "LaLiga",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/25/champions-league-barcelona-psg-roma-lille-bayern-munich-villarreal",
+      "published_at": "2026-11-25T22:38:19+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "f42bebdfa1cf1dfe",
+      "title": "Isak and Wirtz on target as resurgent Liverpool sweep aside Club Brugge",
+      "summary": "Liverpool, from big money individuals to the collective, are building formidable momentum. On a bitterly cold night in Belgium, Andoni Iraola's team delivered an accomplished away display to bring Club Brugge's impressive run to a halt and step closer to automatic qualification from the Champions League group. A week that supposedly represented a test of Liverpool's credentials has brought rich encouragement before Sunday's Merseyside derby. Following the 4-0 destruction of Manchester United the",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/25/club-brugge-liverpool-champions-league-match-report",
+      "published_at": "2026-11-25T22:04:10+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "5ef22127c9b0b3fb",
+      "title": "Ferguson's Glentoran reign hits early turbulence",
+      "summary": "Duncan Ferguson's short tenure at Glentoran is already proving anything but straightforward with just one win so far and the former Everton striker now suspended for seven games.",
+      "category": "Berita Sepak Bola",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/cxzd9v7457nro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T21:41:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "5360abeb842ac5dc",
+      "title": "Papers: Liverpool agree deal to sign Senegal teenager Ndiaye",
+      "summary": "The top stories and transfer rumours from Thursday's newspapers...",
+      "category": "Premier League",
+      "source": "Sky Sports",
+      "source_url": "https://www.skysports.com/football/news/11095/13616560/liverpool-transfer-news-sidy-barhama-ndiaye-agrees-deal-to-sign-for-reds-paper-talk",
+      "published_at": "2026-11-25T21:40:00+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "e54d81690bbe5e3f",
+      "title": "Regulator chief 'has stomach' to face Man City",
+      "summary": "The chair of English football's independent regulator tells MPs he \"has the stomach\" to take potential action against Manchester City.",
+      "category": "Premier League",
+      "source": "BBC Sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c65y10z8k59jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-25T21:27:35+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
     {
       "id": "085e4f4270fc9e06",
       "title": "Liverpool mull Quansah return - Thursday's gossip",
@@ -12,18 +120,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c6n831jk3x4mo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-25T20:57:48+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "cb4433e790c2f977",
-      "title": "Champions League: Gordon twice on target in Barcelona's cruise at Sabah",
-      "summary": "England forward scores two in 4-1 win in Azerbaijan Lamine Yamal left out of Barça squad with ankle injury Anthony Gordon scored twice as Barcelona cruised to a ⁠4-1 victory at Sabah in the Champions League on Wednesday, maintaining Hansi Flick's ⁠side's push for ⁠a ​top-eight finish with their fourth victory from five league-phase matches. Karim Adeyemi and Gabriel Jesus ⁠also scored in the space of five second-half minutes for the Spanish champions, who are ⁠fourth in the 36-team league table,",
-      "category": "LaLiga",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/25/champions-league-barcelona-psg-roma-lille-bayern-munich-villarreal",
-      "published_at": "2026-11-25T20:16:42+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -89,18 +185,6 @@
       "status": "source_only"
     },
     {
-      "id": "3c2a24c64297f4c0",
-      "title": "Confusion and anger - Yoro red card rescinded, but row goes on",
-      "summary": "Leny Yoro's red card against Liverpool has prompted an unseemly difference of opinion between Man Utd and Pro Ref.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cvze7y6n2redo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-25T16:28:10+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "3886e30c9d368e5b",
       "title": "Leicester no longer for sale as owner looks to future",
       "summary": "Leicester owner Khun Aiyawatt 'Top' Srivaddhanaprabha confirms the one-time Premier League title winners are no longer up for sale.",
@@ -137,18 +221,6 @@
       "status": "source_only"
     },
     {
-      "id": "f095ccd8ddf4f47b",
-      "title": "Why wasn't Szoboszlai's free-kick ruled out vs Man Utd?",
-      "summary": "Mauricio Pochettino fumed over Leny Yoro's red card for Manchester United in their defeat to Liverpool, but also felt Dominik Szoboszlai's opener should not have stood – is he right?",
-      "category": "Premier League",
-      "source": "Sky Sports",
-      "source_url": "https://www.skysports.com/football/news/11095/13616388/dominik-szoboszlai-free-kick-for-liverpool-vs-man-utd-reveals-grey-area-as-mauricio-pochettino-questions-decision",
-      "published_at": "2026-11-25T15:15:00+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "d1b1550ef46b5efe",
       "title": "Botty? AI helps resurrect voice of John Motson for football video game",
       "summary": "Late broadcaster's family allows EA Sports to create digital version of 'Motty' to commentate on popular FC27 First it was Val Kilmer, then Greta Garbo, but finally AI has resurrected a star the terraces can cheer for: John Motson, the BBC football pundit who died in February 2023, is coming back to commentate on the next generation of footballers – at least on a video game. The legendary commentator's family has approved the use of AI technology to create a digital version of “Motty” – as he wa",
@@ -156,6 +228,18 @@
       "source": "The Guardian",
       "source_url": "https://www.theguardian.com/media/2026/nov/25/ai-helps-resurrect-voice-john-motson-football-video-game-fc27",
       "published_at": "2026-11-25T15:13:10+00:00",
+      "image_url": "",
+      "language": "en",
+      "status": "source_only"
+    },
+    {
+      "id": "4a899c205b102e28",
+      "title": "Premier League's burst of early sendings-off may not last – but red cards are on the rise for a reason",
+      "summary": "While referees tend to reach for red early in the season before easing off, players are under increasing pressure to keep pace in a frenetic environment Off! Off! Off! The past three Premier League games have featured a red card, each for a different reason. Brighton's Costinha was sent off for two bookings at Hull, Leny Yoro collected a red card against Liverpool for denying a goalscoring opportunity ( though his suspension was overturned on appeal) and James Tarkowski saw red for serious foul ",
+      "category": "Premier League",
+      "source": "The Guardian",
+      "source_url": "https://www.theguardian.com/football/2026/nov/25/premier-league-red-cards-costinha-leny-yoro-james-tarkowski-referees",
+      "published_at": "2026-11-25T14:46:33+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -245,18 +329,6 @@
       "status": "source_only"
     },
     {
-      "id": "775ab4da2f43a32f",
-      "title": "Millwall face partial stadium closure after discriminatory chants",
-      "summary": "Millwall must play a home game in front of a partially-closed stadium as punishment for fans' discriminatory chants.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6wy474lxd22o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-25T10:58:32+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
       "id": "a8e889c77e13b082",
       "title": "Wales and West Ham's Morgan suffers serious injury",
       "summary": "Ffion Morgan looks set to miss the rest of the season for club and country following knee surgery.",
@@ -264,18 +336,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/c920xdl6d6kpo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-25T10:38:44+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "52a9ba1c39a9dd87",
-      "title": "EA adds AI-generated John Motson to FC 27 video game",
-      "summary": "The AI-generated Motson will appear in the game on 26 November, with the consent of his son and wife.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-25T10:11:34+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
@@ -300,66 +360,6 @@
       "source": "BBC Sport",
       "source_url": "https://www.bbc.co.uk/sport/football/articles/cm4gn898zl80o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-11-25T09:04:27+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "04fa75ecf45e551a",
-      "title": "The story of how Pelé and Maradona went from friends to bitter rivals",
-      "summary": "A new book charts the complicated relationship between the two legends, starting on a sunny afternoon in Rio in 1979 Pelé and Diego Maradona first met in April 1979, not long after the Argentinian led his country's under-20 side to the finals of the World Youth Cup. Maradona told a journalist friend that his dream was to meet the Brazilian, and after a few weeks of aborted attempts to bring them together – mostly because Diego did not want to travel on a Monday, the one day he had free for his g",
-      "category": "Berita Sepak Bola",
-      "source": "The Guardian",
-      "source_url": "https://www.theguardian.com/football/2026/nov/25/pele-diego-maradona-brazil-argentina-world-cup",
-      "published_at": "2026-11-25T08:00:10+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "95383fc885a684dd",
-      "title": "Celtic consider move for midfielder Ashour - gossip",
-      "summary": "Celtic linked with Egypt midfielder as Rangers prepare to offload striker...",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6lymzn0lx02o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-25T07:54:58+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "531a841ea53cb316",
-      "title": "How to unearth young stars, the Bayern Munich way",
-      "summary": "Bayern Munich initially aim to find local young players from Bavaria before looking further afield - here's how they do it.",
-      "category": "Bundesliga",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/c6702wddqz17o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-25T07:22:27+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "317f2e533dffd371",
-      "title": "Are Manchester United this season's Tottenham?",
-      "summary": "Tottenham escaped an unthinkable Premier League relegation last season on the final day, but are Manchester United in danger of being the new Spurs?",
-      "category": "Premier League",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cj4gndepk312o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-25T06:22:36+00:00",
-      "image_url": "",
-      "language": "en",
-      "status": "source_only"
-    },
-    {
-      "id": "5c7cf79627bfce97",
-      "title": "Rangers 'dug it out' despite naivety & complacency - McInnes",
-      "summary": "Rangers manager Derek McInnes says his team's naivety and complacency made their task more difficult in their thrilling 3-2 win over Aberdeen, but hails their ability to get the job done.",
-      "category": "Berita Sepak Bola",
-      "source": "BBC Sport",
-      "source_url": "https://www.bbc.co.uk/sport/football/articles/cw808pyyxgzjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-25T01:20:53+00:00",
       "image_url": "",
       "language": "en",
       "status": "source_only"
