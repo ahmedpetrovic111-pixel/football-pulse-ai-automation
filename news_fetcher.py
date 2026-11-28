@@ -131,7 +131,9 @@ COMPETITION_CATEGORIES = {
     "AFC Champions League Elite": [
         "afc champions league elite", "acl elite",
         "liga champions asia elite", "liga champions asia elit",
-        "champions league asia elite", "asian champions league elite"
+        "champions league asia elite", "asian champions league elite",
+        # Ajel kadang menulis nama kompetisi hanya sebagai "Liga Champions Asia".
+        "liga champions asia", "champions league asia"
     ],
     "AFC Champions League Two": [
         "afc champions league two", "afc champions league 2",
