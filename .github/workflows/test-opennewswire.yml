@@ -2,6 +2,9 @@ name: Test Open Newswire Football Search
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/test-opennewswire.yml'
 
 permissions:
   contents: read
