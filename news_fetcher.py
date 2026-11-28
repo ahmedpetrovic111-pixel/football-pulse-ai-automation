@@ -1,6 +1,6 @@
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 6.3 - RSS Ajel Indonesia + Inggris
+# Versi 6.4 - Filter kata utuh untuk mencegah berita non-sepak bola
 # Otomatis tanpa AI / tanpa API key
 # Sumber berita aktif: RSS resmi Ajel Indonesia dan Ajel English
 # ==========================================
@@ -36,7 +36,7 @@ AJEL_MAX_PAGES = 6
 OUTPUT_FILE = Path("news.json")
 MAX_NEWS = 30
 REQUEST_TIMEOUT = 30
-USER_AGENT = "FootballPulseAI/6.3 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
+USER_AGENT = "FootballPulseAI/6.4 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
 
 AJEL_RSS_FEEDS = {
     "id": {
@@ -502,7 +502,23 @@ def get_reusable_image(article):
 # ==========================================
 
 def contains_any(text, keywords):
-    return any(keyword in text for keyword in keywords)
+    """
+    Cocokkan kata/frasa secara utuh, bukan sebagai potongan kata.
+    Contoh: 'pelatih' tidak boleh cocok dengan 'pelatihan',
+    dan 'gol' tidak boleh cocok dengan bagian kata lain.
+    """
+    normalized = normalize_text(text)
+
+    for keyword in keywords:
+        phrase = normalize_text(keyword)
+        if not phrase:
+            continue
+
+        pattern = r"(?<!\\w)" + re.escape(phrase) + r"(?!\\w)"
+        if re.search(pattern, normalized, flags=re.UNICODE):
+            return True
+
+    return False
 
 
 def is_womens_football(text):
