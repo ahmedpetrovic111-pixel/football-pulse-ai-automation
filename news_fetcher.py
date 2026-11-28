@@ -127,9 +127,28 @@ LIVE_OR_VIDEO_KEYWORDS = [
 # ==========================================
 
 COMPETITION_CATEGORIES = {
-    "Champions League": [
-        "uefa champions league", "champions league",
-        "liga champions", "liga champions eropa"
+    # Kompetisi Asia dan Teluk diperiksa sebelum Champions League Eropa.
+    "AFC Champions League Elite": [
+        "afc champions league elite", "acl elite",
+        "liga champions asia elite", "liga champions asia elit",
+        "champions league asia elite", "asian champions league elite"
+    ],
+    "AFC Champions League Two": [
+        "afc champions league two", "afc champions league 2",
+        "acl two", "acl2", "liga champions asia 2",
+        "liga champions asia dua", "champions league asia 2",
+        "asian champions league two"
+    ],
+    "Gulf Club Champions League": [
+        "gulf club champions league", "gulf champions league",
+        "gcc champions league", "liga champions klub teluk",
+        "liga champions teluk", "champions league teluk",
+        "champions league klub teluk"
+    ],
+    "UEFA Champions League": [
+        "uefa champions league", "champions league europe",
+        "champions league eropa", "liga champions eropa",
+        "liga champions"
     ],
     "Premier League": [
         "premier league", "liga inggris"
