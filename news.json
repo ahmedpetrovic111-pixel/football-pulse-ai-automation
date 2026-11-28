@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-28T17:28:45.358054+00:00",
+  "updated_at": "2026-11-28T17:40:40.043532+00:00",
   "total": 30,
   "sources_checked": 1,
   "articles": [
@@ -8,7 +8,7 @@
       "id": "0b7e810a2dd29d8b",
       "title": "Ronaldo Junior Cetak Dua Gol untuk Tim Junior Al Nassr, Rayakan dengan Gaya Sang Ayah",
       "summary": "Cristiano Ronaldo Junior mencetak dua gol untuk tim U-17 Al Nassr dan merayakannya dengan selebrasi khas ayahnya, menurut laporan media Spanyol.",
-      "category": "Berita Sepak Bola",
+      "category": "Sepak Bola Usia Muda",
       "source": "Ajel",
       "source_url": "https://indonesian.ajel.sa/olahraga/cj0v3wlti",
       "published_at": "2026-11-28T09:47:27.458000+00:00",
@@ -65,7 +65,7 @@
       "id": "a5142a1290aa2432",
       "title": "AlUla kokoh di puncak Liga Yelo usai menang tiga gol tanpa balas",
       "summary": "AlUla memperkuat posisinya di puncak Liga Yelo setelah menaklukkan Al-Adalah 3-0 di Madinah dan menjaga rekor tak terkalahkan.",
-      "category": "Berita Sepak Bola",
+      "category": "Saudi First Division",
       "source": "Ajel",
       "source_url": "https://indonesian.ajel.sa/olahraga/s9j64lqmq",
       "published_at": "2026-11-26T03:12:11.811000+00:00",
@@ -236,7 +236,7 @@
       "id": "491f277ac4eb7cc5",
       "title": "Empat Gol Al-Wehda Perparah Krisis Al-Bukayriyah di Dasar Klasemen",
       "summary": "Al-Bukayriyah kembali menelan kekalahan di Liga Divisi Satu setelah takluk 2-4 dari Al-Wehda, memperpanjang tren negatif mereka musim ini.",
-      "category": "Berita Sepak Bola",
+      "category": "Saudi First Division",
       "source": "Ajel",
       "source_url": "https://indonesian.ajel.sa/olahraga/gixvsow1v",
       "published_at": "2026-11-25T15:24:17.309000+00:00",
@@ -274,7 +274,7 @@
       "id": "ad59b46066e79d92",
       "title": "Al Ahly Mesir tunjuk Sami Qomsan sebagai pelatih sementara",
       "summary": "Klub Al Ahly Mesir menunjuk Sami Qomsan sebagai pelatih sementara tim utama mulai hari ini hingga ditunjuk pelatih asing baru.",
-      "category": "Berita Sepak Bola",
+      "category": "Berita Klub",
       "source": "Ajel",
       "source_url": "https://indonesian.ajel.sa/olahraga/lkgnkujsa",
       "published_at": "2026-11-25T12:23:44.393000+00:00",
@@ -404,25 +404,6 @@
       "license_source": "Ajel Wire Usage and Attribution Policy"
     },
     {
-      "id": "3d587ec05e49b1d1",
-      "title": "Lebih dari 100 pencari bakat dunia pantau talenta di Piala Dunia U-17, timnas Saudi ikut ambil bagian",
-      "summary": "Piala Dunia U-17 di Qatar diikuti timnas Arab Saudi dan menarik perhatian lebih dari 100 pencari bakat klub-klub besar dunia untuk memantau bakat muda.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/eam3661i1",
-      "published_at": "2026-11-24T21:00:05.575000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/images4-crop-2vW5gy1I.jpg",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/eam3661i1"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
       "id": "ef0f5979b594095a",
       "title": "Al-Ettifaq kalahkan Ajman, puncaki grup di Liga Champions Teluk",
       "summary": "Al-Ettifaq meraih kemenangan 2-1 atas tuan rumah Ajman dalam lanjutan Liga Champions Teluk, dan kini memimpin Grup C dengan 9 poin.",
@@ -483,7 +464,7 @@
       "id": "0b40e61278ee6665",
       "title": "Kiper Andorra Kembali Berlatih Usai Tragedi Meninggalnya De Miguel",
       "summary": "Kiper Andorra, Jesus Owono, kembali menjalani latihan individu setelah absen beberapa minggu akibat insiden yang menewaskan striker Tenerife, Jesus De Miguel.",
-      "category": "Berita Sepak Bola",
+      "category": "Berita Pemain",
       "source": "Ajel",
       "source_url": "https://indonesian.ajel.sa/olahraga/ds1d6wosm",
       "published_at": "2026-11-24T19:34:05.666000+00:00",
@@ -502,7 +483,7 @@
       "id": "609e75320e3f54a5",
       "title": "CAF Hormati Putusan CAS Kembalikan Gelar Piala Afrika ke Senegal",
       "summary": "Konfederasi Sepak Bola Afrika (CAF) menyatakan menghormati keputusan CAS yang mengembalikan gelar Piala Afrika 2025 kepada Senegal dan siap melaksanakan putusan tersebut.",
-      "category": "Berita Sepak Bola",
+      "category": "Africa Cup of Nations",
       "source": "Ajel",
       "source_url": "https://indonesian.ajel.sa/olahraga/gemcbr8j0",
       "published_at": "2026-11-24T18:34:44.904000+00:00",
@@ -570,6 +551,25 @@
         "brand": "صحيفة عاجل",
         "text": "Sumber: Ajel",
         "url": "https://indonesian.ajel.sa/olahraga/dzqx5an69"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "6b6e1b29116b9f59",
+      "title": "Ajman Menjamu Al-Ettifaq di Pekan Keempat Liga Champions Teluk",
+      "summary": "Ajman dari Uni Emirat Arab akan menghadapi Al-Ettifaq pada Selasa di Stadion Rashid bin Saeed dalam lanjutan pekan keempat Grup C Liga Champions Teluk.",
+      "category": "Gulf Club Champions League",
+      "source": "Ajel",
+      "source_url": "https://indonesian.ajel.sa/olahraga/shkslg6cl",
+      "published_at": "2026-11-24T03:29:44.589000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/الاتفاق-bHMA7diL.jpg",
+      "language": "id",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Sumber: Ajel",
+        "url": "https://indonesian.ajel.sa/olahraga/shkslg6cl"
       },
       "attribution_required": true,
       "license_source": "Ajel Wire Usage and Attribution Policy"
