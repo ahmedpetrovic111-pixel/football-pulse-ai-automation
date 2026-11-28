@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -26,7 +26,7 @@ jobs:
 
       - name: Fetch football news
         env:
-        AJEL_WIRE_API_KEY: ${{ secrets.AJEL_WIRE_API_KEY }}
+          AJEL_WIRE_API_KEY: ${{ secrets.AJEL_WIRE_API_KEY }}
         run: python news_fetcher.py
 
       - name: Save updated news
