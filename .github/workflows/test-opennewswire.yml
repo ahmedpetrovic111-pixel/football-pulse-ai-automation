@@ -1,0 +1,113 @@
+name: Test Open Newswire Football Search
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-opennewswire:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Test public article search API
+        run: |
+          python - <<'PY'
+          import requests
+          from collections import Counter
+
+          API = "https://feed.opennewswire.org/api/articles"
+          QUERIES = [
+              "Premier League",
+              "LaLiga",
+              "La Liga",
+              "Serie A",
+              "Bundesliga",
+              "Ligue 1",
+          ]
+
+          session = requests.Session()
+          session.headers.update({
+              "User-Agent": "FootballPulseAI-OpenNewswireResearch/1.0",
+              "Accept": "application/json",
+          })
+
+          successful = 0
+          for query in QUERIES:
+              print("\\n" + "=" * 72)
+              print(f"SEARCH: {query}")
+              unique = {}
+              errors = []
+
+              for page in (1, 2):
+                  try:
+                      response = session.get(
+                          API,
+                          params={"search": query, "page": page, "size": 50},
+                          timeout=30,
+                      )
+                      print(f"HTTP page {page}: {response.status_code}")
+                      response.raise_for_status()
+                      payload = response.json()
+                      results = payload.get("results", [])
+                      for article in results:
+                          key = article.get("link") or article.get("id")
+                          if key:
+                              unique[key] = article
+                      pagination = payload.get("pagination", {})
+                      if pagination.get("isLastPage", True):
+                          break
+                  except Exception as exc:
+                      errors.append(f"page {page}: {type(exc).__name__}: {exc}")
+                      break
+
+              if unique:
+                  successful += 1
+
+              articles = list(unique.values())
+              licenses = Counter()
+              publishers = Counter()
+
+              for article in articles:
+                  feed = article.get("feed") or {}
+                  license_info = feed.get("license") or {}
+                  license_name = license_info.get("name") or "UNKNOWN"
+                  licenses[license_name] += 1
+                  publishers[feed.get("title") or "UNKNOWN"] += 1
+
+              print(f"UNIQUE ARTICLES FOUND: {len(articles)}")
+              print("LICENSE COUNTS:")
+              for name, count in licenses.most_common():
+                  print(f"  - {name}: {count}")
+
+              print("PUBLISHERS:")
+              for name, count in publishers.most_common(10):
+                  print(f"  - {name}: {count}")
+
+              print("SAMPLE ARTICLES (max 8):")
+              for article in articles[:8]:
+                  feed = article.get("feed") or {}
+                  license_info = feed.get("license") or {}
+                  print(
+                      f"  - {article.get('title', '(no title)')} | "
+                      f"source={feed.get('title', 'UNKNOWN')} | "
+                      f"license={license_info.get('name', 'UNKNOWN')} | "
+                      f"language={(feed.get('language') or {}).get('name', 'UNKNOWN')} | "
+                      f"date={article.get('date', 'UNKNOWN')} | "
+                      f"url={article.get('link', '')}"
+                  )
+
+              for error in errors:
+                  print("ERROR:", error)
+
+          print("\\n" + "=" * 72)
+          print(f"QUERIES WITH RESULTS: {successful}/{len(QUERIES)}")
+          print("Research only: no production files were read or modified.")
+          if successful == 0:
+              raise SystemExit("All Open Newswire searches failed or returned no results.")
+          PY
