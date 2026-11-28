@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-28T16:46:03.962558+00:00",
+  "updated_at": "2026-11-28T17:04:42.337997+00:00",
   "total": 30,
   "sources_checked": 1,
   "articles": [
@@ -404,25 +404,6 @@
       "license_source": "Ajel Wire Usage and Attribution Policy"
     },
     {
-      "id": "9980d21ffec63625",
-      "title": "Timnas Sepak Bola Putri Arab Saudi Mulai Pemusatan Latihan di Baku",
-      "summary": "Tim nasional sepak bola putri Arab Saudi memulai pemusatan latihan di Baku, Azerbaijan, sebagai bagian dari persiapan selama jeda internasional.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/ze02n7zs8",
-      "published_at": "2026-11-24T21:13:41.328000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/أخضر-السيدات-9pQP7tko.png",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/ze02n7zs8"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
       "id": "3d587ec05e49b1d1",
       "title": "Lebih dari 100 pencari bakat dunia pantau talenta di Piala Dunia U-17, timnas Saudi ikut ambil bagian",
       "summary": "Piala Dunia U-17 di Qatar diikuti timnas Arab Saudi dan menarik perhatian lebih dari 100 pencari bakat klub-klub besar dunia untuk memantau bakat muda.",
@@ -570,6 +551,25 @@
         "brand": "صحيفة عاجل",
         "text": "Sumber: Ajel",
         "url": "https://indonesian.ajel.sa/olahraga/2wquzq5bx"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "f2246b46e644715d",
+      "title": "Al-Qadisiyah Tandang ke Markas Shabab Al Ahli di Liga Champions Asia",
+      "summary": "Al-Qadisiyah akan menghadapi Shabab Al Ahli Dubai hari ini dalam laga penting pekan kelima Liga Champions Asia Elite musim 2026-2027.",
+      "category": "Champions League",
+      "source": "Ajel",
+      "source_url": "https://indonesian.ajel.sa/olahraga/dzqx5an69",
+      "published_at": "2026-11-24T04:11:46.376000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/القادسية-وشباب-الأهلي-الإماراتي-Y_sSqJdj.png",
+      "language": "id",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Sumber: Ajel",
+        "url": "https://indonesian.ajel.sa/olahraga/dzqx5an69"
       },
       "attribution_required": true,
       "license_source": "Ajel Wire Usage and Attribution Policy"
