@@ -1,8 +1,9 @@
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 6.5 - Audit alasan filter RSS English
-# Otomatis tanpa AI / tanpa API key
-# Sumber berita aktif: RSS resmi Ajel Indonesia dan Ajel English
+# Versi 6.6 - Prioritas feed olahraga resmi Ajel Wire API
+# Otomatis tanpa AI; menggunakan secret API key Ajel yang sudah tersimpan
+# Sumber utama: kategori olahraga Ajel Indonesia dan Sports Ajel English
+# RSS resmi Ajel dipakai sebagai fallback jika API gagal/kosong
 # ==========================================
 
 import os
@@ -36,7 +37,7 @@ AJEL_MAX_PAGES = 6
 OUTPUT_FILE = Path("news.json")
 MAX_NEWS = 30
 REQUEST_TIMEOUT = 30
-USER_AGENT = "FootballPulseAI/6.5 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
+USER_AGENT = "FootballPulseAI/6.6 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
 
 AJEL_RSS_FEEDS = {
     "id": {
@@ -691,7 +692,7 @@ def make_summary(article):
 # KONVERSI ARTIKEL AJEL KE FORMAT FRONTEND
 # ==========================================
 
-def normalize_ajel_article(article):
+def normalize_ajel_article(article, language="id"):
     if not isinstance(article, dict):
         return None
 
@@ -748,7 +749,7 @@ def normalize_ajel_article(article):
         "source_url": source_url,
         "published_at": parse_datetime(article.get("published_at")),
         "image_url": get_reusable_image(article),
-        "language": "id",
+        "language": language,
         "status": "source_only",
         "attribution": attribution,
         "attribution_required": usage.get("attribution_required", True),
@@ -761,65 +762,109 @@ def normalize_ajel_article(article):
 # ==========================================
 
 def fetch_ajel_news():
-    log.info("Mengambil berita dari Ajel Wire API...")
+    """
+    Ambil berita langsung dari kategori olahraga Ajel Wire untuk dua bahasa.
+    Feed RSS umum berisi berita semua topik; API section khusus olahraga
+    dipakai agar berita sepak bola tidak tenggelam oleh berita umum.
+    """
+    feeds = {
+        "id": {"section": "olahraga", "label": "Ajel Indonesia"},
+        "en": {"section": "sports", "label": "Ajel English"}
+    }
 
     collected = []
-    cursor = None
-    seen_cursors = set()
-    successful_pages = 0
+    successful_languages = 0
 
-    for page_number in range(1, AJEL_MAX_PAGES + 1):
-        params = {
-            "language": AJEL_LANGUAGE,
-            "section": AJEL_SECTION,
-            "limit": AJEL_PAGE_SIZE
-        }
+    for language, config in feeds.items():
+        log.info(
+            "Mengambil Ajel Wire API %s, section=%s...",
+            config["label"], config["section"]
+        )
+        cursor = None
+        seen_cursors = set()
+        language_count = 0
+        successful_pages = 0
 
-        if cursor:
-            params["cursor"] = cursor
+        for page_number in range(1, AJEL_MAX_PAGES + 1):
+            params = {
+                "language": language,
+                "section": config["section"],
+                "limit": AJEL_PAGE_SIZE
+            }
+            if cursor:
+                params["cursor"] = cursor
 
-        payload = ajel_get("/v1/latest", params)
+            try:
+                payload = ajel_get("/v1/latest", params)
+            except Exception as error:
+                if successful_pages == 0:
+                    log.exception(
+                        "Ajel API %s gagal: %s", config["label"], error
+                    )
+                else:
+                    log.warning(
+                        "Ajel API %s gagal pada halaman %s: %s",
+                        config["label"], page_number, error
+                    )
+                break
 
-        if not isinstance(payload, dict):
-            raise RuntimeError("Format respons Ajel tidak sesuai: objek JSON tidak ditemukan.")
+            if not isinstance(payload, dict):
+                log.warning("Respons Ajel %s bukan objek JSON.", config["label"])
+                break
 
-        data = payload.get("data")
-        if not isinstance(data, list):
-            raise RuntimeError("Format respons Ajel tidak sesuai: field 'data' bukan daftar.")
+            data = payload.get("data")
+            if not isinstance(data, list):
+                log.warning("Field data Ajel %s bukan daftar.", config["label"])
+                break
 
-        successful_pages += 1
-        log.info("Halaman Ajel %s: %s item mentah", page_number, len(data))
+            successful_pages += 1
+            log.info(
+                "Ajel API %s halaman %s: %s item mentah",
+                config["label"], page_number, len(data)
+            )
 
-        for item in data:
-            normalized = normalize_ajel_article(item)
-            if normalized:
-                collected.append(normalized)
+            for item in data:
+                normalized = normalize_ajel_article(item, language)
+                if normalized:
+                    collected.append(normalized)
+                    language_count += 1
 
-        pagination = payload.get("pagination") or {}
-        if not isinstance(pagination, dict):
-            pagination = {}
+            pagination = payload.get("pagination") or {}
+            if not isinstance(pagination, dict):
+                pagination = {}
 
-        next_cursor = pagination.get("next_cursor")
-        if not next_cursor:
-            break
+            next_cursor = pagination.get("next_cursor")
+            if not next_cursor:
+                break
 
-        next_cursor = str(next_cursor)
-        if next_cursor in seen_cursors:
-            log.warning("Cursor Ajel berulang; pagination dihentikan untuk mencegah loop.")
-            break
+            next_cursor = str(next_cursor)
+            if next_cursor in seen_cursors:
+                log.warning(
+                    "Cursor Ajel %s berulang; pagination dihentikan.",
+                    config["label"]
+                )
+                break
 
-        seen_cursors.add(next_cursor)
-        cursor = next_cursor
+            seen_cursors.add(next_cursor)
+            cursor = next_cursor
 
-        if len(collected) >= MAX_NEWS * 2:
-            break
+        if successful_pages:
+            successful_languages += 1
+
+        log.info(
+            "Ajel API %s selesai: %s halaman, %s berita sepak bola lolos",
+            config["label"], successful_pages, language_count
+        )
 
     log.info(
-        "Ajel berhasil: %s halaman, %s berita lolos filter",
-        successful_pages, len(collected)
+        "Ajel Wire API selesai: %s dari %s bahasa berhasil, %s berita lolos",
+        successful_languages, len(feeds), len(collected)
     )
 
-    return collected, successful_pages
+    if successful_languages == 0:
+        raise RuntimeError("Ajel Wire API gagal untuk kedua bahasa.")
+
+    return collected, successful_languages
 
 
 
@@ -1091,7 +1136,7 @@ def write_news_json(news, feeds_checked):
     temp_file.replace(OUTPUT_FILE)
 
     log.info("========================================")
-    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.5")
+    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.6")
     log.info("Total berita: %s", len(news))
     log.info("RSS Ajel diperiksa: %s", feeds_checked)
     log.info("File tersimpan: %s", OUTPUT_FILE)
@@ -1104,12 +1149,24 @@ def write_news_json(news, feeds_checked):
 
 def main():
     try:
-        articles, feeds_checked = fetch_ajel_rss_news()
+        articles, feeds_checked = fetch_ajel_news()
+
+        if not articles:
+            log.warning(
+                "Ajel Wire API berhasil dihubungi tetapi tidak menghasilkan "
+                "berita yang lolos; mencoba RSS resmi sebagai fallback."
+            )
+            articles, feeds_checked = fetch_ajel_rss_news()
 
     except Exception as error:
-        log.exception("Pengambilan RSS Ajel gagal: %s", error)
-        log.error("news.json lama dipertahankan.")
-        raise SystemExit(1)
+        log.exception("Pengambilan Ajel Wire API gagal: %s", error)
+        log.warning("Mencoba RSS resmi Ajel sebagai fallback...")
+        try:
+            articles, feeds_checked = fetch_ajel_rss_news()
+        except Exception as rss_error:
+            log.exception("Pengambilan RSS Ajel juga gagal: %s", rss_error)
+            log.error("news.json lama dipertahankan.")
+            raise SystemExit(1)
 
     # Gabungkan kedua bahasa, hilangkan URL yang benar-benar sama,
     # lalu lakukan deduplikasi konservatif lintas feed.
