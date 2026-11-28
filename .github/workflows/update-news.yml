@@ -25,6 +25,8 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch football news
+        env:
+        AJEL_WIRE_API_KEY: ${{ secrets.AJEL_WIRE_API_KEY }}
         run: python news_fetcher.py
 
       - name: Save updated news
