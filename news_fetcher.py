@@ -578,6 +578,31 @@ def classify_article(title, summary):
     ):
         return "Sepak Bola Usia Muda"
 
+    # Berita pengelolaan dan aktivitas klub yang tidak terkait
+    # langsung dengan kompetisi tertentu.
+    if contains_any(
+        content,
+        [
+            "tunjuk", "menunjuk", "pelatih sementara",
+            "interim coach", "appoints", "appointed as coach"
+        ]
+    ) and contains_any(
+        content,
+        ["klub", "club", "al ahly", "al-ahly"]
+    ):
+        return "Berita Klub"
+
+    # Berita kondisi atau aktivitas individu pemain.
+    if contains_any(
+        content,
+        [
+            "kiper", "penjaga gawang", "goalkeeper",
+            "striker", "penyerang", "gelandang",
+            "bek", "pemain kembali berlatih", "resumes training"
+        ]
+    ):
+        return "Berita Pemain"
+
     # Kompetisi yang disebut secara eksplisit.
     for category, keywords in COMPETITION_CATEGORIES.items():
         if contains_any(title_text, keywords):
