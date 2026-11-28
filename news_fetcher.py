@@ -1,8 +1,8 @@
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 6.2 - Kategorisasi lintas kompetisi & deduplikasi konservatif
-# Otomatis tanpa AI / tanpa API key AI tambahan
-# Sumber berita aktif: Ajel Wire (Bahasa Indonesia)
+# Versi 6.3 - RSS Ajel Indonesia + Inggris
+# Otomatis tanpa AI / tanpa API key
+# Sumber berita aktif: RSS resmi Ajel Indonesia dan Ajel English
 # ==========================================
 
 import os
@@ -15,6 +15,8 @@ import urllib.request
 import urllib.error
 import difflib
 import unicodedata
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 
 from datetime import datetime, timezone
 from pathlib import Path
@@ -34,7 +36,20 @@ AJEL_MAX_PAGES = 6
 OUTPUT_FILE = Path("news.json")
 MAX_NEWS = 30
 REQUEST_TIMEOUT = 30
-USER_AGENT = "FootballPulseAI/6.2 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
+USER_AGENT = "FootballPulseAI/6.3 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
+
+AJEL_RSS_FEEDS = {
+    "id": {
+        "url": "https://indonesian.ajel.sa/rss.xml",
+        "source": "Ajel Indonesia",
+        "attribution_text": "Sumber: Ajel"
+    },
+    "en": {
+        "url": "https://english.ajel.sa/rss.xml",
+        "source": "Ajel English",
+        "attribution_text": "Source: Ajel"
+    }
+}
 
 # Secret GitHub: AJEL_WIRE_API_KEY
 # Jangan pernah menulis API key langsung di file atau URL.
@@ -791,6 +806,150 @@ def fetch_ajel_news():
     return collected, successful_pages
 
 
+
+
+# ==========================================
+# PENGAMBILAN BERITA DARI RSS RESMI AJEL
+# ==========================================
+
+def xml_child_text(element, names):
+    """Ambil teks elemen XML, termasuk tag dengan namespace."""
+    if element is None:
+        return ""
+
+    wanted = set(names)
+    for child in list(element):
+        local_name = child.tag.rsplit("}", 1)[-1].lower()
+        if local_name in wanted:
+            return "".join(child.itertext()).strip()
+
+    return ""
+
+
+def parse_rss_datetime(value):
+    if not value:
+        return ""
+
+    parsed = parse_datetime(value)
+    if parsed:
+        return parsed
+
+    try:
+        date_value = parsedate_to_datetime(value)
+        if date_value.tzinfo is None:
+            date_value = date_value.replace(tzinfo=timezone.utc)
+        return date_value.astimezone(timezone.utc).isoformat()
+    except (TypeError, ValueError, OverflowError):
+        return ""
+
+
+def normalize_rss_article(item, language, feed_config):
+    title = clean_text(xml_child_text(item, ["title"]))
+    source_url = canonical_url(xml_child_text(item, ["link"]))
+    guid = clean_text(xml_child_text(item, ["guid"]))
+    description = (
+        xml_child_text(item, ["encoded"])
+        or xml_child_text(item, ["description"])
+        or ""
+    )
+    summary = clean_text(description)[:700].rstrip()
+
+    if not title or not source_url or not summary:
+        return None
+
+    if not is_relevant(title, summary):
+        return None
+
+    category = classify_article(title, summary)
+    if category in {"Friendly Match", "Women's Football"}:
+        return None
+
+    published = parse_rss_datetime(
+        xml_child_text(item, ["pubdate", "published", "date"])
+    )
+
+    return {
+        "id": make_article_id(guid or source_url, source_url),
+        "title": title,
+        "summary": summary,
+        "category": category,
+        "source": feed_config["source"],
+        "source_url": source_url,
+        "published_at": published,
+        # RSS tidak memberikan metadata izin gambar per gambar.
+        # Karena itu gambar RSS tidak digunakan otomatis.
+        "image_url": "",
+        "language": language,
+        "status": "source_only",
+        "attribution": {
+            "brand": "Ajel",
+            "text": feed_config["attribution_text"],
+            "url": source_url
+        },
+        "attribution_required": True,
+        "license_source": "Ajel Official Syndication and Attribution Policy"
+    }
+
+
+def fetch_ajel_rss_news():
+    """Ambil RSS Indonesia dan Inggris; satu feed gagal tidak mematikan feed lain."""
+    collected = []
+    successful_feeds = 0
+
+    for language, config in AJEL_RSS_FEEDS.items():
+        log.info("Mengambil RSS %s: %s", config["source"], config["url"])
+
+        request = urllib.request.Request(
+            config["url"],
+            headers={
+                "Accept": "application/rss+xml, application/xml, text/xml",
+                "User-Agent": USER_AGENT
+            },
+            method="GET"
+        )
+
+        try:
+            with urllib.request.urlopen(
+                request, timeout=REQUEST_TIMEOUT
+            ) as response:
+                raw = response.read()
+
+            root = ET.fromstring(raw)
+            items = [
+                element for element in root.iter()
+                if element.tag.rsplit("}", 1)[-1].lower() == "item"
+            ]
+
+            successful_feeds += 1
+            passed = 0
+
+            for item in items:
+                article = normalize_rss_article(item, language, config)
+                if article:
+                    collected.append(article)
+                    passed += 1
+
+            log.info(
+                "RSS %s berhasil: %s item mentah, %s berita sepak bola lolos",
+                config["source"], len(items), passed
+            )
+
+        except Exception as error:
+            log.exception(
+                "RSS %s gagal diambil: %s", config["source"], error
+            )
+
+    if successful_feeds == 0:
+        raise RuntimeError("Kedua RSS Ajel gagal diambil; news.json lama dipertahankan.")
+
+    log.info(
+        "RSS Ajel selesai: %s dari %s feed berhasil, %s berita lolos",
+        successful_feeds, len(AJEL_RSS_FEEDS), len(collected)
+    )
+    return collected, successful_feeds
+
+
+
 # ==========================================
 # DEDUPLIKASI
 # ==========================================
@@ -870,29 +1029,26 @@ def remove_similar_duplicates(articles, threshold=0.91,
 # PENYIMPANAN JSON YANG AMAN
 # ==========================================
 
-def write_news_json(news, pages_checked):
+def write_news_json(news, feeds_checked):
     output = {
         "site": "Football Pulse AI",
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "total": len(news),
-        "sources_checked": 1,
+        "sources_checked": feeds_checked,
         "articles": news
     }
 
     temp_file = OUTPUT_FILE.with_suffix(".json.tmp")
-
     temp_file.write_text(
         json.dumps(output, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
-
     temp_file.replace(OUTPUT_FILE)
 
     log.info("========================================")
-    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.2")
+    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.3")
     log.info("Total berita: %s", len(news))
-    log.info("Sumber aktif: Ajel Wire")
-    log.info("Halaman Ajel diperiksa: %s", pages_checked)
+    log.info("RSS Ajel diperiksa: %s", feeds_checked)
     log.info("File tersimpan: %s", OUTPUT_FILE)
     log.info("========================================")
 
@@ -902,43 +1058,23 @@ def write_news_json(news, pages_checked):
 # ==========================================
 
 def main():
-    if not AJEL_API_KEY:
-        log.error(
-            "AJEL_WIRE_API_KEY tidak ditemukan. "
-            "Pastikan GitHub Secret sudah dipasang ke workflow."
-        )
-        raise SystemExit(1)
-
     try:
-        articles, pages_checked = fetch_ajel_news()
-
-    except urllib.error.HTTPError as error:
-        # Jangan menampilkan URL request atau header agar secret aman.
-        log.error("Ajel API mengembalikan HTTP %s.", error.code)
-        log.error("news.json lama dipertahankan.")
-        raise SystemExit(1)
-
-    except urllib.error.URLError as error:
-        log.error("Koneksi ke Ajel gagal: %s", error.reason)
-        log.error("news.json lama dipertahankan.")
-        raise SystemExit(1)
+        articles, feeds_checked = fetch_ajel_rss_news()
 
     except Exception as error:
-        log.exception("Pengambilan Ajel gagal: %s", error)
+        log.exception("Pengambilan RSS Ajel gagal: %s", error)
         log.error("news.json lama dipertahankan.")
         raise SystemExit(1)
 
-    # Jika API berhasil tetapi tidak ada berita yang lolos filter,
-    # tulis daftar kosong secara valid. Ini berbeda dari API gagal.
+    # Gabungkan kedua bahasa, hilangkan URL yang benar-benar sama,
+    # lalu lakukan deduplikasi konservatif lintas feed.
     unique_by_url = {}
-
     for article in articles:
         key = canonical_url(article.get("source_url", ""))
         if key and key not in unique_by_url:
             unique_by_url[key] = article
 
     news = list(unique_by_url.values())
-
     news.sort(
         key=lambda item: date_timestamp(item.get("published_at", "")),
         reverse=True
@@ -946,12 +1082,11 @@ def main():
 
     before_dedupe = len(news)
     news = remove_similar_duplicates(news)
-    log.info("Duplikat judul disaring: %s", before_dedupe - len(news))
+    log.info("Duplikat judul/konten disaring: %s", before_dedupe - len(news))
 
     # Tidak ada batas usia berita. Batas 30 hanya jumlah berita di frontend.
     news = news[:MAX_NEWS]
-
-    write_news_json(news, pages_checked)
+    write_news_json(news, feeds_checked)
 
 
 if __name__ == "__main__":
