@@ -21,8 +21,10 @@ jobs:
       - name: Test public article search API
         run: |
           python - <<'PY'
-          import requests
+          import json
           from collections import Counter
+          from urllib.parse import urlencode
+          from urllib.request import Request, urlopen
 
           API = "https://feed.opennewswire.org/api/articles"
           QUERIES = [
@@ -34,12 +36,6 @@ jobs:
               "Ligue 1",
           ]
 
-          session = requests.Session()
-          session.headers.update({
-              "User-Agent": "FootballPulseAI-OpenNewswireResearch/1.0",
-              "Accept": "application/json",
-          })
-
           successful = 0
           for query in QUERIES:
               print("\\n" + "=" * 72)
@@ -49,14 +45,17 @@ jobs:
 
               for page in (1, 2):
                   try:
-                      response = session.get(
-                          API,
-                          params={"search": query, "page": page, "size": 50},
-                          timeout=30,
+                      params = urlencode({"search": query, "page": page, "size": 50})
+                      request = Request(
+                          f"{API}?{params}",
+                          headers={
+                              "User-Agent": "FootballPulseAI-OpenNewswireResearch/1.0",
+                              "Accept": "application/json",
+                          },
                       )
-                      print(f"HTTP page {page}: {response.status_code}")
-                      response.raise_for_status()
-                      payload = response.json()
+                      with urlopen(request, timeout=30) as response:
+                          print(f"HTTP page {page}: {response.status}")
+                          payload = json.loads(response.read().decode("utf-8"))
                       results = payload.get("results", [])
                       for article in results:
                           key = article.get("link") or article.get("id")
