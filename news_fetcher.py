@@ -72,9 +72,19 @@ WOMENS_FOOTBALL_KEYWORDS = [
     "women's team", "women's teams", "women's game",
     "barcelona femeni", "barcelona femení", "arsenal wfc",
     "chelsea women", "manchester city women", "manchester united women",
-    "lionesses", "uwcl", "female footballers", "sepak bola wanita",
-    "timnas putri", "tim nasional putri", "liga sepak bola wanita",
-    "pemain wanita", "pesepak bola wanita"
+    "lionesses", "uwcl", "female footballers",
+
+    # Istilah sepak bola wanita dalam Bahasa Indonesia
+    "sepak bola wanita", "sepak bola putri",
+    "sepakbola wanita", "sepakbola putri",
+    "timnas putri", "tim nasional putri",
+    "timnas sepak bola putri",
+    "tim nasional sepak bola putri",
+    "tim sepak bola putri",
+    "tim sepakbola putri",
+    "liga sepak bola wanita", "liga sepak bola putri",
+    "pemain wanita", "pemain putri",
+    "pesepak bola wanita", "pesepak bola putri"
 ]
 
 SAUDI_PRO_LEAGUE_KEYWORDS = [
