@@ -514,7 +514,7 @@ def contains_any(text, keywords):
         if not phrase:
             continue
 
-        pattern = r"(?<!\\w)" + re.escape(phrase) + r"(?!\\w)"
+        pattern = r"(?<!\w)" + re.escape(phrase) + r"(?!\w)"
         if re.search(pattern, normalized, flags=re.UNICODE):
             return True
 
@@ -938,12 +938,25 @@ def fetch_ajel_rss_news():
 
             successful_feeds += 1
             passed = 0
+            rejected_examples = []
 
             for item in items:
                 article = normalize_rss_article(item, language, config)
                 if article:
                     collected.append(article)
                     passed += 1
+                elif language == "en" and len(rejected_examples) < 10:
+                    rejected_title = clean_text(
+                        xml_child_text(item, ["title"])
+                    )
+                    if rejected_title:
+                        rejected_examples.append(rejected_title)
+
+            if language == "en" and passed == 0 and rejected_examples:
+                log.info(
+                    "Contoh judul Ajel English yang tidak lolos filter: %s",
+                    " | ".join(rejected_examples)
+                )
 
             log.info(
                 "RSS %s berhasil: %s item mentah, %s berita sepak bola lolos",
@@ -1062,7 +1075,7 @@ def write_news_json(news, feeds_checked):
     temp_file.replace(OUTPUT_FILE)
 
     log.info("========================================")
-    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.3")
+    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.4")
     log.info("Total berita: %s", len(news))
     log.info("RSS Ajel diperiksa: %s", feeds_checked)
     log.info("File tersimpan: %s", OUTPUT_FILE)
