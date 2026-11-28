@@ -1,4 +1,4 @@
-name: Test Open Newswire Football Search
+name: Test Open Newswire Public Feed
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  test-opennewswire:
+  test-opennewswire-feed:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python
@@ -18,98 +18,80 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Test public article search API
+      - name: Test public feed and search API access
         run: |
           python - <<'PY'
-          import json
-          from collections import Counter
+          import re
+          from html import unescape
+          from urllib.error import HTTPError, URLError
           from urllib.parse import urlencode
           from urllib.request import Request, urlopen
 
-          API = "https://feed.opennewswire.org/api/articles"
-          QUERIES = [
-              "Premier League",
-              "LaLiga",
-              "La Liga",
-              "Serie A",
-              "Bundesliga",
-              "Ligue 1",
-          ]
+          HEADERS = {
+              "User-Agent": "Mozilla/5.0 (compatible; FootballPulseAIResearch/1.0)",
+              "Accept": "text/html,application/json,application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
+          }
 
-          successful = 0
-          for query in QUERIES:
-              print("\\n" + "=" * 72)
-              print(f"SEARCH: {query}")
-              unique = {}
-              errors = []
+          def fetch(url):
+              request = Request(url, headers=HEADERS)
+              try:
+                  with urlopen(request, timeout=30) as response:
+                      body = response.read()
+                      return response.status, response.headers.get("Content-Type", ""), body
+              except HTTPError as exc:
+                  return exc.code, exc.headers.get("Content-Type", ""), exc.read()
+              except (URLError, TimeoutError) as exc:
+                  print(f"NETWORK ERROR: {type(exc).__name__}: {exc}")
+                  return 0, "", b""
 
-              for page in (1, 2):
-                  try:
-                      params = urlencode({"search": query, "page": page, "size": 50})
-                      request = Request(
-                          f"{API}?{params}",
-                          headers={
-                              "User-Agent": "FootballPulseAI-OpenNewswireResearch/1.0",
-                              "Accept": "application/json",
-                          },
-                      )
-                      with urlopen(request, timeout=30) as response:
-                          print(f"HTTP page {page}: {response.status}")
-                          payload = json.loads(response.read().decode("utf-8"))
-                      results = payload.get("results", [])
-                      for article in results:
-                          key = article.get("link") or article.get("id")
-                          if key:
-                              unique[key] = article
-                      pagination = payload.get("pagination", {})
-                      if pagination.get("isLastPage", True):
-                          break
-                  except Exception as exc:
-                      errors.append(f"page {page}: {type(exc).__name__}: {exc}")
-                      break
+          print("=" * 72)
+          print("1) PUBLIC ENGLISH FEED PAGE")
+          feed_url = "https://feed.opennewswire.org/?languages=en"
+          status, content_type, body = fetch(feed_url)
+          html = body.decode("utf-8", errors="replace")
+          print(f"HTTP STATUS: {status}")
+          print(f"CONTENT TYPE: {content_type}")
+          print(f"BODY SIZE: {len(body)} bytes")
 
-              if unique:
-                  successful += 1
+          if status == 200 and html:
+              plain = unescape(re.sub(r"<[^>]+>", " ", html))
+              plain = re.sub(r"\\s+", " ", plain)
+              print("FEED PAGE ACCESS: SUCCESS")
+              for term in ("Premier League", "LaLiga", "La Liga", "Serie A", "Bundesliga", "Ligue 1", "football", "soccer"):
+                  print(f"  '{term}' occurrences in page: {len(re.findall(re.escape(term), plain, re.I))}")
+              titles = re.findall(r'<a[^>]+>(.*?)</a>', html, re.I | re.S)
+              print("SAMPLE PAGE LINKS:")
+              for title in titles[:20]:
+                  clean = unescape(re.sub(r"<[^>]+>", " ", title))
+                  clean = re.sub(r"\\s+", " ", clean).strip()
+                  if clean:
+                      print("  -", clean[:180])
+          else:
+              print("FEED PAGE ACCESS: FAILED")
 
-              articles = list(unique.values())
-              licenses = Counter()
-              publishers = Counter()
+          print()
+          print("2) SEARCH API CONTROL TEST")
+          api_url = "https://feed.opennewswire.org/api/articles?" + urlencode({
+              "search": "Premier League", "page": 1, "size": 10
+          })
+          api_status, api_type, api_body = fetch(api_url)
+          print(f"API HTTP STATUS: {api_status}")
+          print(f"API CONTENT TYPE: {api_type}")
+          print(f"API BODY SIZE: {len(api_body)} bytes")
+          if api_status == 200:
+              print("API ACCESS: SUCCESS")
+              print(api_body[:1500].decode("utf-8", errors="replace"))
+          else:
+              print("API ACCESS: BLOCKED OR UNAVAILABLE")
 
-              for article in articles:
-                  feed = article.get("feed") or {}
-                  license_info = feed.get("license") or {}
-                  license_name = license_info.get("name") or "UNKNOWN"
-                  licenses[license_name] += 1
-                  publishers[feed.get("title") or "UNKNOWN"] += 1
-
-              print(f"UNIQUE ARTICLES FOUND: {len(articles)}")
-              print("LICENSE COUNTS:")
-              for name, count in licenses.most_common():
-                  print(f"  - {name}: {count}")
-
-              print("PUBLISHERS:")
-              for name, count in publishers.most_common(10):
-                  print(f"  - {name}: {count}")
-
-              print("SAMPLE ARTICLES (max 8):")
-              for article in articles[:8]:
-                  feed = article.get("feed") or {}
-                  license_info = feed.get("license") or {}
-                  print(
-                      f"  - {article.get('title', '(no title)')} | "
-                      f"source={feed.get('title', 'UNKNOWN')} | "
-                      f"license={license_info.get('name', 'UNKNOWN')} | "
-                      f"language={(feed.get('language') or {}).get('name', 'UNKNOWN')} | "
-                      f"date={article.get('date', 'UNKNOWN')} | "
-                      f"url={article.get('link', '')}"
-                  )
-
-              for error in errors:
-                  print("ERROR:", error)
-
-          print("\\n" + "=" * 72)
-          print(f"QUERIES WITH RESULTS: {successful}/{len(QUERIES)}")
-          print("Research only: no production files were read or modified.")
-          if successful == 0:
-              raise SystemExit("All Open Newswire searches failed or returned no results.")
+          print()
+          print("3) RESULT")
+          if status == 200:
+              print("Public feed page is reachable from GitHub Actions.")
+              print("Football keyword counts above are only a first-pass indicator; inspect actual articles and licenses before use.")
+          else:
+              print("Public feed page is not reachable from GitHub Actions.")
+          print("Research only: production news_fetcher.py and news.json are untouched.")
+          if status != 200:
+              raise SystemExit("Public feed page could not be fetched.")
           PY
