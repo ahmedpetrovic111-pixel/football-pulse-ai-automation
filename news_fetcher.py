@@ -1,6 +1,6 @@
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 6.1 - Ajel Wire API
+# Versi 6.2 - Kategorisasi lintas kompetisi & deduplikasi konservatif
 # Otomatis tanpa AI / tanpa API key AI tambahan
 # Sumber berita aktif: Ajel Wire (Bahasa Indonesia)
 # ==========================================
@@ -34,7 +34,7 @@ AJEL_MAX_PAGES = 6
 OUTPUT_FILE = Path("news.json")
 MAX_NEWS = 30
 REQUEST_TIMEOUT = 30
-USER_AGENT = "FootballPulseAI/6.1 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
+USER_AGENT = "FootballPulseAI/6.2 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
 
 # Secret GitHub: AJEL_WIRE_API_KEY
 # Jangan pernah menulis API key langsung di file atau URL.
@@ -127,6 +127,15 @@ LIVE_OR_VIDEO_KEYWORDS = [
 # ==========================================
 
 COMPETITION_CATEGORIES = {
+    "Saudi First Division": [
+        "saudi first division", "first division league",
+        "yelo league", "liga yelo", "liga divisi satu",
+        "divisi satu arab saudi"
+    ],
+    "Africa Cup of Nations": [
+        "africa cup of nations", "afcon", "piala afrika",
+        "piala negara-negara afrika"
+    ],
     # Kompetisi Asia tingkat kedua harus diperiksa sebelum kata kunci
     # umum Liga Champions Asia milik kompetisi Elite.
     "AFC Champions League Two": [
@@ -558,6 +567,17 @@ def classify_article(title, summary):
     if contains_any(content, NATIONAL_TEAM_KEYWORDS):
         return "Tim Nasional"
 
+    # Berita tim junior/akademi klub yang bukan berita tim nasional.
+    if contains_any(
+        content,
+        [
+            "tim junior", "junior team", "youth team",
+            "tim muda", "pemain muda", "youth squad",
+            "under-17", "under 17", "u-17", "u17"
+        ]
+    ):
+        return "Sepak Bola Usia Muda"
+
     # Kompetisi yang disebut secara eksplisit.
     for category, keywords in COMPETITION_CATEGORIES.items():
         if contains_any(title_text, keywords):
@@ -757,7 +777,16 @@ def normalize_title(title):
     return " ".join(text.split())
 
 
-def remove_similar_duplicates(articles, threshold=0.91):
+def remove_similar_duplicates(articles, threshold=0.91,
+                               content_overlap_threshold=0.50):
+    """
+    Deduplikasi konservatif:
+    1. Judul yang hampir identik tetap disaring.
+    2. Artikel dengan gabungan judul + ringkasan yang sangat tumpang
+       tindih juga disaring.
+    Ambang konten dibuat tinggi agar berita berbeda tentang pertandingan
+    yang sama (preview, hasil, dan momen gol) tetap dipertahankan.
+    """
     unique = []
 
     for article in articles:
@@ -765,17 +794,45 @@ def remove_similar_duplicates(articles, threshold=0.91):
         if not current_title:
             continue
 
+        current_content = normalize_title(
+            f"{article.get('title', '')} {article.get('summary', '')}"
+        )
+        current_tokens = {
+            token for token in current_content.split() if len(token) > 2
+        }
+
         duplicate = False
 
         for existing in unique:
             existing_title = normalize_title(existing.get("title", ""))
 
-            similarity = difflib.SequenceMatcher(
+            title_similarity = difflib.SequenceMatcher(
                 None, current_title, existing_title
             ).ratio()
 
-            if similarity >= threshold:
+            existing_content = normalize_title(
+                f"{existing.get('title', '')} {existing.get('summary', '')}"
+            )
+            existing_tokens = {
+                token for token in existing_content.split() if len(token) > 2
+            }
+
+            union = current_tokens | existing_tokens
+            content_overlap = (
+                len(current_tokens & existing_tokens) / len(union)
+                if union else 0.0
+            )
+
+            if (
+                title_similarity >= threshold
+                or content_overlap >= content_overlap_threshold
+            ):
                 duplicate = True
+                log.info(
+                    "Duplikat konservatif disaring (judul %.2f, konten %.2f): %s",
+                    title_similarity, content_overlap,
+                    article.get("title", "")
+                )
                 break
 
         if not duplicate:
@@ -807,7 +864,7 @@ def write_news_json(news, pages_checked):
     temp_file.replace(OUTPUT_FILE)
 
     log.info("========================================")
-    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.1")
+    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.2")
     log.info("Total berita: %s", len(news))
     log.info("Sumber aktif: Ajel Wire")
     log.info("Halaman Ajel diperiksa: %s", pages_checked)
