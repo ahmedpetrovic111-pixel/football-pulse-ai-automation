@@ -1,28 +1,9 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-28T17:56:10.789719+00:00",
-  "total": 3,
+  "updated_at": "2026-11-28T18:05:30.539144+00:00",
+  "total": 2,
   "sources_checked": 2,
   "articles": [
-    {
-      "id": "bc316749d9a892bd",
-      "title": "Workshop di Riyadh Bahas Tantangan Ultrasonografi di Bidang Gawat Darurat dan Perawatan Intensif",
-      "summary": "Workshop ultrasonografi ke-12 di Universitas Alfaisal, Riyadh, diikuti lebih dari 55 dokter, membahas tantangan pelatihan dan penerapan teknologi ini dalam meningkatkan layanan kesehatan.",
-      "category": "Berita Sepak Bola",
-      "source": "Ajel Indonesia",
-      "source_url": "https://indonesian.ajel.sa/arab-saudi/m6m0qv78n",
-      "published_at": "2026-11-28T14:05:36+00:00",
-      "image_url": "",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "Ajel",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/arab-saudi/m6m0qv78n"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Official Syndication and Attribution Policy"
-    },
     {
       "id": "0896062f73cd22e9",
       "title": "Ronaldo Junior Cetak Dua Gol untuk Tim Junior Al Nassr, Rayakan dengan Gaya Sang Ayah",
