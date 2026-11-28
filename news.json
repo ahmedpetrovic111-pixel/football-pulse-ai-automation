@@ -1,6 +1,6 @@
 {
   "site": "Football Pulse AI",
-  "updated_at": "2026-11-28T18:28:42.921039+00:00",
+  "updated_at": "2026-11-28T18:33:31.038569+00:00",
   "total": 30,
   "sources_checked": 2,
   "articles": [
@@ -176,25 +176,6 @@
       "license_source": "Ajel Wire Usage and Attribution Policy"
     },
     {
-      "id": "31aafcb2510b99fd",
-      "title": "Nico Paz Tanggapi Perbandingan dengan Messi dan Ungkap Perasaannya Bersama Argentina",
-      "summary": "Pemain Como, Nico Paz, menanggapi perbandingan dengan Lionel Messi dan mengungkapkan perasaannya saat bermain untuk klub dan timnas Argentina.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/xmdz50dt8",
-      "published_at": "2026-11-25T20:54:43.442000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/نيكوباز-dVxdAGuq.jpg",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/xmdz50dt8"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
       "id": "7336c50dc5462720",
       "title": "Dua Gol Gordon Antar Barcelona Kalahkan Sabah di Liga Champions",
       "summary": "Barcelona meraih kemenangan mudah 4-1 atas tuan rumah Sabah, juara Azerbaijan, di Liga Champions Eropa, dengan Anthony Gordon mencetak dua gol.",
@@ -233,44 +214,6 @@
       "license_source": "Ajel Wire Usage and Attribution Policy"
     },
     {
-      "id": "592358f77161f63f",
-      "title": "Saudi Arabia U-17 advances to World Cup round of 32 after Haiti win",
-      "summary": "Saudi Arabia's U-17 football team secured a spot in the FIFA U-17 World Cup round of 32 after defeating Haiti 2-1 in Doha.",
-      "category": "Sepak Bola Usia Muda",
-      "source": "Ajel",
-      "source_url": "https://english.ajel.sa/sports/g1nvwb9co",
-      "published_at": "2026-11-25T18:54:33.151000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/السعودي-_FHM2EP_.jpg",
-      "language": "en",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Source: Ajel",
-        "url": "https://english.ajel.sa/sports/g1nvwb9co"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
-      "id": "4550d37ac29e00f0",
-      "title": "Timnas U-17 Arab Saudi Lolos ke 32 Besar Piala Dunia Usai Kalahkan Haiti",
-      "summary": "Tim nasional U-17 Arab Saudi memastikan tiket ke babak 32 besar Piala Dunia 2026 setelah menang 2-1 atas Haiti di Doha.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/pqowhbsvd",
-      "published_at": "2026-11-25T18:54:31.440000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/السعودي-_FHM2EP_.jpg",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/pqowhbsvd"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
       "id": "36180282c89bf38b",
       "title": "Fermin Lopez Diskors Dua Laga, Barcelona Akan Ajukan Banding",
       "summary": "Komite Kompetisi Federasi Sepak Bola Spanyol menjatuhkan sanksi dua pertandingan kepada Fermin Lopez usai kartu merah saat Barcelona menang 3-2 atas Villarreal.",
@@ -285,44 +228,6 @@
         "brand": "صحيفة عاجل",
         "text": "Sumber: Ajel",
         "url": "https://indonesian.ajel.sa/olahraga/q3zch8uvl"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
-      "id": "5e89869560237913",
-      "title": "Guardiola urges Portugal to give Ronaldo a fitting national team farewell",
-      "summary": "Pep Guardiola has called on the Portuguese Football Federation to ensure Cristiano Ronaldo receives a farewell worthy of his achievements with the national team.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://english.ajel.sa/sports/v95942mvf",
-      "published_at": "2026-11-25T16:17:21.538000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-09/رونالدو-AU18AdqG.jpg",
-      "language": "en",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Source: Ajel",
-        "url": "https://english.ajel.sa/sports/v95942mvf"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
-      "id": "6e131379f8674db4",
-      "title": "Guardiola minta Portugal beri perpisahan layak untuk Ronaldo",
-      "summary": "Pelatih Pep Guardiola meminta Federasi Sepak Bola Portugal menyiapkan perpisahan yang layak bagi Cristiano Ronaldo atas jasa dan prestasinya bersama tim nasional.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/pct2hgah4",
-      "published_at": "2026-11-25T16:17:17.124000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-09/رونالدو-AU18AdqG.jpg",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/pct2hgah4"
       },
       "attribution_required": true,
       "license_source": "Ajel Wire Usage and Attribution Policy"
@@ -347,25 +252,6 @@
       "license_source": "Ajel Wire Usage and Attribution Policy"
     },
     {
-      "id": "e3a93ad4b0e0be65",
-      "title": "Guardiola Ungkap Alasan Tolak Latih Timnas Italia",
-      "summary": "Pep Guardiola mengaku merasa canggung menolak tawaran melatih tim nasional Italia, namun ia menilai butuh waktu istirahat usai meninggalkan Manchester City.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/po7mble16",
-      "published_at": "2026-11-25T15:00:14.945000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/غوارديولا-roVMaBUF.jpg",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/po7mble16"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
       "id": "ad59b46066e79d92",
       "title": "Al Ahly Mesir tunjuk Sami Qomsan sebagai pelatih sementara",
       "summary": "Klub Al Ahly Mesir menunjuk Sami Qomsan sebagai pelatih sementara tim utama mulai hari ini hingga ditunjuk pelatih asing baru.",
@@ -380,101 +266,6 @@
         "brand": "صحيفة عاجل",
         "text": "Sumber: Ajel",
         "url": "https://indonesian.ajel.sa/olahraga/lkgnkujsa"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
-      "id": "c9af78617f7a006d",
-      "title": "Timnas U-17 Arab Saudi Hadapi Haiti di Laga Ketiga Piala Dunia",
-      "summary": "Tim nasional U-17 Arab Saudi akan menghadapi Haiti pada laga ketiga fase grup Piala Dunia U-17 2026 di Doha, Qatar, Rabu sore ini.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/1gd9io8vr",
-      "published_at": "2026-11-25T04:53:05.041000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/الأخضر-تحت-17-عاما-3QF-4-7c.png",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/1gd9io8vr"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
-      "id": "7bccb9b5df8218b0",
-      "title": "Saudi U-17 team faces Haiti in third World Cup group match",
-      "summary": "Saudi Arabia's U-17 football team meets Haiti today in their third group stage match at the 2026 FIFA U-17 World Cup in Doha.",
-      "category": "Sepak Bola Usia Muda",
-      "source": "Ajel",
-      "source_url": "https://english.ajel.sa/sports/ywdhioc7y",
-      "published_at": "2026-11-25T04:53:04.671000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/الأخضر-تحت-17-عاما-3QF-4-7c.png",
-      "language": "en",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Source: Ajel",
-        "url": "https://english.ajel.sa/sports/ywdhioc7y"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
-      "id": "77db6753f4c945a6",
-      "title": "Piala Dunia U-17 Qatar tarik lebih dari 100 pencari bakat",
-      "summary": "Piala Dunia U-17 FIFA Qatar 2026, yang diikuti timnas Arab Saudi, menarik perhatian lebih dari 100 pencari bakat dari klub-klub besar dunia.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/nspjk68cv",
-      "published_at": "2026-11-25T04:27:57.847000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/كأس-العالم-تحت-17-عاما-في-قطر-GC2gilu8.png",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/nspjk68cv"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
-      "id": "d6ec1e5bcbd52a9c",
-      "title": "Amerika Serikat Tuan Rumah Copa America 2028 untuk Ketiga Kalinya",
-      "summary": "Amerika Serikat akan menjadi tuan rumah Copa America ke-49 pada 9 Juni–9 Juli 2028, diikuti 16 tim nasional dari Amerika Selatan dan Concacaf.",
-      "category": "Tim Nasional",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/j8t5k4a4z",
-      "published_at": "2026-11-25T03:47:20.601000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/بطولة-كوبا-أمريكا-u8XziKjY.png",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/j8t5k4a4z"
-      },
-      "attribution_required": true,
-      "license_source": "Ajel Wire Usage and Attribution Policy"
-    },
-    {
-      "id": "703439e3fa2d810a",
-      "title": "Real Madrid kalahkan Eindhoven 5-1, puncaki Liga Champions",
-      "summary": "Real Madrid menundukkan Eindhoven 5-1 pada laga kelima fase grup Liga Champions Eropa, Selasa malam.",
-      "category": "UEFA Champions League",
-      "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/agzqeayvg",
-      "published_at": "2026-11-25T03:02:03.774000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/Capture-o0x5NJNz.png",
-      "language": "id",
-      "status": "source_only",
-      "attribution": {
-        "brand": "صحيفة عاجل",
-        "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/agzqeayvg"
       },
       "attribution_required": true,
       "license_source": "Ajel Wire Usage and Attribution Policy"
@@ -556,20 +347,229 @@
       "license_source": "Ajel Wire Usage and Attribution Policy"
     },
     {
-      "id": "368f8b0116b0e527",
-      "title": "Gol Spektakuler Joao Felix Bawa Al Nassr Kalahkan Al Sadd di Liga Champions Asia",
-      "summary": "Joao Felix mencetak gol salto indah di babak kedua yang memastikan kemenangan Al Nassr 2-1 atas Al Sadd dalam laga Liga Champions Asia di Riyadh.",
-      "category": "AFC Champions League Elite",
+      "id": "08b18829ecabf2df",
+      "title": "Andorra goalkeeper resumes training after death of Tenerife striker",
+      "summary": "Andorra’s Jesus Owono has returned to solo training weeks after the incident that led to the death of Tenerife’s Jesus de Miguel.",
+      "category": "Berita Pemain",
       "source": "Ajel",
-      "source_url": "https://indonesian.ajel.sa/olahraga/p0ltw9pc0",
-      "published_at": "2026-11-24T20:36:19.356000+00:00",
-      "image_url": "https://cdn.ajel.sa/articles/2026-11/featured-crop-p45aeyfr.jpg",
+      "source_url": "https://english.ajel.sa/sports/a4qp54pup",
+      "published_at": "2026-11-24T19:34:14.704000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/featured-crop-gWpwzqEb.jpg",
+      "language": "en",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Source: Ajel",
+        "url": "https://english.ajel.sa/sports/a4qp54pup"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "0b40e61278ee6665",
+      "title": "Kiper Andorra Kembali Berlatih Usai Tragedi Meninggalnya De Miguel",
+      "summary": "Kiper Andorra, Jesus Owono, kembali menjalani latihan individu setelah absen beberapa minggu akibat insiden yang menewaskan striker Tenerife, Jesus De Miguel.",
+      "category": "Berita Pemain",
+      "source": "Ajel",
+      "source_url": "https://indonesian.ajel.sa/olahraga/ds1d6wosm",
+      "published_at": "2026-11-24T19:34:05.666000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/featured-crop-gWpwzqEb.jpg",
       "language": "id",
       "status": "source_only",
       "attribution": {
         "brand": "صحيفة عاجل",
         "text": "Sumber: Ajel",
-        "url": "https://indonesian.ajel.sa/olahraga/p0ltw9pc0"
+        "url": "https://indonesian.ajel.sa/olahraga/ds1d6wosm"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "609e75320e3f54a5",
+      "title": "CAF Hormati Putusan CAS Kembalikan Gelar Piala Afrika ke Senegal",
+      "summary": "Konfederasi Sepak Bola Afrika (CAF) menyatakan menghormati keputusan CAS yang mengembalikan gelar Piala Afrika 2025 kepada Senegal dan siap melaksanakan putusan tersebut.",
+      "category": "Africa Cup of Nations",
+      "source": "Ajel",
+      "source_url": "https://indonesian.ajel.sa/olahraga/gemcbr8j0",
+      "published_at": "2026-11-24T18:34:44.904000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/featured-crop-rAtVyVj5.jpg",
+      "language": "id",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Sumber: Ajel",
+        "url": "https://indonesian.ajel.sa/olahraga/gemcbr8j0"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "d140897a54c35c09",
+      "title": "CAF to comply with sports court ruling restoring AFCON title to Senegal",
+      "summary": "The Confederation of African Football will implement the CAS decision to return the 2025 Africa Cup of Nations title to Senegal after Morocco's appeal was overturned.",
+      "category": "Africa Cup of Nations",
+      "source": "Ajel",
+      "source_url": "https://english.ajel.sa/sports/6gvmr93jf",
+      "published_at": "2026-11-24T18:34:42.839000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/featured-crop-rAtVyVj5.jpg",
+      "language": "en",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Source: Ajel",
+        "url": "https://english.ajel.sa/sports/6gvmr93jf"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "3a2809cf08238156",
+      "title": "Key football clashes today in Asia, Egypt and Algeria",
+      "summary": "Football fans can expect major matches today, including Al-Ahly vs Pyramids in Egypt, JS Kabylie vs MC Alger in Algeria, and Saudi clubs in Asian action.",
+      "category": "Berita Sepak Bola",
+      "source": "Ajel",
+      "source_url": "https://english.ajel.sa/sports/gs2hzg7i8",
+      "published_at": "2026-11-23T10:36:34.718000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/featured-crop-tiQtqrTy.jpg",
+      "language": "en",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Source: Ajel",
+        "url": "https://english.ajel.sa/sports/gs2hzg7i8"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "212164f803bcdbcd",
+      "title": "Werder Bremen Dekati Empat Besar Usai Kalahkan Hamburg 3-0 di Bundesliga",
+      "summary": "Werder Bremen semakin dekat ke posisi empat besar Bundesliga setelah menang 3-0 atas Hamburg pada penutupan pekan ke-10.",
+      "category": "Bundesliga",
+      "source": "Ajel",
+      "source_url": "https://indonesian.ajel.sa/olahraga/83ywjiv1h",
+      "published_at": "2026-11-22T22:02:50.493000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/بريمن-JP5lMzY_.png",
+      "language": "id",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Sumber: Ajel",
+        "url": "https://indonesian.ajel.sa/olahraga/83ywjiv1h"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "2db394401ec7fdfc",
+      "title": "Liverpool thrash Manchester United 4-0 in Premier League clash",
+      "summary": "Liverpool routed Manchester United 4-0 at Anfield in the 11th round of the Premier League, handing United a heavy defeat under new coach Mauricio Pochettino.",
+      "category": "Premier League",
+      "source": "Ajel",
+      "source_url": "https://english.ajel.sa/sports/jrr23z0kk",
+      "published_at": "2026-11-22T21:41:16.881000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/Capture-myD3_zbI.png",
+      "language": "en",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Source: Ajel",
+        "url": "https://english.ajel.sa/sports/jrr23z0kk"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "b6495f77316bec3e",
+      "title": "Manchester United Catat Pertahanan Terlemah di Liga Top Eropa dengan 34 Kebobolan",
+      "summary": "Pertahanan Manchester United menjadi yang terburuk di lima liga top Eropa musim 2026-2027, setelah kebobolan 34 gol dalam 15 laga.",
+      "category": "Premier League",
+      "source": "Ajel",
+      "source_url": "https://indonesian.ajel.sa/olahraga/3p2j6hejx",
+      "published_at": "2026-11-22T20:38:17.880000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/HXv8qqubkAEdSmo-aZAs90kq.jpg",
+      "language": "id",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Sumber: Ajel",
+        "url": "https://indonesian.ajel.sa/olahraga/3p2j6hejx"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "5ebbdb2cb45278b3",
+      "title": "Milan thrash Frosinone 5-1 in Serie A clash",
+      "summary": "AC Milan cruised to a 5-1 victory over Frosinone in Serie A’s 12th round, moving up to fourth place with 27 points.",
+      "category": "Serie A",
+      "source": "Ajel",
+      "source_url": "https://english.ajel.sa/sports/tl850xswi",
+      "published_at": "2026-11-22T20:14:15.093000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/images1-crop-amvMrRoj.jpg",
+      "language": "en",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Source: Ajel",
+        "url": "https://english.ajel.sa/sports/tl850xswi"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "c76ba8116b9a5b04",
+      "title": "Hull City stun Brighton with two stoppage-time goals in Premier League",
+      "summary": "Hull City claimed a shock 2-0 win over Brighton in Premier League round 11, with Oli McBurnie scoring both goals after Brighton's Costinha was sent off.",
+      "category": "Premier League",
+      "source": "Ajel",
+      "source_url": "https://english.ajel.sa/sports/5f848nkph",
+      "published_at": "2026-11-22T19:26:45.456000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/images-crop-3_HqPG9v.jpg",
+      "language": "en",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Source: Ajel",
+        "url": "https://english.ajel.sa/sports/5f848nkph"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "8f779bd700e447f8",
+      "title": "Juventus thrash Venezia 4-0 in Serie A clash",
+      "summary": "Juventus secured a commanding 4-0 home victory over Venezia in Serie A's 12th round, boosting their tally to 21 points.",
+      "category": "Serie A",
+      "source": "Ajel",
+      "source_url": "https://english.ajel.sa/sports/ygugq5ns7",
+      "published_at": "2026-11-22T14:28:18.298000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/HXu2V-SW4AA9cNi-crop-M6cw8c2f.jpg",
+      "language": "en",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Source: Ajel",
+        "url": "https://english.ajel.sa/sports/ygugq5ns7"
+      },
+      "attribution_required": true,
+      "license_source": "Ajel Wire Usage and Attribution Policy"
+    },
+    {
+      "id": "61bf853a30e52ff9",
+      "title": "Paris Saint-Germain beats Nice to extend Ligue 1 lead",
+      "summary": "Paris Saint-Germain came from behind to defeat Nice 3-2 away on Sunday, strengthening their position at the top of the French Ligue 1 standings.",
+      "category": "Ligue 1",
+      "source": "Ajel",
+      "source_url": "https://english.ajel.sa/sports/g658vwlit",
+      "published_at": "2026-11-21T22:23:26.750000+00:00",
+      "image_url": "https://cdn.ajel.sa/articles/2026-11/باريس-سان-جيرمان-Fm-BDgba.png",
+      "language": "en",
+      "status": "source_only",
+      "attribution": {
+        "brand": "صحيفة عاجل",
+        "text": "Source: Ajel",
+        "url": "https://english.ajel.sa/sports/g658vwlit"
       },
       "attribution_required": true,
       "license_source": "Ajel Wire Usage and Attribution Policy"
