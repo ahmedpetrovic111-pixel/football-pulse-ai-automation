@@ -127,19 +127,21 @@ LIVE_OR_VIDEO_KEYWORDS = [
 # ==========================================
 
 COMPETITION_CATEGORIES = {
-    # Kompetisi Asia dan Teluk diperiksa sebelum Champions League Eropa.
-    "AFC Champions League Elite": [
-        "afc champions league elite", "acl elite",
-        "liga champions asia elite", "liga champions asia elit",
-        "champions league asia elite", "asian champions league elite",
-        # Ajel kadang menulis nama kompetisi hanya sebagai "Liga Champions Asia".
-        "liga champions asia", "champions league asia"
-    ],
+    # Kompetisi Asia tingkat kedua harus diperiksa sebelum kata kunci
+    # umum Liga Champions Asia milik kompetisi Elite.
     "AFC Champions League Two": [
         "afc champions league two", "afc champions league 2",
         "acl two", "acl2", "liga champions asia 2",
         "liga champions asia dua", "champions league asia 2",
         "asian champions league two"
+    ],
+    "AFC Champions League Elite": [
+        "afc champions league elite", "acl elite",
+        "liga champions asia elite", "liga champions asia elit",
+        "champions league asia elite", "asian champions league elite",
+        # Ajel kadang menulis nama kompetisi Elite hanya sebagai
+        # "Liga Champions Asia" tanpa kata Elite.
+        "liga champions asia", "champions league asia"
     ],
     "Gulf Club Champions League": [
         "gulf club champions league", "gulf champions league",
