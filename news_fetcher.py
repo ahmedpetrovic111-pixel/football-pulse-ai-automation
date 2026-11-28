@@ -1,6 +1,6 @@
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 6.4 - Filter kata utuh untuk mencegah berita non-sepak bola
+# Versi 6.5 - Audit alasan filter RSS English
 # Otomatis tanpa AI / tanpa API key
 # Sumber berita aktif: RSS resmi Ajel Indonesia dan Ajel English
 # ==========================================
@@ -36,7 +36,7 @@ AJEL_MAX_PAGES = 6
 OUTPUT_FILE = Path("news.json")
 MAX_NEWS = 30
 REQUEST_TIMEOUT = 30
-USER_AGENT = "FootballPulseAI/6.4 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
+USER_AGENT = "FootballPulseAI/6.5 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
 
 AJEL_RSS_FEEDS = {
     "id": {
@@ -559,30 +559,30 @@ def is_saudi_pro_league_story(text):
     return contains_any(text, domestic_match_context)
 
 
-def is_relevant(title, summary, section_slug=""):
+def relevance_rejection_reason(title, summary, section_slug=""):
+    """
+    Mengembalikan alasan penolakan agar isi RSS dapat diaudit.
+    Fungsi ini tidak mengubah kebijakan filter.
+    """
     content = normalize_text(f"{title} {summary}")
 
     if not title.strip():
-        return False
-
+        return "judul_kosong"
     if is_womens_football(content):
-        return False
-
+        return "sepak_bola_wanita"
     if is_saudi_pro_league_story(content):
-        return False
-
+        return "saudi_pro_league"
     if contains_any(content, EXCLUDED_KEYWORDS):
-        return False
-
+        return "kata_kunci_dikecualikan"
     if contains_any(content, LIVE_OR_VIDEO_KEYWORDS):
-        return False
-
-    # Bagian olahraga Ajel memuat olahraga non-sepak bola.
-    # Berita harus memiliki sinyal sepak bola yang jelas.
+        return "live_atau_video"
     if not contains_any(content, FOOTBALL_CONTEXT_KEYWORDS):
-        return False
+        return "tidak_ada_sinyal_sepak_bola"
+    return ""
 
-    return True
+
+def is_relevant(title, summary, section_slug=""):
+    return not relevance_rejection_reason(title, summary, section_slug)
 
 
 def classify_article(title, summary):
@@ -941,16 +941,32 @@ def fetch_ajel_rss_news():
             rejected_examples = []
 
             for item in items:
+                raw_title = clean_text(xml_child_text(item, ["title"]))
+                raw_summary = clean_text(
+                    xml_child_text(item, ["encoded"])
+                    or xml_child_text(item, ["description"])
+                    or ""
+                )
+
                 article = normalize_rss_article(item, language, config)
                 if article:
                     collected.append(article)
                     passed += 1
-                elif language == "en" and len(rejected_examples) < 10:
-                    rejected_title = clean_text(
-                        xml_child_text(item, ["title"])
+                    if language == "en":
+                        log.info(
+                            "[RSS-EN][LOLOS][%s] %s",
+                            article.get("category", "Tanpa kategori"),
+                            raw_title
+                        )
+                elif language == "en" and raw_title:
+                    reason = relevance_rejection_reason(raw_title, raw_summary)
+                    log.info(
+                        "[RSS-EN][TOLAK][%s] %s",
+                        reason or "alasan_tidak_diketahui",
+                        raw_title
                     )
-                    if rejected_title:
-                        rejected_examples.append(rejected_title)
+                    if len(rejected_examples) < 10:
+                        rejected_examples.append(raw_title)
 
             if language == "en" and passed == 0 and rejected_examples:
                 log.info(
@@ -1075,7 +1091,7 @@ def write_news_json(news, feeds_checked):
     temp_file.replace(OUTPUT_FILE)
 
     log.info("========================================")
-    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.4")
+    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.5")
     log.info("Total berita: %s", len(news))
     log.info("RSS Ajel diperiksa: %s", feeds_checked)
     log.info("File tersimpan: %s", OUTPUT_FILE)
