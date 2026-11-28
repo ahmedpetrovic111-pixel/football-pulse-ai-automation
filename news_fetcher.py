@@ -1,6 +1,6 @@
 # ==========================================
 # FOOTBALL PULSE AI - NEWS FETCHER
-# Versi 6.6 - Prioritas feed olahraga resmi Ajel Wire API
+# Versi 6.7 - Ajel Wire API + pemilihan berita berimbang antar kompetisi
 # Otomatis tanpa AI; menggunakan secret API key Ajel yang sudah tersimpan
 # Sumber utama: kategori olahraga Ajel Indonesia dan Sports Ajel English
 # RSS resmi Ajel dipakai sebagai fallback jika API gagal/kosong
@@ -37,7 +37,7 @@ AJEL_MAX_PAGES = 6
 OUTPUT_FILE = Path("news.json")
 MAX_NEWS = 30
 REQUEST_TIMEOUT = 30
-USER_AGENT = "FootballPulseAI/6.6 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
+USER_AGENT = "FootballPulseAI/6.7 (+https://huggingface.co/spaces/petrovic111/football-pulse-ai)"
 
 AJEL_RSS_FEEDS = {
     "id": {
@@ -1116,6 +1116,102 @@ def remove_similar_duplicates(articles, threshold=0.91,
 
 
 # ==========================================
+# PEMILIHAN BERITA BERIMBANG ANTAR KOMPETISI
+# ==========================================
+
+def select_balanced_news(articles, limit=MAX_NEWS):
+    """
+    Pilih berita terbaru dengan distribusi kompetisi yang lebih seimbang.
+    Ini mencegah satu liga/sumber mendominasi 30 slot hanya karena
+    timestamp-nya lebih baru. Semua artikel tetap berasal dari sumber
+    yang lolos pemeriksaan izin dan filter sebelumnya.
+    """
+    priority_categories = [
+        "Premier League",
+        "LaLiga",
+        "Serie A",
+        "Bundesliga",
+        "Ligue 1",
+        "UEFA Champions League",
+        "Europa League",
+        "Conference League",
+        "Africa Cup of Nations",
+        "AFC Champions League Elite",
+        "AFC Champions League Two",
+        "Liga 1 Indonesia",
+        "Tim Nasional",
+        "Sepak Bola Usia Muda",
+        "Berita Klub",
+        "Berita Pemain",
+        "Berita Sepak Bola"
+    ]
+
+    buckets = {}
+    for article in articles:
+        category = article.get("category") or "Berita Sepak Bola"
+        buckets.setdefault(category, []).append(article)
+
+    # Setiap bucket sudah mengikuti urutan terbaru karena input diurutkan
+    # berdasarkan tanggal publikasi sebelum fungsi ini dipanggil.
+    category_order = [
+        category for category in priority_categories if category in buckets
+    ]
+    category_order.extend(
+        category for category in buckets if category not in category_order
+    )
+
+    selected = []
+    selected_ids = set()
+    round_number = 0
+
+    # Ambil satu berita per kategori pada setiap putaran agar cakupan liga
+    # lebih merata, bukan mengambil 30 berita berurutan dari satu kategori.
+    while len(selected) < limit:
+        added_this_round = False
+
+        for category in category_order:
+            bucket = buckets.get(category, [])
+            if round_number < len(bucket) and len(selected) < limit:
+                article = bucket[round_number]
+                article_id = article.get("id") or article.get("source_url")
+                if article_id not in selected_ids:
+                    selected.append(article)
+                    selected_ids.add(article_id)
+                    added_this_round = True
+
+        if not added_this_round:
+            break
+        round_number += 1
+
+    # Jika ada kategori yang tidak masuk daftar prioritas atau slot tersisa,
+    # isi dengan artikel terbaru berikutnya tanpa mengulang artikel.
+    if len(selected) < limit:
+        for article in articles:
+            article_id = article.get("id") or article.get("source_url")
+            if article_id not in selected_ids:
+                selected.append(article)
+                selected_ids.add(article_id)
+                if len(selected) >= limit:
+                    break
+
+    selected.sort(
+        key=lambda item: date_timestamp(item.get("published_at", "")),
+        reverse=True
+    )
+
+    distribution = {}
+    for article in selected:
+        category = article.get("category") or "Berita Sepak Bola"
+        distribution[category] = distribution.get(category, 0) + 1
+
+    log.info(
+        "Distribusi %s berita terpilih: %s",
+        len(selected), json.dumps(distribution, ensure_ascii=False)
+    )
+    return selected
+
+
+# ==========================================
 # PENYIMPANAN JSON YANG AMAN
 # ==========================================
 
@@ -1136,9 +1232,9 @@ def write_news_json(news, feeds_checked):
     temp_file.replace(OUTPUT_FILE)
 
     log.info("========================================")
-    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.6")
+    log.info("FOOTBALL PULSE AI NEWS UPDATE - v6.7")
     log.info("Total berita: %s", len(news))
-    log.info("RSS Ajel diperiksa: %s", feeds_checked)
+    log.info("Bahasa/sumber Ajel diperiksa: %s", feeds_checked)
     log.info("File tersimpan: %s", OUTPUT_FILE)
     log.info("========================================")
 
@@ -1187,7 +1283,9 @@ def main():
     log.info("Duplikat judul/konten disaring: %s", before_dedupe - len(news))
 
     # Tidak ada batas usia berita. Batas 30 hanya jumlah berita di frontend.
-    news = news[:MAX_NEWS]
+    # Pemilihan berimbang memberi peluang liga/kompetisi lain tampil,
+    # selama artikelnya memang tersedia dan lolos izin serta filter.
+    news = select_balanced_news(news, MAX_NEWS)
     write_news_json(news, feeds_checked)
 
 
